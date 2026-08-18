@@ -1,0 +1,39 @@
+# WizIOT — Enterprise B2B Fleet Management & Telematics Platform
+
+> WizIOT is an AI-powered unified IoT and telematics platform engineered for commercial haulage fleets, cold chain logistics, heavy construction machinery, EV battery management systems (BMS), and high-security cargo transport across Africa, Europe, GCC, APAC, and Latin America.
+
+## Core Telematics Capabilities
+
+- **Fuel Theft Prevention:** High-precision ±0.2% capacitive fuel probes, real-time siphoning alarms, automated fuel receipt reconciliation, and ATEX Zone 0/1 explosion-proof certifications.
+- **Anti-Jamming & Security:** Multi-constellation GNSS anti-jammer detection, covert secondary trackers, and UN ECE R116 / ISO 26262 compliant remote engine immobilization.
+- **Pharmaceutical Cold Chain:** WHO GDP and US-FDA 21 CFR Part 11 compliant BLE temperature sensors, real-time reefer monitoring, and automated audit certificate generation.
+- **Video Telematics & Driver Safety:** Dual-AI DMS (Driver Monitoring System) in-cabin fatigue detection, ADAS forward collision warnings, and EU GSR 2024 Intelligent Speed Assistance (ISA).
+- **EV & BMS Battery Analytics:** Real-time State of Charge (SoC), State of Health (SoH), cell temperature balancing, and thermal runaway prevention.
+- **Heavy Machinery Telemetry:** IP67 / IP68 / IP69K ruggedized gateways, engine hour logging, hydraulic pressure sensors, and off-road vibration resistance.
+
+## Target Global Logistics Hubs
+
+- [Nairobi Fleet Telematics](https://www.wiziot.com/nairobi): East African inland logistics, ADAS safety, fuel reconciliation.
+- [Mombasa Port Logistics](https://www.wiziot.com/mombasa): Northern Transit Corridor, anti-fuel siphoning, quad-SIM roaming.
+- [Lagos Transport Hub](https://www.wiziot.com/lagos): Lagos-Ibadan-Kano highway, fake receipt detection, fuel fraud defense.
+- [Johannesburg Anti-Hijack Hub](https://www.wiziot.com/johannesburg): N1/N3 highway security, remote immobilizers, armed response API.
+- [Durban Port Cold Chain](https://www.wiziot.com/durban): Durban container terminal, BLE reefer temperature sensors.
+- [Warsaw Anti-Jamming Center](https://www.wiziot.com/warsaw): EU TEN-T transit network, jammer-proof GNSS.
+- [Dubai EV & Fleet Hub](https://www.wiziot.com/dubai): Extreme desert heat BMS analytics, ATEX tanker sensors.
+- [Barcelona Logistics Corridor](https://www.wiziot.com/barcelona): AI route dispatching, driver safety scoring.
+- [Mexico City Anti-Theft Hub](https://www.wiziot.com/mexico-city): NAFTA highway cargo security, remote engine cut-off.
+- [São Paulo Mercosur Hub](https://www.wiziot.com/sao-paulo): Dual-AI DMS video telematics, cold chain compliance.
+- [Bogotá Mountain Haulage](https://www.wiziot.com/bogota): IP67 rugged trackers, volumetric fuel probes.
+- [Singapore Cross-Border Corridor](https://www.wiziot.com/singapore): Causeway tracking, multi-SIM roaming.
+
+## Key Technical Guides & Articles
+
+- [ISO 17025 Traceable Fuel Sensors](https://www.wiziot.com/blog/capacitive-fuel-probe-calibration-guide-heavy-trucks)
+- [GPS Jamming Detection & Recovery](https://www.wiziot.com/blog/how-to-detect-gps-jammer-trucks-romania-hungary)
+- [WHO GDP Cold Chain Compliance](https://www.wiziot.com/blog/cold-chain-monitoring-reefer-trailer-nigeria-vaccines)
+- [Remote Engine Immobilizer Protocols](https://www.wiziot.com/blog/safe-remote-engine-cut-off-protocols-commercial-trucks)
+- [Multi-SIM Cross-Border Telematics](https://www.wiziot.com/blog/multi-sim-gps-tracker-truck-africa-europe-border)
+
+## API & Developers
+- Full REST API and Webhook Documentation: https://fleet.wiziot.com/docs
+- Contact Enterprise Sales: sales@wiziot.com
