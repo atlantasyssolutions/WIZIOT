@@ -34,6 +34,15 @@ export default async function sitemap() {
     priority: 0.7,
   }));
 
+  // Solution Detail Pages
+  const solutionIds = ['telematics', 'ev-fleets', 'cold-chain', 'healthcare', 'industrial-iot', 'public-transport'];
+  const solutionRoutes = solutionIds.map((id) => ({
+    url: `${baseUrl}/solutions/${id}`,
+    lastModified: new Date().toISOString().split('T')[0],
+    changeFrequency: 'weekly',
+    priority: 0.8,
+  }));
+
   // 500+ Blog Posts
   const allBlogs = getAllBlogs();
   const blogRoutes = allBlogs.map((b) => ({
@@ -43,5 +52,5 @@ export default async function sitemap() {
     priority: 0.6,
   }));
 
-  return [...staticRoutes, ...cityRoutes, ...blogRoutes];
+  return [...staticRoutes, ...solutionRoutes, ...cityRoutes, ...blogRoutes];
 }

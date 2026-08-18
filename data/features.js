@@ -4,7 +4,7 @@ export const FEATURES_DATA = [
     title: 'Real-Time Fleet Tracking',
     subtitle: 'High-Precision GPS & Asset Visibility',
     description: 'Track vehicle locations, status, speed, and routes with millisecond latency across global 4G/5G cellular and satellite networks.',
-    image: '/hero-telematics-dashboard.webp',
+    image: '/feat-tracking.webp',
     highlights: [
       'Live sub-second map updates & trail history',
       'Engine diagnostic trouble code (DTC) alerts',
@@ -20,7 +20,7 @@ export const FEATURES_DATA = [
     title: 'Executive Fleet Dashboard',
     subtitle: 'Central Command & Actionable Intelligence',
     description: 'Unified command center consolidating total fleet mileage, idle time, active jobs, fuel efficiency, and emergency dispatch alerts.',
-    image: '/platform-telematics-analytics.webp',
+    image: '/feat-dashboard.webp',
     highlights: [
       'Customizable KPI widgets for operations managers',
       'Instant fleet health score & maintenance alerts',
@@ -36,7 +36,7 @@ export const FEATURES_DATA = [
     title: 'Advanced Telematics Reports',
     subtitle: 'Data Analytics & Audit Compliance',
     description: 'Generate automated audit-ready reports on trip logs, stoppage duration, fuel fill/drain events, and driver timesheet compliance.',
-    image: '/blog-fuel-theft-prevention.webp',
+    image: '/feat-reports.webp',
     highlights: [
       'Automated daily/weekly email dispatch',
       'Fuel theft detection & refueling log verification',
@@ -52,7 +52,7 @@ export const FEATURES_DATA = [
     title: 'EV & BMS Telematics',
     subtitle: 'Battery Management System Analytics',
     description: 'Deep Integration with Electric Vehicle Battery Management Systems (BMS) to optimize range, charging cycles, and battery health.',
-    image: '/blog/ev-fleet-battery-management-system-bms-uae-gcc.webp',
+    image: '/feat-ev.webp',
     highlights: [
       'Real-time State of Charge (SoC) & State of Health (SoH)',
       'Smart charging station locator & route charging integration',
@@ -68,7 +68,7 @@ export const FEATURES_DATA = [
     title: 'AI Route Optimization',
     subtitle: 'Smart Dispatch & Delivery Efficiency',
     description: 'Leverage machine learning algorithms to calculate optimal delivery paths, avoiding traffic bottlenecks and cutting fuel waste.',
-    image: '/enterprise-logistics-fleet.webp',
+    image: '/feat-route.webp',
     highlights: [
       'Dynamic multi-stop route sequencing',
       'Real-time traffic & weather rerouting',
@@ -84,7 +84,7 @@ export const FEATURES_DATA = [
     title: 'Geofence Control & Rules',
     subtitle: 'Automated Zone Perimeter Management',
     description: 'Draw unlimited custom polygonal or circular zones on the map to trigger automated alerts upon entry, exit, or unauthorized delay.',
-    image: '/blog-anti-jamming-security.webp',
+    image: '/feat-geofence.webp',
     highlights: [
       'Virtual perimeter boundary creation in seconds',
       'Speed limit enforcement per industrial site',
@@ -100,7 +100,7 @@ export const FEATURES_DATA = [
     title: 'Driver Behavior & ADAS',
     subtitle: 'Safety Telematics & Video Monitoring',
     description: 'AI-assisted Advanced Driver Assistance Systems (ADAS) and In-Cabin Monitoring (DMS) to prevent collisions and coach safer driving habits.',
-    image: '/blog/dms-in-cabin-fatigue-scorecard-fleet-safety.webp',
+    image: '/feat-driver.webp',
     highlights: [
       'Harsh acceleration, braking & cornering detection',
       'Drowsiness & distraction AI camera detection',
