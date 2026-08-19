@@ -30,10 +30,10 @@ export default function ScheduleDemoModal({ isOpen, onClose }) {
     setLoading(true);
 
     try {
-      const res = await fetch('/api/contact', {
+      const res = await fetch('https://api.web3forms.com/submit', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(formData),
+        body: JSON.stringify({ ...formData, access_key: 'c827b8eb-46d4-4e0a-b2a1-bf756a5c0685' }),
       });
 
       if (res.ok) {
