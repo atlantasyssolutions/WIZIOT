@@ -95,7 +95,7 @@ export default function ScheduleDemoModal({ isOpen, onClose }) {
               Pick a date and time directly on our executive calendar widget.
             </p>
             <a
-              href="https://calendly.com"
+              href="https://calendly.com/wiziot-sales/wiziot-demo"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-primary btn-lg"
