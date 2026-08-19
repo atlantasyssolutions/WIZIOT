@@ -36,7 +36,7 @@ export default async function sitemap() {
   }));
 
   // Solution Detail Pages
-  const solutionIds = ['telematics', 'ev-fleets', 'cold-chain', 'healthcare', 'industrial-iot', 'public-transport'];
+  const solutionIds = ['telematics', 'ev-fleets', 'cold-chain', 'healthcare', 'industrial-iot', 'public-transport', 'school-transport'];
   const solutionRoutes = solutionIds.map((id) => ({
     url: `${baseUrl}/solutions/${id}`,
     lastModified: new Date().toISOString().split('T')[0],

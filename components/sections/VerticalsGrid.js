@@ -2,9 +2,9 @@
 
 import Link from 'next/link';
 import { VERTICALS_DATA } from '@/data/verticals';
-import { Truck, Zap, Thermometer, Activity, Cpu, Bus, ArrowRight, Check } from 'lucide-react';
+import { Truck, Zap, Thermometer, Activity, Cpu, Bus, School, ArrowRight, Check } from 'lucide-react';
 
-const ICON_MAP = { Truck, Zap, Thermometer, Activity, Cpu, Bus };
+const ICON_MAP = { Truck, Zap, Thermometer, Activity, Cpu, Bus, School };
 
 export default function VerticalsGrid() {
   return (
