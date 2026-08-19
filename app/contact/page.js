@@ -51,7 +51,7 @@ export default function ContactPage() {
               <div style={{ display: 'flex', gap: '16px' }}>
                 <Mail size={24} style={{ color: 'var(--accent-cyan)' }} />
                 <div>
-                  <strong style={{ color: '#fff', display: 'block' }}>Sales & Partnerships</strong>
+                  <strong style={{ color: 'var(--text-main)', display: 'block' }}>Sales & Partnerships</strong>
                   <a href="mailto:sales@wiziot.com" style={{ color: 'var(--accent-cyan)' }}>sales@wiziot.com</a>
                 </div>
               </div>
@@ -59,15 +59,14 @@ export default function ContactPage() {
               <div style={{ display: 'flex', gap: '16px' }}>
                 <Phone size={24} style={{ color: 'var(--accent-emerald)' }} />
                 <div>
-                  <strong style={{ color: '#fff', display: 'block' }}>Customer Support Desk</strong>
-                  <span style={{ color: 'var(--text-muted)' }}>+971 4 123 4567 / +91 80 9876 5432</span>
+                  <strong style={{ color: 'var(--text-main)', display: 'block' }}>Customer Support Desk</strong>
                 </div>
               </div>
 
               <div style={{ display: 'flex', gap: '16px' }}>
                 <MapPin size={24} style={{ color: 'var(--accent-cyan)' }} />
                 <div>
-                  <strong style={{ color: '#fff', display: 'block' }}>Regional Offices</strong>
+                  <strong style={{ color: 'var(--text-main)', display: 'block' }}>Regional Offices</strong>
                   <span style={{ color: 'var(--text-muted)' }}>Dubai (UAE) | Bengaluru & Mysuru (India) | Kuala Lumpur (Malaysia) | Singapore</span>
                 </div>
               </div>
