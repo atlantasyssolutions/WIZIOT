@@ -72,6 +72,7 @@ export default function Footer() {
             <h4 className={styles.colTitle}>Platform</h4>
             <ul className={styles.linkList}>
               <li><Link href="/platform" className={styles.linkItem}>AI Engine & ADAS</Link></li>
+              <li><Link href="/sensors" className={styles.linkItem}>Sensors & Hardware Hub</Link></li>
               <li><Link href="/pricing" className={styles.linkItem}>SaaS Pricing Tiers</Link></li>
               <li><Link href="/blog" className={styles.linkItem}>Knowledge Hub & Blog</Link></li>
               <li><Link href="/partners" className={styles.linkItem}>Partner Network</Link></li>

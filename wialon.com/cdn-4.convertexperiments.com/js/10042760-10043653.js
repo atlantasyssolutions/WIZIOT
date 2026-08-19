@@ -1,0 +1,6 @@
+(function() {
+    return {
+        "error": true,
+        "code": "wrongConfig-dataError"
+    };
+})()

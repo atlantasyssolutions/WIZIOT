@@ -15,6 +15,7 @@ export default function Header({ onOpenDemo }) {
     { href: '/', label: 'Why WizIOT' },
     { href: '/solutions', label: 'Verticals' },
     { href: '/platform', label: 'Platform' },
+    { href: '/sensors', label: 'Sensors' },
     { href: '/pricing', label: 'Pricing' },
     { href: '/blog', label: 'Blog' },
     { href: '/partners', label: 'Partners' },
