@@ -3,7 +3,7 @@ export const FEATURES_DATA = [
     id: 'tracking',
     title: 'Real-Time Fleet Tracking',
     subtitle: 'High-Precision GPS & Asset Visibility',
-    description: 'Track vehicle locations, status, speed, and routes with millisecond latency across global 4G/5G cellular and satellite networks.',
+    description: 'Track vehicle locations, status, speed, and routes with no latency across global 4G/5G cellular and satellite networks.',
     image: '/feat-tracking.webp',
     highlights: [
       'Live sub-second map updates & trail history',

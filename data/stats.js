@@ -1,13 +1,13 @@
 export const STATS_DATA = [
-  { value: '15+', label: 'Years of IoT Industry Leadership', description: 'Engineered hardware & enterprise cloud telematics since 2010' },
-  { value: '1M+', label: 'Connected Vehicles & Assets', description: 'Active telematics subscriptions sending live telemetry' },
+  { value: 'Enterprise', label: 'IoT & Telematics SaaS Platform', description: 'Unified cloud platform aggregating live sensor streams, CAN-bus & GPS telemetry' },
+  { value: 'Zero', label: 'Telemetry Ingestion Latency', description: 'Real-time alert engine delivering instant threshold breach notifications' },
   { value: '99.99%', label: 'Platform Uptime & SLA Guarantee', description: 'High-availability multi-cloud architecture with zero data loss' },
-  { value: '25+', label: 'Countries with Live Deployments', description: 'Global multi-carrier SIM roaming & anti-jamming telematics' }
+  { value: 'Global', label: 'Multi-Carrier Fleet Deployments', description: 'Multi-carrier SIM roaming & anti-jamming telemetry across borders' }
 ];
 
 export const REGIONS_DATA = [
-  { code: 'AFR', name: 'Africa (East, West & Southern Africa)', count: '320,000+ Vehicles', status: 'High-Growth Hub' },
-  { code: 'EUR', name: 'Eastern Europe & EU Corridors', count: '280,000+ Vehicles', status: 'Cross-Border Fleet Hub' },
-  { code: 'GCC', name: 'UAE & Middle East Logistics', count: '250,000+ Vehicles', status: 'Enterprise Operations' },
-  { code: 'GLO', name: 'Global Cross-Border Roaming', count: '150,000+ Assets', status: 'Multi-Carrier Network' }
+  { code: 'AFR', name: 'Africa (East, West & Southern Africa)', count: 'Active Telematics Hub', status: 'High-Growth Region' },
+  { code: 'EUR', name: 'Eastern Europe & EU Corridors', count: 'Cross-Border Fleet Hub', status: 'Transit Corridor' },
+  { code: 'GCC', name: 'UAE & Middle East Logistics', count: 'Enterprise SaaS Hub', status: 'Regional Headquarters' },
+  { code: 'GLO', name: 'Global Cross-Border Roaming', count: 'Multi-Carrier SIM Telemetry', status: 'Global Coverage' }
 ];

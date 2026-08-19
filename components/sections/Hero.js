@@ -84,7 +84,7 @@ export default function Hero({ onOpenDemo }) {
                 </span>
               </div>
               <span style={{ fontSize: '0.8rem', background: '#10B981', color: '#FFFFFF', padding: '4px 12px', borderRadius: '99px', fontWeight: '700' }}>
-                ● 1,000,000+ Active Vehicles Live
+                ● Live SaaS Telematics Stream
               </span>
             </div>
           </div>
@@ -94,10 +94,10 @@ export default function Hero({ onOpenDemo }) {
             <div className={styles.metricCard}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
                 <Radio size={18} style={{ color: 'var(--primary-blue)' }} />
-                <span className={styles.metricLbl}>Active Vehicles</span>
+                <span className={styles.metricLbl}>Active Fleet Coverage</span>
               </div>
-              <div className={styles.metricVal}>1M+</div>
-              <span className="text-emerald" style={{ fontSize: '0.8rem', fontWeight: '600' }}>● Sub-Second Latency</span>
+              <div className={styles.metricVal}>Global</div>
+              <span className="text-emerald" style={{ fontSize: '0.8rem', fontWeight: '600' }}>● Zero Latency Telemetry</span>
             </div>
 
             <div className={styles.metricCard}>

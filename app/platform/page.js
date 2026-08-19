@@ -57,9 +57,9 @@ export default function PlatformPage() {
 
           <div className="glass-card">
             <Server size={32} style={{ color: 'var(--accent-emerald)', marginBottom: '16px' }} />
-            <h3 style={{ fontSize: '1.3rem', marginBottom: '10px', fontWeight: '700' }}>Sub-Second Streaming Pipeline</h3>
+            <h3 style={{ fontSize: '1.3rem', marginBottom: '10px', fontWeight: '700' }}>Zero Latency Streaming Pipeline</h3>
             <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem', lineHeight: '1.6' }}>
-              Built on distributed WebSocket & MQTT event streams processing over 1,000,000 telemetry packets per second with 99.99% SLA.
+              Built on distributed WebSocket & MQTT event streams processing real-time telemetry data packets with 99.99% SLA.
             </p>
           </div>
 
@@ -77,13 +77,13 @@ export default function PlatformPage() {
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '36px', alignItems: 'center' }}>
             <div>
               <span style={{ fontSize: '0.85rem', fontWeight: '700', color: 'var(--primary-blue)', textTransform: 'uppercase', letterSpacing: '0.5px' }}>
-                Industrial Grade Hardware Stack
+                Unified SaaS IoT Integration
               </span>
               <h2 style={{ fontSize: '2rem', marginTop: '6px', marginBottom: '16px', fontWeight: '800' }}>
-                Rugged IoT Hardware Built for High-Vibration Fleet Environments
+                Hardware & Sensor Ecosystem Unified into One Command Dashboard
               </h2>
               <p style={{ color: 'var(--text-muted)', fontSize: '1rem', lineHeight: '1.65', marginBottom: '20px' }}>
-                Every WizIOT gateway and sensor is engineered to withstand extreme vibration, high-pressure steam washdowns (IP69K), explosive atmospheres (ATEX Zone 0), and 50°C desert heat.
+                WizIOT is a complete SaaS telematics platform that consolidates data from any certified sensor, gateway, CAN-bus ECU, or camera feed into single-pane operational dashboards and instant alert workflows.
               </p>
               <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '10px', fontSize: '0.925rem', color: 'var(--text-main)' }}>
                 <li style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
