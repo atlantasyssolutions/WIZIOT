@@ -105,7 +105,7 @@ export default function Hero({ onOpenDemo }) {
                 <Fuel size={18} style={{ color: '#D97706' }} />
                 <span className={styles.metricLbl}>Avg Fuel Saved</span>
               </div>
-              <div className={styles.metricVal}>18.4%</div>
+              <div className={styles.metricVal}>Proven</div>
               <span className="text-emerald" style={{ fontSize: '0.8rem', fontWeight: '600' }}>Proven Route Payback</span>
             </div>
 
@@ -114,7 +114,7 @@ export default function Hero({ onOpenDemo }) {
                 <Zap size={18} style={{ color: 'var(--primary-blue)' }} />
                 <span className={styles.metricLbl}>EV & BMS Range</span>
               </div>
-              <div className={styles.metricVal}>+25%</div>
+              <div className={styles.metricVal}>Extended</div>
               <span style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>Extended Battery Life</span>
             </div>
 
@@ -123,7 +123,7 @@ export default function Hero({ onOpenDemo }) {
                 <ShieldCheck size={18} style={{ color: 'var(--accent-emerald)' }} />
                 <span className={styles.metricLbl}>Safety SLA Score</span>
               </div>
-              <div className={styles.metricVal}>99.99%</div>
+              <div className={styles.metricVal}>Enterprise</div>
               <span className="text-emerald" style={{ fontSize: '0.8rem', fontWeight: '600' }}>Platform Uptime</span>
             </div>
           </div>

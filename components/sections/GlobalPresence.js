@@ -34,7 +34,7 @@ export default function GlobalPresence() {
         <div className="glass-card" style={{ padding: '36px' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '24px' }}>
             <Globe2 size={28} style={{ color: 'var(--primary-blue)' }} />
-            <h3 style={{ fontSize: '1.4rem', color: 'var(--text-main)' }}>Active Regional Operations & Telematics Hubs</h3>
+            <h3 style={{ fontSize: '1.4rem', color: 'var(--text-main)' }}>Global Telematics Hubs</h3>
           </div>
 
           <div className="grid-4">

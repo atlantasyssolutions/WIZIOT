@@ -67,7 +67,7 @@ export default function PlatformPage() {
             <Code size={32} style={{ color: 'var(--primary-blue)', marginBottom: '16px' }} />
             <h3 style={{ fontSize: '1.3rem', marginBottom: '10px', fontWeight: '700' }}>Open REST & Webhook APIs</h3>
             <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem', lineHeight: '1.6' }}>
-              Seamless integration with SAP, Oracle, Salesforce, custom dispatch platforms, and third-party TMS software.
+              Seamless integration with SAP, Oracle, 3rd party CRM software, custom dispatch platforms, and third-party TMS software.
             </p>
           </div>
         </div>

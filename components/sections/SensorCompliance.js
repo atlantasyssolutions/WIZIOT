@@ -8,7 +8,7 @@ export default function SensorCompliance({ onOpenDemo }) {
     { title: 'ATEX Zone 0 Explosive Safety', desc: 'Intrinsically safe fuel valve locks and sensors certified for volatile bulk petroleum tankers and fuel depots.', icon: Lock },
     { title: 'WHO GDP & US-FDA 21 CFR Part 11', desc: 'Immutable SHA-256 signed PDF temperature audit certificates for pharmaceutical, vaccine, and cold chain customs clearance.', icon: FileCheck },
     { title: 'UN ECE R116 Automotive Safety', desc: 'Speed-restricted Limp-Mode vehicle immobilization compliant with international automotive safety directives.', icon: Zap },
-    { title: 'End-to-End Field Support SLA', desc: 'On-site depot installation, 10-point tank calibration, 24/7 SLA hardware replacement, and API webhook integration.', icon: Headphones },
+    { title: 'End-to-End Field Support', desc: 'On-site depot installation, 10-point tank calibration, hardware replacement, and API webhook integration.', icon: Headphones },
   ];
 
   return (
@@ -23,7 +23,7 @@ export default function SensorCompliance({ onOpenDemo }) {
             100% Certified Sensor Compliance & End-to-End Field Engineering
           </h2>
           <p style={{ color: '#94A3B8', fontSize: '1.15rem', lineHeight: '1.65' }}>
-            WizIOT provides fully compliant IoT hardware backed by end-to-end field support—from depot tank calibration to 24/7 SLA maintenance across Africa, Europe, GCC, and APAC.
+            WizIOT provides fully compliant IoT hardware backed by end-to-end field support—from depot tank calibration to maintenance across Africa, Europe, GCC, and APAC.
           </p>
         </div>
 
@@ -77,15 +77,15 @@ export default function SensorCompliance({ onOpenDemo }) {
               Need Custom Sensor Integration or On-Site Depot Setup?
             </h3>
             <p style={{ color: '#E2E8F0', fontSize: '1.05rem', lineHeight: '1.6', margin: 0 }}>
-              Our certified telematics engineers deliver end-to-end support: 10-point tank calibration, custom CAN-bus ECU profiling, and 24/7 SLA support in your country.
+              Our certified telematics engineers deliver end-to-end support: 10-point tank calibration, custom CAN-bus ECU profiling, and field support in your country.
             </p>
           </div>
           <div style={{ display: 'flex', gap: '14px', flexWrap: 'wrap' }}>
             <button onClick={onOpenDemo} className="btn btn-primary btn-lg" style={{ background: '#FFFFFF', color: '#0F2D4E', fontWeight: '800' }}>
               Schedule Technical Consultation
             </button>
-            <Link href="/locations" className="btn btn-outline-white btn-lg">
-              View Global Field Support Hubs
+            <Link href="/solutions/industrial-iot" className="btn btn-outline-white btn-lg">
+              View Heavy Equipment & Construction Solutions
             </Link>
           </div>
         </div>
