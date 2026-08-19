@@ -9,7 +9,7 @@ export default async function sitemap() {
     '/blog',
     '/solutions',
     '/platform',
-    '/sensors',
+
     '/pricing',
     '/partners',
     '/contact',
