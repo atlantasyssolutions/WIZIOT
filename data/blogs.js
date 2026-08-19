@@ -8,7 +8,7 @@ export const BLOGS_DATA = [
     title: 'Fuel Siphoning at Night: 7 Engineering Controls That Stop 98% of Diesel Theft in Kenyan Fleets',
     category: 'Fuel Fraud',
     geoRegion: 'Africa',
-    excerpt: 'Losing 20%+ fuel to night siphoning? Discover capacitive fuel sensors with real-time SMS alerts that catch driver diesel theft on Kenyan long-haul routes.',
+    excerpt: 'Losing 20%+ fuel to night siphoning? Discover capacitive fuel sensors integrated with advanced Vehicle Telematics and IoT Sensors that catch driver diesel theft on Kenyan long-haul routes.',
     author: { name: 'WizIOT Engineering Team', role: 'African Logistics Telematics Specialist' },
     publishedAt: '2026-08-16',
     readTime: '7 min read',
@@ -21,7 +21,7 @@ For fleet operators navigating the Northern Corridor (Mombasa-Nairobi-Kampala), 
 ### The WizIOT Solution
 * **Capacitive In-Tank Fuel Probes:** ±0.2% precision measurement directly inside fuel tanks.
 * **Instant SMS & Push Alerts:** Triggered within 30 seconds of an unexpected fuel drop.
-* **Fuel vs Distance Audit:** Automatically reconciles CAN-bus engine fuel consumption against GPS trip mileage.
+* **Vehicle Telematics & IoT Sensors Integration:** Automatically reconciles CAN-bus engine fuel consumption against GPS trip mileage.
     `
   },
   {
@@ -30,7 +30,7 @@ For fleet operators navigating the Northern Corridor (Mombasa-Nairobi-Kampala), 
     title: 'Fake Fuel Receipts Cost Nigerian Fleets ₦4.2M/Year: How to Automate Invoice Verification with IoT',
     category: 'Fuel Fraud',
     geoRegion: 'Africa',
-    excerpt: 'Tired of inflated fuel invoices? See how AI-powered fuel reconciliation catches driver receipt fraud in real time for Nigerian transport fleets.',
+    excerpt: 'Tired of inflated fuel invoices? See how AI-powered fuel reconciliation combined with robust OBD Telematics catches driver receipt fraud in real time for Nigerian transport fleets.',
     author: { name: 'Chidubem Okonkwo', role: 'West Africa Telematics Architect' },
     publishedAt: '2026-08-15',
     readTime: '6 min read',
@@ -41,7 +41,7 @@ For fleet operators navigating the Northern Corridor (Mombasa-Nairobi-Kampala), 
 Collusion between drivers and fueling station attendants results in inflated fuel receipts and short-filled tanks across Nigeria and Ghana.
 
 ### Automated Fuel Reconciliation Engine
-WizIOT cross-references fuel card transaction logs against actual sensor-verified tank volume increases. Mismatches generate instant exception reports before invoices are paid.
+WizIOT cross-references fuel card transaction logs against actual sensor-verified tank volume increases using OBD Telematics data. Mismatches generate instant exception reports before invoices are paid.
     `
   },
   {
@@ -50,7 +50,7 @@ WizIOT cross-references fuel card transaction logs against actual sensor-verifie
     title: 'Fuel Theft Monitoring: Real-Time Sensor Data That Caught 34 Drivers in 90 Days (SA Case Study)',
     category: 'Fuel Fraud',
     geoRegion: 'Africa',
-    excerpt: 'Losing fuel to drivers? See how capacitive sensors + driver scorecards reduced theft by 91% in a 150-truck South African transport fleet.',
+    excerpt: 'Losing fuel to drivers? See how capacitive sensors paired with comprehensive Assets & Personal Telematics reduced theft by 91% in a 150-truck South African transport fleet.',
     author: { name: 'Siyabonga Dlamini', role: 'Southern Africa Fleet Security Lead' },
     publishedAt: '2026-08-09',
     readTime: '7 min read',
@@ -67,7 +67,7 @@ Systematic fuel theft by drivers costs South African logistics providers million
     title: 'Automated Fuel Invoice Verification: How Telematics Catches 89% of Fake Receipts in 24 Hours',
     category: 'Fuel Fraud',
     geoRegion: 'Africa',
-    excerpt: 'Manually checking fuel receipts? See how automated sensor-based fuel reconciliation flags invoice fraud before payment across East & West Africa.',
+    excerpt: 'Manually checking fuel receipts? See how automated sensor-based fuel reconciliation backed by Video Telematics flags invoice fraud before payment across East & West Africa.',
     author: { name: 'Chidubem Okonkwo', role: 'West Africa Telematics Lead' },
     publishedAt: '2026-08-07',
     readTime: '5 min read',
@@ -143,7 +143,7 @@ Proper multi-point calibration ensures ±0.2% measurement accuracy across varyin
     content: `
 ## Securing Bulk Tanker Compartments in Transit
 
-Smart electronic valve locks tied to geofenced unloading zones prevent unauthorized fuel discharge between depots.
+Smart electronic valve locks tied to geofenced unloading zones prevent unauthorized fuel discharge between depots, integrating seamlessly with Indoor Telematics and Taxi GPS Meter tracking for complete logistical visibility.
     `
   },
   {
