@@ -1,6 +1,7 @@
 import './globals.css';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
+import Script from 'next/script';
 
 export const metadata = {
   metadataBase: new URL('https://www.wiziot.com'),
@@ -56,6 +57,18 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-RFB2CHN07E"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){window.dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-RFB2CHN07E');
+          `}
+        </Script>
         <Header />
         <main>{children}</main>
         <Footer />
