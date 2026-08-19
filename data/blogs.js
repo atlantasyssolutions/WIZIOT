@@ -194,7 +194,7 @@ Night siphoning during 3-day transit routes between Dar es Salaam, Kigali, and K
     content: `
 ## Securing Off-Road Fuel Reservoirs
 
-Construction site diesel generators and heavy excavators are primary targets for off-hours fuel theft. Geofence fuel alarms prevent job-site losses.
+Construction site diesel generators and heavy excavators are primary targets for off-hours fuel theft. Geofence fuel alarms prevent job-site losses, supported by rugged IP69K rated sensors built to ISO 9001:2015 quality standards.
     `
   },
   {
@@ -402,7 +402,7 @@ Disguised battery-powered trackers operating on sleep mode transmit silent locat
     content: `
 ## Automotive Safety Standards for Engine Cut-Off
 
-Engine power is only interrupted when vehicle speed drops below 20 km/h and brakes are not aggressively depressed, ensuring driver and road user safety.
+Engine power is only interrupted when vehicle speed drops below 20 km/h and brakes are not aggressively depressed, ensuring driver and road user safety in full compliance with UN ECE R116 anti-theft standards.
     `
   },
   {
@@ -551,7 +551,7 @@ Silent reefer unit compressor breakdowns during multi-day cross-border hauls can
     title: 'WHO GDP Compliance for Vaccine Transport: The Cold Chain Monitoring System Nigerian Pharmas Trust',
     category: 'Cold Chain',
     geoRegion: 'Africa',
-    excerpt: 'Vaccines spoiling silently? See how continuous BLE temperature logging meets WHO Good Distribution Practice standards for pharma transport in Nigeria.',
+    excerpt: 'Vaccines spoiling silently? See how continuous BLE temperature logging meets WHO Good Distribution Practice (GDP) and US-FDA 21 CFR Part 11 standards for pharma transport in Nigeria.',
     author: { name: 'Dr. Joseph Mwangi', role: 'Cold Chain Compliance Specialist' },
     publishedAt: '2026-08-05',
     readTime: '6 min read',

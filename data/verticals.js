@@ -9,7 +9,7 @@ export const VERTICALS_DATA = [
     detailImage: '/sol-telematics-detail.webp',
     badge: 'Popular',
     icon: 'Truck',
-    points: ['Vehicle Telematics & OBD (±0.2%)', 'Engine Ignition-Off Siphoning Alarms', 'Remote Engine Cut-Off (R116)'],
+    points: ['Real-Time Fuel Drain Alerts', 'Prevent Night-time Fuel Theft', 'Safe Remote Truck Immobilization'],
     details: 'Comprehensive B2B telematics architecture engineered for commercial transport hauliers. Connects heavy semi-trucks, trailers, and delivery vans with live GPS tracking via advanced Vehicle Telematics trackers, OBD Telematics dongles, ±0.2% capacitive fuel probes, ECU CAN-bus diagnostic monitoring, and automated fuel card reconciliation.',
     features: [
       'Real-Time Capacitive Fuel Siphoning & Drain Alerts (±0.2% Precision)',
@@ -37,7 +37,7 @@ export const VERTICALS_DATA = [
     detailImage: '/sol-ev-detail.webp',
     badge: 'Trending',
     icon: 'Zap',
-    points: ['Real-Time SoC & SoH Alerts', 'Smart Route Charging Locator', 'Thermal Runaway Safety Alarms'],
+    points: ['Live Battery Health Monitoring', 'Automated Charging Route Planner', 'Fire Safety & Overheating Alerts'],
     details: 'Advanced Battery Management System (BMS) telemetry engine designed for commercial electric vehicles in high ambient temperatures (up to 50°C). Tracks real-time State of Charge (SoC), State of Health (SoH), cell voltage balancing, and thermal runaway safety alerts.',
     features: [
       'Real-Time State of Charge (SoC) & State of Health (SoH) Telemetry',
@@ -65,7 +65,7 @@ export const VERTICALS_DATA = [
     detailImage: '/sol-coldchain-detail.webp',
     badge: 'Compliance Ready',
     icon: 'Thermometer',
-    points: ['Wireless BLE Temp Pods & IoT Sensors', 'Door Open Vapor Leak Alarms', 'Indoor Telematics Compliance'],
+    points: ['Continuous Temperature Tracking', 'Door Open Spoilage Alerts', 'Automated Cargo Safety Reports'],
     details: 'Strict WHO GDP and US-FDA 21 CFR Part 11 compliant cold chain telematics stack for refrigerated reefer trailers, vaccine transport, and fresh seafood export fleets. Delivers continuous wireless BLE temperature and humidity logging with automated PDF compliance certificates. Features advanced Indoor Telematics and precise IoT Sensors to guarantee cargo safety.',
     features: [
       'Wireless BLE 5.0 Temperature & Humidity Sensors (-80°C to +70°C)',
@@ -93,7 +93,7 @@ export const VERTICALS_DATA = [
     detailImage: '/sol-healthcare-detail.webp',
     badge: 'Critical Duty',
     icon: 'Activity',
-    points: ['Priority Siren Dispatch Routing', 'Medical Oxygen Tank Level Alerts', 'Hospital Bay ETA Broadcast'],
+    points: ['Fast Emergency Routing', 'Live Oxygen Supply Tracking', 'Arrival Time Sharing for Hospitals'],
     details: 'Mission-critical fleet dispatch and medical asset telemetry for ambulances and healthcare logistics. Combines siren-triggered priority routing, patient transport telemetry, and emergency medical equipment monitoring.',
     features: [
       'Sub-Second Priority Siren Dispatch & Traffic Signal Preemption',
@@ -121,7 +121,7 @@ export const VERTICALS_DATA = [
     detailImage: '/sol-heavy-detail.webp',
     badge: 'Heavy Industrial',
     icon: 'Cpu',
-    points: ['Automated Engine Hour Counter', 'IoT Sensors for Hydraulic Pressure', 'Assets & Personal Telematics'],
+    points: ['Automated Usage Tracking', 'Heavy Machinery Health Monitoring', 'Job Site Equipment Protection'],
     details: 'Ultra-ruggedized IP69K telematics gateways built for yellow metal excavators, bulldozers, mining dump trucks, and stationary power generators operating in heavy vibration and high dust environments. Integrated with versatile IoT Sensors and robust Assets & Personal Telematics for comprehensive site coverage.',
     features: [
       'Automated Engine Operating Hours & Maintenance Counter',
@@ -149,7 +149,7 @@ export const VERTICALS_DATA = [
     detailImage: '/sol-transit-detail.webp',
     badge: 'Smart City',
     icon: 'Bus',
-    points: ['AI Video Telematics Counter', 'Taxi GPS Meter Integration', 'Automated Audio/LED Announcements'],
+    points: ['Accurate Passenger Counting', 'Integrated Transit Tracking', 'Automated Next-Stop Announcements'],
     details: 'Smart municipal public transit telematics platform providing AI optical passenger counting, automated audio-visual stop announcements, and real-time GTFS transit feed publishing for urban bus fleets and integrating seamlessly with Taxi GPS Meter systems and Video Telematics for complete city transport visibility.',
     features: [
       'AI Optical Overhead Passenger Density & Counting (99% Accuracy)',
@@ -177,7 +177,7 @@ export const VERTICALS_DATA = [
     detailImage: '/sol-school-detail.webp',
     badge: 'Student Buddy',
     icon: 'School',
-    points: ['Student RFID Card Tap Alerts', 'Parent Mobile App Live ETA', 'AIS 140 Panic Button SOS'],
+    points: ['Instant Student Boarding Alerts', 'Live Location Tracking for Parents', 'Emergency Driver Panic Button'],
     details: 'Purpose-built school transport safety telematics platform ("School Buddy Solution"). Combines student RFID card attendance logging, live parent mobile app tracking, automated school zone speed limit enforcement, and emergency panic buttons.',
     features: [
       'Student RFID Card Tap Check-In / Check-Out SMS Notifications',

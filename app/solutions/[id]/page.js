@@ -116,31 +116,7 @@ export default async function SolutionDetailPage({ params }) {
           </div>
         </div>
 
-        {/* Compliance Certifications */}
-        <div style={{
-          padding: '40px 48px', marginBottom: '80px', borderRadius: '20px',
-          background: 'linear-gradient(135deg, #0F2D4E 0%, #0169A9 100%)',
-          display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '24px'
-        }}>
-          <div>
-            <h3 style={{ color: '#FFFFFF', fontSize: '1.3rem', fontWeight: '800', marginBottom: '8px', display: 'flex', alignItems: 'center', gap: '8px' }}>
-              <Award size={20} /> Compliance Certifications
-            </h3>
-            <p style={{ color: '#94A3B8', fontSize: '0.9rem' }}>This solution meets the following international standards:</p>
-          </div>
-          <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap' }}>
-            {vertical.compliance.map((c, i) => (
-              <span key={i} style={{
-                fontSize: '0.85rem', padding: '8px 18px',
-                background: 'rgba(255,255,255,0.1)', backdropFilter: 'blur(4px)',
-                color: '#FFFFFF', borderRadius: '99px', fontWeight: '700',
-                border: '1px solid rgba(255,255,255,0.2)'
-              }}>
-                ✓ {c}
-              </span>
-            ))}
-          </div>
-        </div>
+
 
         {/* Use Cases */}
         <div style={{ marginBottom: '80px' }}>
