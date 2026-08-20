@@ -1,57 +1,75 @@
 import { getAllBlogs } from '@/lib/blog';
 
-export default async function sitemap() {
-  const baseUrl = 'https://www.wiziot.com';
+const baseUrl = 'https://www.wiziot.com';
 
-  // Core Pages
-  const staticRoutes = [
-    '',
-    '/blog',
-    '/solutions',
-    '/platform',
+const cities = [
+  'mombasa', 'nairobi', 'lagos', 'dubai', 'abu-dhabi', 'santos', 'bogota', 'medellin',
+  'mexico-city', 'warsaw', 'bucharest', 'budapest', 'singapore', 'johor-bahru', 'perth',
+  'riyadh', 'jeddah', 'dammam', 'johannesburg', 'durban'
+];
 
-    '/pricing',
-    '/partners',
-    '/contact',
-    '/locations',
-  ].map((route) => ({
-    url: `${baseUrl}${route}`,
-    lastModified: new Date().toISOString().split('T')[0],
-    changeFrequency: route === '' || route === '/blog' ? 'daily' : 'weekly',
-    priority: route === '' ? 1.0 : 0.8,
-  }));
-
-  // City Hub Locations
-  const cities = [
-    'mombasa', 'nairobi', 'lagos', 'dubai', 'abu-dhabi', 'santos', 'bogota', 'medellin',
-    'mexico-city', 'warsaw', 'bucharest', 'budapest', 'singapore', 'johor-bahru', 'perth',
-    'riyadh', 'jeddah', 'dammam', 'johannesburg', 'durban'
+export async function generateSitemaps() {
+  return [
+    { id: 'core' },
+    { id: 'blogs' },
+    ...cities.map((city) => ({ id: city }))
   ];
+}
 
-  const cityRoutes = cities.map((city) => ({
-    url: `${baseUrl}/${city}`,
-    lastModified: new Date().toISOString().split('T')[0],
-    changeFrequency: 'weekly',
-    priority: 0.7,
-  }));
+export default async function sitemap(props) {
+  // In Next.js 16+, `props.id` is a Promise that resolves to a string
+  let id = 'core';
+  if (props && props.id) {
+    id = await props.id;
+  }
 
-  // Solution Detail Pages
-  const solutionIds = ['telematics', 'ev-fleets', 'cold-chain', 'healthcare', 'industrial-iot', 'public-transport', 'school-transport'];
-  const solutionRoutes = solutionIds.map((id) => ({
-    url: `${baseUrl}/solutions/${id}`,
-    lastModified: new Date().toISOString().split('T')[0],
-    changeFrequency: 'weekly',
-    priority: 0.8,
-  }));
+  if (id === 'core') {
+    const staticRoutes = [
+      '',
+      '/blog',
+      '/solutions',
+      '/platform',
+      '/pricing',
+      '/partners',
+      '/contact',
+      '/locations',
+    ].map((route) => ({
+      url: `${baseUrl}${route}`,
+      lastModified: new Date().toISOString().split('T')[0],
+      changeFrequency: route === '' || route === '/blog' ? 'daily' : 'weekly',
+      priority: route === '' ? 1.0 : 0.8,
+    }));
 
-  // 500+ Blog Posts
-  const allBlogs = getAllBlogs();
-  const blogRoutes = allBlogs.map((b) => ({
-    url: `${baseUrl}/blog/${b.slug}`,
-    lastModified: b.publishedAt || new Date().toISOString().split('T')[0],
-    changeFrequency: 'monthly',
-    priority: 0.6,
-  }));
+    const solutionIds = ['telematics', 'ev-fleets', 'cold-chain', 'healthcare', 'industrial-iot', 'public-transport', 'school-transport'];
+    const solutionRoutes = solutionIds.map((sid) => ({
+      url: `${baseUrl}/solutions/${sid}`,
+      lastModified: new Date().toISOString().split('T')[0],
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    }));
 
-  return [...staticRoutes, ...solutionRoutes, ...cityRoutes, ...blogRoutes];
+    return [...staticRoutes, ...solutionRoutes];
+  }
+
+  if (id === 'blogs') {
+    const allBlogs = getAllBlogs();
+    return allBlogs.map((b) => ({
+      url: `${baseUrl}/blog/${b.slug}`,
+      lastModified: b.publishedAt || new Date().toISOString().split('T')[0],
+      changeFrequency: 'monthly',
+      priority: 0.6,
+    }));
+  }
+
+  // If it's a city ID
+  if (cities.includes(id)) {
+    return [{
+      url: `${baseUrl}/${id}`,
+      lastModified: new Date().toISOString().split('T')[0],
+      changeFrequency: 'weekly',
+      priority: 0.7,
+    }];
+  }
+
+  return [];
 }
