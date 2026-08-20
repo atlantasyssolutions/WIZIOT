@@ -353,17 +353,17 @@ export default async function BlogPostPage({ params }) {
             <Link href="/pricing" style={{ color: 'var(--primary-blue)', fontWeight: '600', textDecoration: 'none' }}>
               → Hardware & Sensor Pricing
             </Link>
-            <Link href="/locations/mombasa" style={{ color: 'var(--primary-blue)', fontWeight: '600', textDecoration: 'none' }}>
-              → Mombasa Port Hub
+            <Link href="/mombasa" style={{ color: 'var(--primary-blue)', fontWeight: '600', textDecoration: 'none' }}>
+              → Hardware Installers in Mombasa
             </Link>
-            <Link href="/locations/nairobi" style={{ color: 'var(--primary-blue)', fontWeight: '600', textDecoration: 'none' }}>
-              → Nairobi Logistics Hub
+            <Link href="/nairobi" style={{ color: 'var(--primary-blue)', fontWeight: '600', textDecoration: 'none' }}>
+              → Fleet Management Solutions in Nairobi
             </Link>
-            <Link href="/locations/lagos" style={{ color: 'var(--primary-blue)', fontWeight: '600', textDecoration: 'none' }}>
-              → Lagos Apapa Port Hub
+            <Link href="/lagos" style={{ color: 'var(--primary-blue)', fontWeight: '600', textDecoration: 'none' }}>
+              → Telematics Sensors in Lagos
             </Link>
-            <Link href="/locations/dubai" style={{ color: 'var(--primary-blue)', fontWeight: '600', textDecoration: 'none' }}>
-              → Dubai Commercial Hub
+            <Link href="/dubai" style={{ color: 'var(--primary-blue)', fontWeight: '600', textDecoration: 'none' }}>
+              → Logistics Tracking in Dubai
             </Link>
             <Link href="/locations" style={{ color: 'var(--primary-blue)', fontWeight: '600', textDecoration: 'none' }}>
               → All 20 City Telematics Hubs
