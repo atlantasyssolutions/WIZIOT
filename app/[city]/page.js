@@ -323,7 +323,7 @@ export default async function RootCityLocationPage({ params }) {
         </div>
 
         <div className="glass-card" style={{ padding: '40px', marginBottom: '60px', textAlign: 'center', background: 'linear-gradient(135deg, #0F2D4E 0%, #0169A9 100%)', color: '#FFFFFF' }}>
-          <h3 style={{ fontSize: '1.8rem', marginBottom: '12px' }}>Deploy WizIOT Telematics in {location.city}</h3>
+          <h3 style={{ fontSize: '1.8rem', marginBottom: '12px', color: '#FFFFFF' }}>Deploy WizIOT Telematics in {location.city}</h3>
           <p style={{ color: '#E2E8F0', marginBottom: '28px', maxWidth: '640px', margin: '0 auto 28px' }}>
             Schedule a 1-on-1 strategy call with our regional fleet engineers in {location.country}. Get custom sensor pricing, certified compliance documents, and trial hardware.
           </p>
@@ -331,7 +331,7 @@ export default async function RootCityLocationPage({ params }) {
             <Link href="/contact" className="btn btn-primary btn-lg" style={{ background: '#FFFFFF', color: '#0F2D4E', fontWeight: '800' }}>
               Book {location.city} Fleet Demo <ArrowRight size={18} />
             </Link>
-            <Link href="/solutions" className="btn btn-secondary btn-lg" style={{ borderColor: '#FFFFFF', color: '#FFFFFF' }}>
+            <Link href="/solutions" className="btn btn-secondary btn-lg" style={{ background: 'transparent', border: '2px solid #FFFFFF', color: '#FFFFFF', fontWeight: '700' }}>
               Explore Industry Solutions
             </Link>
           </div>
