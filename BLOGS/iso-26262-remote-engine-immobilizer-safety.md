@@ -3,7 +3,7 @@ title: "Functional Safety in Remote Engine Immobilization: ISO 26262 & UN ECE R1
 category: "Security & Cargo Protection"
 publishedAt: "2026-08-18"
 readTime: "12 min read"
-geoRegion: "Global"
+geoRegion: "Global Trade Corridors"
 author:
   name: "Dr. Henk van der Meer"
   role: "Automotive Functional Safety Architect"

@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { VERTICALS_DATA } from '@/data/verticals';
 import { Truck, Zap, Thermometer, Activity, Cpu, Bus, School, ArrowRight, Check } from 'lucide-react';
 
@@ -25,11 +26,11 @@ export default function VerticalsGrid() {
               <div key={vert.id} id={vert.id} className="glass-card" style={{ display: 'flex', flexDirection: 'column', height: '100%', padding: 0, overflow: 'hidden' }}>
                 {/* Vertical Card Banner Image */}
                 <div style={{ position: 'relative', width: '100%', height: '160px', background: '#0F172A', overflow: 'hidden' }}>
-                  <img
-                    src={vert.image}
+                  <Image 
+                     src={vert.image} 
                     alt={vert.title}
-                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                  />
+                    
+                  / fill style={{ objectFit: 'cover' }} />
                   <div style={{ position: 'absolute', top: '12px', left: '12px', right: '12px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                     <div
                       style={{

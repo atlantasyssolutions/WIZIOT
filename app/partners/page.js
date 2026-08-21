@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Image from 'next/image';
 import { Users, Handshake, ShieldCheck, Globe, ArrowRight } from 'lucide-react';
 import ScheduleDemoModal from '@/components/ui/ScheduleDemoModal';
 
@@ -22,11 +23,11 @@ export default function PartnersPage() {
 
         {/* Global Partner Fleet Network Photo Banner */}
         <div style={{ width: '100%', height: '380px', borderRadius: '20px', overflow: 'hidden', marginBottom: '60px', border: '1px solid #E2E8F0', boxShadow: '0 12px 36px rgba(15,45,78,0.1)', background: '#0F172A' }}>
-          <img
-            src="/enterprise-logistics-fleet.webp"
+          <Image 
+             src="/enterprise-logistics-fleet.webp" 
             alt="WizIOT Global Commercial Logistics Fleet Network"
-            style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-          />
+            
+          / fill style={{ objectFit: 'cover' }} />
         </div>
 
         <div className="grid-3" style={{ marginBottom: '80px' }}>

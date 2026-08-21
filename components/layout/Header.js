@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Menu, X, ArrowRight, ExternalLink, MapPin, ChevronDown } from 'lucide-react';
@@ -39,11 +40,11 @@ export default function Header({ onOpenDemo }) {
       <div className={styles.navContainer}>
         {/* Official Logo */}
         <Link href="/" className={styles.logoLink} aria-label="WizIOT Home">
-          <img
-            src="/images/logo.svg"
+          <Image 
+             src="/images/logo.svg" 
             alt="WizIOT - Unified IoT. Unmatched Wisdom."
-            className={styles.logoImg}
-          />
+            
+          / fill style={{ objectFit: 'cover' }} />
         </Link>
 
         {/* Desktop Navigation */}

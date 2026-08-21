@@ -3,7 +3,7 @@ title: "Volumetric Dual-Tank Fuel Probe Calibration Guide for Heavy Trucks"
 category: "Fuel & Energy Management"
 publishedAt: "2026-08-18"
 readTime: "13 min read"
-geoRegion: "Global"
+geoRegion: "Global Trade Corridors"
 author:
   name: "Marcus Vance"
   role: "Chief Fuel Systems Engineer"

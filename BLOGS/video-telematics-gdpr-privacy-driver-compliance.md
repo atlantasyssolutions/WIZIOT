@@ -3,7 +3,7 @@ title: "Video Telematics & GDPR Compliance: Balancing Fleet Safety with Driver P
 category: "Regulatory & Compliance"
 publishedAt: "2026-08-18"
 readTime: "11 min read"
-geoRegion: "Europe (EU)"
+geoRegion: "Global Trade Corridors"
 author:
   name: "Stefan Kowalski"
   role: "EU Regulatory Telematics Lead"

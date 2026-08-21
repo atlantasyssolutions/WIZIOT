@@ -3,7 +3,7 @@ title: "Protecting EV Battery Packs from Thermal Runaway in UAE Summer Heat Abov
 category: "EV & Battery Analytics"
 publishedAt: "2026-08-18"
 readTime: "13 min read"
-geoRegion: "GCC"
+geoRegion: "GCC & Middle East"
 author:
   name: "Eng. Rashid Al-Hassan"
   role: "EV BMS & Thermal Systems Architect"

@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Image from 'next/image';
 import { FEATURES_DATA } from '@/data/features';
 import { Radio, LayoutDashboard, BarChart3, Zap, Navigation, ShieldCheck, ShieldAlert, CheckCircle2, ArrowRight } from 'lucide-react';
 import styles from './FeaturesTab.module.css';
@@ -72,11 +73,11 @@ export default function FeaturesTab({ onOpenDemo }) {
 
           {/* High-Resolution Feature Photo Showcase Container */}
           <div style={{ position: 'relative', width: '100%', height: '360px', borderRadius: '16px', overflow: 'hidden', border: '1px solid #E2E8F0', boxShadow: '0 12px 32px rgba(15,45,78,0.12)', background: '#0F172A' }}>
-            <img
-              src={activeFeature.image}
+            <Image 
+               src={activeFeature.image} 
               alt={activeFeature.title}
-              style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-            />
+              
+            / fill style={{ objectFit: 'cover' }} />
             {/* Overlaid Floating Metric Pill */}
             <div
               style={{

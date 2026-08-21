@@ -1,10 +1,8 @@
+import { LOCATIONS_DATA } from '@/data/locations';
+
 export async function GET() {
   const baseUrl = 'https://www.wiziot.com';
-  const cities = [
-    'mombasa', 'nairobi', 'lagos', 'dubai', 'abu-dhabi', 'santos', 'bogota', 'medellin',
-    'mexico-city', 'warsaw', 'bucharest', 'budapest', 'singapore', 'johor-bahru', 'perth',
-    'riyadh', 'jeddah', 'dammam', 'johannesburg', 'durban'
-  ];
+  const cities = LOCATIONS_DATA.map(loc => loc.slug);
 
   let xml = `<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
   

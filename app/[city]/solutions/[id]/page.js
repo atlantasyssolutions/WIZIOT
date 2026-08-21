@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import { VERTICALS_DATA } from '@/data/verticals';
 import { ArrowLeft, Check, ShieldCheck, Wrench, Award, ChevronRight, ArrowRight } from 'lucide-react';
@@ -39,11 +40,11 @@ export default async function SolutionDetailPage({ params }) {
     <div style={{ paddingTop: '100px' }}>
       {/* Hero Section */}
       <div style={{ position: 'relative', width: '100%', height: '420px', background: '#0F172A', overflow: 'hidden' }}>
-        <img
-          src={vertical.heroImage}
+        <Image 
+           src={vertical.heroImage} 
           alt={vertical.title}
-          style={{ width: '100%', height: '100%', objectFit: 'cover', opacity: 0.6 }}
-        />
+          
+        / fill style={{ objectFit: 'cover' }} />
         <div style={{
           position: 'absolute', inset: 0,
           background: 'linear-gradient(to top, rgba(15,23,42,0.95) 0%, rgba(15,23,42,0.3) 100%)',
@@ -89,7 +90,7 @@ export default async function SolutionDetailPage({ params }) {
           </div>
 
           <div style={{ borderRadius: '20px', overflow: 'hidden', boxShadow: '0 12px 36px rgba(15,45,78,0.12)', border: '1px solid #E2E8F0' }}>
-            <img src={vertical.detailImage} alt={`${vertical.title} Detail`} style={{ width: '100%', height: '360px', objectFit: 'cover' }} />
+            <Image   src={vertical.detailImage}  alt={`${vertical.title} Detail`}  / fill style={{ objectFit: 'cover' }} />
           </div>
         </div>
 
@@ -175,7 +176,7 @@ export default async function SolutionDetailPage({ params }) {
               <Link key={sol.id} href={`/solutions/${sol.id}`} style={{ textDecoration: 'none' }}>
                 <div className="glass-card" style={{ padding: 0, overflow: 'hidden', cursor: 'pointer', transition: 'transform 0.2s ease' }}>
                   <div style={{ height: '140px', background: '#0F172A', overflow: 'hidden' }}>
-                    <img src={sol.image} alt={sol.title} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                    <Image   src={sol.image}  alt={sol.title}  / fill style={{ objectFit: 'cover' }} />
                   </div>
                   <div style={{ padding: '20px' }}>
                     <span style={{ fontSize: '0.75rem', color: 'var(--primary-blue)', fontWeight: '700', textTransform: 'uppercase' }}>{sol.category}</span>

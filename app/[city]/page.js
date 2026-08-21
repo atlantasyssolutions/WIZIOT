@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import { getLocationBySlug, getAllLocations, generateLocationSchema } from '@/lib/locations';
 import { MapPin, ShieldCheck, CheckCircle2, ArrowRight, ArrowLeft, Truck, Fuel, Zap, Globe, FileText, Search, PhoneCall, Award, Headphones } from 'lucide-react';
@@ -16,17 +17,8 @@ export async function generateMetadata({ params }) {
   if (!location) return { title: 'Location Not Found' };
 
   return {
-    title: `${location.heroHeadline} | WizIOT ${location.city}`,
+    title: { absolute: location.heroHeadline.length <= 51 ? `${location.heroHeadline} | WizIOT` : location.heroHeadline },
     description: location.metaDescription,
-    keywords: [
-      `best tracker in ${location.city}`,
-      `fleet management software ${location.city}`,
-      `GPS tracking ${location.city} ${location.country}`,
-      `fuel theft prevention ${location.city}`,
-      `cold chain telematics ${location.city}`,
-      `remote engine cut off ${location.city}`,
-      `sensor compliance ${location.city}`
-    ],
     alternates: {
       canonical: `https://www.wiziot.com/${location.slug}`,
     },
@@ -169,11 +161,12 @@ export default async function RootCityLocationPage({ params }) {
           {spunSubtitle}
         </p>
 
-        <div style={{ width: '100%', height: '380px', borderRadius: '16px', overflow: 'hidden', marginBottom: '44px', background: '#0F172A', boxShadow: '0 10px 30px rgba(0,0,0,0.1)' }}>
-          <img
+        <div style={{ position: 'relative', width: '100%', height: '380px', borderRadius: '16px', overflow: 'hidden', marginBottom: '44px', background: '#0F172A', boxShadow: '0 10px 30px rgba(0,0,0,0.1)' }}>
+          <Image
             src={cityImage}
             alt={`WizIOT Fleet Tracking in ${location.city}, ${location.country}`}
-            style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+            fill
+            style={{ objectFit: 'cover' }}
           />
         </div>
 

@@ -1,12 +1,10 @@
 import { getAllBlogs } from '@/lib/blog';
 
+import { LOCATIONS_DATA } from '@/data/locations';
+
 const baseUrl = 'https://www.wiziot.com';
 
-const cities = [
-  'mombasa', 'nairobi', 'lagos', 'dubai', 'abu-dhabi', 'santos', 'bogota', 'medellin',
-  'mexico-city', 'warsaw', 'bucharest', 'budapest', 'singapore', 'johor-bahru', 'perth',
-  'riyadh', 'jeddah', 'dammam', 'johannesburg', 'durban'
-];
+const cities = LOCATIONS_DATA.map(loc => loc.slug);
 
 const staticCoreRoutes = [
   '',

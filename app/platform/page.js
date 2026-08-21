@@ -1,16 +1,10 @@
 import { Cpu, Radio, ShieldAlert, Code, Server, ArrowRight, CheckCircle2 } from 'lucide-react';
+import Image from 'next/image';
 import CtaBannerWrapper from '@/components/sections/CtaBannerWrapper';
 
 export const metadata = {
   title: 'Cloud Telematics Architecture & API Engine | WizIOT Platform',
   description: 'Hardware-agnostic sub-second streaming telematics cloud. Connect OBD-II, CAN-bus, BLE sensors, ADAS cameras, and ERP Webhooks with 99.99% SLA.',
-  keywords: [
-    'telematics cloud platform',
-    'CAN-bus telemetry engine',
-    'fleet tracking API',
-    'BLE wireless sensor pipeline',
-    'MQTT fleet streaming'
-  ],
   alternates: {
     canonical: 'https://www.wiziot.com/platform',
   },
@@ -39,11 +33,11 @@ export default function PlatformPage() {
 
         {/* Platform Architecture Showcase Banner Photo */}
         <div style={{ width: '100%', height: '420px', borderRadius: '20px', overflow: 'hidden', marginBottom: '60px', border: '1px solid #E2E8F0', boxShadow: '0 12px 36px rgba(15,45,78,0.1)', background: '#0F172A' }}>
-          <img
-            src="/platform-telematics-analytics.webp"
+          <Image 
+             src="/platform-telematics-analytics.webp" 
             alt="WizIOT Platform Analytics & Command Dashboard"
-            style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-          />
+            
+          / fill style={{ objectFit: 'cover' }} />
         </div>
 
         <div className="grid-3" style={{ marginBottom: '80px' }}>
@@ -98,11 +92,11 @@ export default function PlatformPage() {
               </ul>
             </div>
             <div style={{ width: '100%', height: '320px', borderRadius: '16px', overflow: 'hidden', border: '1px solid #E2E8F0', background: '#0F172A' }}>
-              <img
-                src="/hardware-telematics-stack.webp"
+              <Image 
+                 src="/hardware-telematics-stack.webp" 
                 alt="WizIOT Industrial Telematics Hardware Stack"
-                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-              />
+                
+              / fill style={{ objectFit: 'cover' }} />
             </div>
           </div>
         </div>

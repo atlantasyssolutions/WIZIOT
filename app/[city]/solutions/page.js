@@ -1,17 +1,10 @@
 import VerticalsGrid from '@/components/sections/VerticalsGrid';
+import Image from 'next/image';
 import CtaBannerWrapper from '@/components/sections/CtaBannerWrapper';
 
 export const metadata = {
   title: 'Vertical B2B Telematics Solutions & Fleet IoT | WizIOT',
   description: 'Purpose-built telematics for commercial logistics, EV fleets, pharmaceutical cold chain, heavy machinery, and emergency vehicles with certified sensor compliance.',
-  keywords: [
-    'vertical telematics solutions',
-    'commercial fleet tracking',
-    'cold chain IoT monitoring',
-    'EV BMS battery management',
-    'heavy equipment telemetry',
-    'sensor compliance'
-  ],
   alternates: {
     canonical: 'https://www.wiziot.com/solutions',
   },
@@ -38,11 +31,11 @@ export default function SolutionsPage() {
 
         {/* Hero Photo Banner for Solutions Page */}
         <div style={{ width: '100%', height: '380px', borderRadius: '20px', overflow: 'hidden', marginBottom: '60px', border: '1px solid #E2E8F0', boxShadow: '0 12px 36px rgba(15,45,78,0.1)', background: '#0F172A' }}>
-          <img
-            src="/heavy-equipment-telematics.webp"
+          <Image 
+             src="/heavy-equipment-telematics.webp" 
             alt="WizIOT Vertical Industry Solutions & Heavy Equipment Telematics"
-            style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-          />
+            
+          / fill style={{ objectFit: 'cover' }} />
         </div>
 
         <VerticalsGrid />

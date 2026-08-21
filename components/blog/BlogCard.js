@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { Calendar, Clock, Globe, ArrowRight } from 'lucide-react';
 import { useState } from 'react';
 
@@ -14,10 +15,10 @@ export default function BlogCard({ blog }) {
     <div className="glass-card" style={{ display: 'flex', flexDirection: 'column', height: '100%', overflow: 'hidden', padding: 0 }}>
       {/* Post Thumbnail Image */}
       <div style={{ position: 'relative', width: '100%', height: '190px', background: '#0F172A', overflow: 'hidden' }}>
-        <img
-          src={imgSrc}
+        <Image 
+           src={imgSrc} 
           alt={blog.title}
-          onError={() => setImgSrc(fallbackImageSrc)}
+          onError={() = fill style={{ objectFit: 'cover' }} /> setImgSrc(fallbackImageSrc)}
           style={{ width: '100%', height: '100%', objectFit: 'cover', transition: 'transform 0.4s ease' }}
         />
         <div style={{ position: 'absolute', top: '12px', left: '12px', right: '12px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>

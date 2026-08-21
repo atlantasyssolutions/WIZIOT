@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import { getBlogBySlug, getAllBlogs, generateArticleSchema, generateFaqSchema, generateBreadcrumbSchema } from '@/lib/blog';
 import { Calendar, Clock, Globe, ArrowLeft, Tag, MapPin, ShieldCheck, Layers, ChevronRight, CheckCircle2, UserCheck, List, Share2, HelpCircle } from 'lucide-react';
@@ -21,7 +22,6 @@ export async function generateMetadata({ params }) {
   return {
     title: `${blog.title} | WizIOT Telematics`,
     description: blog.excerpt,
-    keywords: blog.seoKeywords,
     alternates: {
       canonical: canonicalUrl,
     },
@@ -220,11 +220,11 @@ export default async function BlogPostPage({ params }) {
 
         {/* Featured Post Banner Image */}
         <div style={{ width: '100%', height: '380px', borderRadius: '16px', overflow: 'hidden', marginBottom: '36px', border: '1px solid #E2E8F0', boxShadow: '0 8px 24px rgba(15,23,42,0.08)', background: '#0F172A' }}>
-          <img
-            src={`/blog/${blog.slug}.webp`}
+          <Image 
+             src={`/blog/${blog.slug} .webp`}
             alt={blog.title}
-            style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-          />
+            
+          / fill style={{ objectFit: 'cover' }} />
         </div>
 
         {/* Executive Summary Lead Box */}

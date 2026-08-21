@@ -3,7 +3,7 @@ title: "ADAS Forward Collision Warning Systems for Highway Freight Fleets"
 category: "Video Telematics & Safety"
 publishedAt: "2026-08-18"
 readTime: "12 min read"
-geoRegion: "Global"
+geoRegion: "Global Trade Corridors"
 author:
   name: "Dr. Alistair Finch"
   role: "Chief Autonomous & ADAS Safety Engineer"

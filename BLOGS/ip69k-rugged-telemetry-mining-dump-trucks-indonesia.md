@@ -3,7 +3,7 @@ title: "Mining Dump Truck Telematics: IP69K & Heavy Vibration Ruggedization in I
 category: "Heavy Equipment & Assets"
 publishedAt: "2026-08-18"
 readTime: "14 min read"
-geoRegion: "APAC"
+geoRegion: "APAC & ASEAN"
 author:
   name: "Dr. Alistair Finch"
   role: "Mining Telematics & Systems Engineer"

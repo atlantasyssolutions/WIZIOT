@@ -3,7 +3,7 @@ title: "Dual-AI DMS Cameras: Stopping Driver Fatigue & Distraction in Long-Haul 
 category: "Video Telematics & Safety"
 publishedAt: "2026-08-18"
 readTime: "13 min read"
-geoRegion: "Global"
+geoRegion: "Global Trade Corridors"
 author:
   name: "Dr. Elena Rostova"
   role: "Lead Computer Vision Safety Engineer"

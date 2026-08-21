@@ -1,6 +1,7 @@
 'use client';
 
 import { ArrowRight, Play, Radio, ShieldCheck, Zap, Fuel, Activity } from 'lucide-react';
+import Image from 'next/image';
 import styles from './Hero.module.css';
 
 export default function Hero({ onOpenDemo }) {
@@ -54,10 +55,12 @@ export default function Hero({ onOpenDemo }) {
               background: '#0F172A'
             }}
           >
-            <img
+            <Image
               src="/hero-telematics-dashboard.webp"
               alt="WizIOT Enterprise Telematics Control Center Dashboard"
-              style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+              fill
+              priority
+              style={{ objectFit: 'cover' }}
             />
             <div
               style={{
@@ -96,7 +99,7 @@ export default function Hero({ onOpenDemo }) {
                 <Radio size={18} style={{ color: 'var(--primary-blue)' }} />
                 <span className={styles.metricLbl}>Active Fleet Coverage</span>
               </div>
-              <div className={styles.metricVal}>Global</div>
+              <div className={styles.metricVal}>{/* TODO(human): insert real metric */}Global</div>
               <span className="text-emerald" style={{ fontSize: '0.8rem', fontWeight: '600' }}>● Zero Latency Telemetry</span>
             </div>
 
@@ -105,7 +108,7 @@ export default function Hero({ onOpenDemo }) {
                 <Fuel size={18} style={{ color: '#D97706' }} />
                 <span className={styles.metricLbl}>Avg Fuel Saved</span>
               </div>
-              <div className={styles.metricVal}>Proven</div>
+              <div className={styles.metricVal}>{/* TODO(human): insert real metric */}Proven</div>
               <span className="text-emerald" style={{ fontSize: '0.8rem', fontWeight: '600' }}>Proven Route Payback</span>
             </div>
 
@@ -114,7 +117,7 @@ export default function Hero({ onOpenDemo }) {
                 <Zap size={18} style={{ color: 'var(--primary-blue)' }} />
                 <span className={styles.metricLbl}>EV & BMS Range</span>
               </div>
-              <div className={styles.metricVal}>Extended</div>
+              <div className={styles.metricVal}>{/* TODO(human): insert real metric */}Extended</div>
               <span style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>Extended Battery Life</span>
             </div>
 
@@ -123,7 +126,7 @@ export default function Hero({ onOpenDemo }) {
                 <ShieldCheck size={18} style={{ color: 'var(--accent-emerald)' }} />
                 <span className={styles.metricLbl}>Safety SLA Score</span>
               </div>
-              <div className={styles.metricVal}>Enterprise</div>
+              <div className={styles.metricVal}>{/* TODO(human): insert real metric */}Enterprise</div>
               <span className="text-emerald" style={{ fontSize: '0.8rem', fontWeight: '600' }}>Platform Uptime</span>
             </div>
           </div>

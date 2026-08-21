@@ -3,7 +3,7 @@ title: "Meeting WHO GDP Temperature Mapping Requirements for Vaccine Reefers in 
 category: "Cold Chain & Healthcare"
 publishedAt: "2026-08-18"
 readTime: "13 min read"
-geoRegion: "Africa"
+geoRegion: "Global Trade Corridors"
 author:
   name: "Dr. Amina Diallo"
   role: "Pharma Cold Chain Compliance Specialist"

@@ -3,7 +3,7 @@ title: "EU GSR 2024 Compliance: Intelligent Speed Assistance (ISA) & Telematics 
 category: "Regulatory & Compliance"
 publishedAt: "2026-08-18"
 readTime: "11 min read"
-geoRegion: "Europe (EU)"
+geoRegion: "Western Europe"
 author:
   name: "Stefan Kowalski"
   role: "EU Regulatory Telematics Lead"

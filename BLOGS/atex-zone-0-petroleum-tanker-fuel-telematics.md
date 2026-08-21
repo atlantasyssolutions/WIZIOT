@@ -3,7 +3,7 @@ title: "ATEX Zone 0 & Zone 1 Certified Fuel Sensors for Petroleum Tankers"
 category: "Hazardous Materials & Energy"
 publishedAt: "2026-08-18"
 readTime: "12 min read"
-geoRegion: "GCC & Middle East"
+geoRegion: "Western Europe"
 author:
   name: "Tariq Al-Mansoor"
   role: "Petrochemical Telematics Specialist"

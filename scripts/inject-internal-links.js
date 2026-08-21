@@ -66,42 +66,34 @@ function getRelatednessScore(a, b) {
 // ─── Step 3: Product page contextual link map ─────────────────────────────────
 const productLinks = [
   {
-    keywords: ['fuel', 'probe', 'siphon', 'diesel', 'tank', 'float', 'capacitive', 'refuel'],
     label: 'WizIOT Fuel Monitoring & Anti-Theft Sensors',
     url: '/solutions#telematics'
   },
   {
-    keywords: ['ev', 'bms', 'battery', 'electric', 'charging', 'soc', 'soh', 'range'],
     label: 'WizIOT EV & BMS Fleet Analytics',
     url: '/solutions#ev-fleets'
   },
   {
-    keywords: ['cold chain', 'temperature', 'reefer', 'pharma', 'vaccine', 'gdp', 'humidity', 'freezer'],
     label: 'WizIOT Cold Chain & Pharma Logistics',
     url: '/solutions#cold-chain'
   },
   {
-    keywords: ['dms', 'adas', 'driver', 'fatigue', 'drowsiness', 'camera', 'collision', 'distraction'],
     label: 'WizIOT ADAS & Driver Safety Monitoring',
     url: '/solutions#healthcare'
   },
   {
-    keywords: ['mining', 'excavator', 'dump truck', 'hydraulic', 'ip69k', 'heavy equipment', 'construction'],
     label: 'WizIOT Heavy Equipment & Mining Telematics',
     url: '/solutions#industrial-iot'
   },
   {
-    keywords: ['jammer', 'spoofing', 'anti-jam', 'hijack', 'covert', 'panic button', 'immobiliz', 'cargo theft'],
     label: 'WizIOT Anti-Theft & Cargo Security Platform',
     url: '/platform'
   },
   {
-    keywords: ['roi', 'cost', 'savings', 'payback', 'compliance', 'enterprise', 'reporting', 'audit'],
     label: 'WizIOT Enterprise ROI & Compliance Dashboard',
     url: '/platform'
   },
   {
-    keywords: ['pricing', 'subscription', 'saas', 'plan', 'tier', 'package'],
     label: 'View WizIOT Pricing & SaaS Plans',
     url: '/pricing'
   }
