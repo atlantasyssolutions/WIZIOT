@@ -224,7 +224,7 @@ export default async function BlogPostPage({ params }) {
              src={`/blog/${blog.slug} .webp`}
             alt={blog.title}
             
-          / fill style={{ objectFit: 'cover' }} />
+          fill style={{ objectFit: 'cover' }} />
         </div>
 
         {/* Executive Summary Lead Box */}

@@ -37,7 +37,7 @@ export default function PlatformPage() {
              src="/platform-telematics-analytics.webp" 
             alt="WizIOT Platform Analytics & Command Dashboard"
             
-          / fill style={{ objectFit: 'cover' }} />
+          fill style={{ objectFit: 'cover' }} />
         </div>
 
         <div className="grid-3" style={{ marginBottom: '80px' }}>
@@ -96,7 +96,7 @@ export default function PlatformPage() {
                  src="/hardware-telematics-stack.webp" 
                 alt="WizIOT Industrial Telematics Hardware Stack"
                 
-              / fill style={{ objectFit: 'cover' }} />
+              fill style={{ objectFit: 'cover' }} />
             </div>
           </div>
         </div>

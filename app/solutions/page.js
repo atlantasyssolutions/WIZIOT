@@ -35,7 +35,7 @@ export default function SolutionsPage() {
              src="/heavy-equipment-telematics.webp" 
             alt="WizIOT Vertical Industry Solutions & Heavy Equipment Telematics"
             
-          / fill style={{ objectFit: 'cover' }} />
+          fill style={{ objectFit: 'cover' }} />
         </div>
 
         <VerticalsGrid />

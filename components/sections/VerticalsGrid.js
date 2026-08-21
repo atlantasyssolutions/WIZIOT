@@ -30,7 +30,7 @@ export default function VerticalsGrid() {
                      src={vert.image} 
                     alt={vert.title}
                     
-                  / fill style={{ objectFit: 'cover' }} />
+                  fill style={{ objectFit: 'cover' }} />
                   <div style={{ position: 'absolute', top: '12px', left: '12px', right: '12px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                     <div
                       style={{

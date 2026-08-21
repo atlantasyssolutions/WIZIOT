@@ -18,7 +18,7 @@ export default function BlogCard({ blog }) {
         <Image 
            src={imgSrc} 
           alt={blog.title}
-          onError={() = fill style={{ objectFit: 'cover' }} /> setImgSrc(fallbackImageSrc)}
+          onError={() => setImgSrc(fallbackImageSrc)} fill
           style={{ width: '100%', height: '100%', objectFit: 'cover', transition: 'transform 0.4s ease' }}
         />
         <div style={{ position: 'absolute', top: '12px', left: '12px', right: '12px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>

@@ -44,7 +44,7 @@ export default function Header({ onOpenDemo }) {
              src="/images/logo.svg" 
             alt="WizIOT - Unified IoT. Unmatched Wisdom."
             
-          / fill style={{ objectFit: 'cover' }} />
+          fill style={{ objectFit: 'cover' }} />
         </Link>
 
         {/* Desktop Navigation */}

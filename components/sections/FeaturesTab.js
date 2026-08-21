@@ -77,7 +77,7 @@ export default function FeaturesTab({ onOpenDemo }) {
                src={activeFeature.image} 
               alt={activeFeature.title}
               
-            / fill style={{ objectFit: 'cover' }} />
+            fill style={{ objectFit: 'cover' }} />
             {/* Overlaid Floating Metric Pill */}
             <div
               style={{

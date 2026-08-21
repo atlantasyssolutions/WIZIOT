@@ -27,7 +27,7 @@ export default function PartnersPage() {
              src="/enterprise-logistics-fleet.webp" 
             alt="WizIOT Global Commercial Logistics Fleet Network"
             
-          / fill style={{ objectFit: 'cover' }} />
+          fill style={{ objectFit: 'cover' }} />
         </div>
 
         <div className="grid-3" style={{ marginBottom: '80px' }}>
