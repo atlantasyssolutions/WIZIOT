@@ -11,9 +11,6 @@ export const metadata = {
   },
   description:
     'Smarter decisions in fleet & logistics. Real-time GPS tracking, EV & BMS analytics, route optimization, ADAS driver safety, and cold chain telemetry.',
-  alternates: {
-    canonical: 'https://www.wiziot.com',
-  },
   openGraph: {
     type: 'website',
     siteName: 'WizIOT Telematics',
