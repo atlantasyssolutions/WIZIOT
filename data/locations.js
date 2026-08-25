@@ -376,5 +376,18 @@ export const LOCATIONS_DATA = [
     metaDescription: 'Manage port drayage and cold chain transport in Jeddah. Rugged GPS trackers, temperature sensors, and AI dashcams.',
     recommendedHardware: 'Ruggedized GPS Tracker + Multi-Zone BLE Temperature Probes',
     localCaseStudy: 'Improved port turnaround times by 22% and ensured SFDA cold-chain compliance.'
+  },
+  {
+    slug: 'dammam',
+    localMarketContext: 'Dammam operates as the Eastern Province’s primary industrial and logistics center, anchored by the massive King Abdulaziz Port and serving the core of Saudi Arabia’s oil and gas sector. Extreme desert temperatures, high coastal humidity, and abrasive sandstorms create one of the most punishing environments globally for heavy machinery, requiring specialized, high-temperature telematics hardware. Massive industrial freight movements out of Jubail and Dammam require continuous, high-precision GPS tracking with geofencing to ensure compliance with strict Saudi Aramco and governmental safety protocols. Fuel theft and siphoning across extensive desert supply chains are mitigated by calibrated capacitive fuel sensors. Cold-chain operations supporting the regional workforce must maintain strict temperature compliance under SFDA regulations. Enterprise fleets and heavy transport contractors deploy ruggedized telematics to guarantee asset integrity, fuel accountability, and driver safety across the Eastern Province’s critical industrial corridors.',
+    city: 'Dammam',
+    country: 'Saudi Arabia',
+    region: 'Middle East',
+    corridor: 'Eastern Province Oil & Gas Industrial Network',
+    primaryChallenge: 'Extreme desert heat/humidity, heavy industrial freight & Aramco compliance',
+    heroHeadline: 'Industrial Fleet Telematics & GPS Tracking in Dammam',
+    metaDescription: 'Manage heavy industrial fleets across the Eastern Province. High-temperature GPS trackers, fuel sensors, and Aramco-compliant safety telematics.',
+    recommendedHardware: 'High-Temperature Industrial GPS + Advanced Geofencing',
+    localCaseStudy: 'Improved compliance and reduced harsh driving events by 55% for regional oil & gas logistics contractor.'
   }
 ];
