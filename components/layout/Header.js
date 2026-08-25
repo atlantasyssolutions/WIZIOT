@@ -41,10 +41,13 @@ export default function Header({ onOpenDemo }) {
         {/* Official Logo */}
         <Link href="/" className={styles.logoLink} aria-label="WizIOT Home">
           <Image 
-             src="/images/logo.svg" 
+            src="/images/logo.svg" 
             alt="WizIOT - Unified IoT. Unmatched Wisdom."
-            
-          fill style={{ objectFit: 'cover' }} />
+            width={160}
+            height={40}
+            className={styles.logoImg}
+            priority
+          />
         </Link>
 
         {/* Desktop Navigation */}
