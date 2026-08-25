@@ -6,7 +6,7 @@ export async function generateMetadata({ params }) {
     title: `Fleet Management Platform in {city} | WizIOT`.replace('{city}', city),
     description: `Our enterprise IoT telematics platform optimized for {city}.`.replace('{city}', city),
     alternates: {
-      canonical: `https://www.wiziot.com/${cityStr}/platform`
+      canonical: `https://www.wiziot.com/platform`
     }
   };
 }

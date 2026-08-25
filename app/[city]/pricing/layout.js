@@ -6,7 +6,7 @@ export async function generateMetadata({ params }) {
     title: `GPS Hardware & Telematics Pricing in {city} | WizIOT`.replace('{city}', city),
     description: `View enterprise fleet tracking and GPS hardware pricing for {city}.`.replace('{city}', city),
     alternates: {
-      canonical: `https://www.wiziot.com/${cityStr}/pricing`
+      canonical: `https://www.wiziot.com/pricing`
     }
   };
 }

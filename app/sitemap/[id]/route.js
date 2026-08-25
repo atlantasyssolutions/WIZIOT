@@ -73,20 +73,18 @@ export async function GET(request, { params }) {
       priority: 0.6,
     }));
   } else if (cities.includes(id)) {
-    const staticRoutes = staticCoreRoutes.map((route) => ({
-      url: `${baseUrl}/${id}${route}`,
+    // Only include self-canonical routes in the sitemap.
+    // We canonicalized /pricing, /contact, etc. to the root, so they MUST NOT be here.
+    
+    // The main city landing page (e.g. /nairobi)
+    const rootCityRoute = [{
+      url: `${baseUrl}/${id}`,
       lastModified: new Date().toISOString().split('T')[0],
       changeFrequency: 'weekly',
-      priority: 0.7,
-    }));
+      priority: 0.8,
+    }];
 
-    const solutionRoutes = solutionIds.map((sid) => ({
-      url: `${baseUrl}/${id}/solutions/${sid}`,
-      lastModified: new Date().toISOString().split('T')[0],
-      changeFrequency: 'weekly',
-      priority: 0.7,
-    }));
-
+    // The localized blog posts (which are unique and self-canonical)
     const allBlogs = getAllBlogs();
     const blogRoutes = allBlogs.map((b) => ({
       url: `${baseUrl}/${id}/blog/${b.slug}`,
@@ -95,7 +93,7 @@ export async function GET(request, { params }) {
       priority: 0.5,
     }));
 
-    urls = [...staticRoutes, ...solutionRoutes, ...blogRoutes];
+    urls = [...rootCityRoute, ...blogRoutes];
   } else {
     return new Response('Not Found', { status: 404 });
   }

@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import { getBlogBySlug, getAllBlogs, generateArticleSchema, generateFaqSchema, generateBreadcrumbSchema } from '@/lib/blog';
 import { Calendar, Clock, Globe, ArrowLeft, Tag, MapPin, ShieldCheck, Layers, ChevronRight, CheckCircle2, UserCheck, List, Share2, HelpCircle } from 'lucide-react';
 import BlogCard from '@/components/blog/BlogCard';
+import LocalMarketContext from '@/components/blog/LocalMarketContext';
 
 export async function generateStaticParams() {
   const allBlogs = getAllBlogs();
@@ -234,6 +235,8 @@ export default async function BlogPostPage({ params }) {
           <strong style={{ display: 'block', marginBottom: '6px', color: '#0C4A6E', fontSize: '0.85rem', letterSpacing: '0.05em', textTransform: 'uppercase' }}>Executive Summary & Operational Context</strong>
           {blog.excerpt}
         </div>
+
+        {resolvedParams?.city && <LocalMarketContext citySlug={resolvedParams.city} />}
 
         {/* Table of Contents (TOC) */}
         {headings.length > 0 && (

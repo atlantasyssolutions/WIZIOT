@@ -6,7 +6,7 @@ export async function generateMetadata({ params }) {
     title: `Contact WizIOT in {city} | Telematics Support`.replace('{city}', city),
     description: `Contact our {city} team for custom enterprise telematics...`.replace('{city}', city),
     alternates: {
-      canonical: `https://www.wiziot.com/${cityStr}/contact`
+      canonical: `https://www.wiziot.com/contact`
     }
   };
 }

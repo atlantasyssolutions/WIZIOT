@@ -18,7 +18,7 @@ export async function generateMetadata({ params }) {
   return {
     title: `${vertical.title} in ${city} | WizIOT Telematics Solutions`,
     description: vertical.details,
-    alternates: { canonical: `https://www.wiziot.com/${city}/solutions/${vertical.id}` },
+    alternates: { canonical: `https://www.wiziot.com/solutions/${vertical.id}` },
     openGraph: {
       title: `${vertical.title} in ${city} | WizIOT`,
       description: vertical.description,

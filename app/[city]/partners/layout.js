@@ -6,7 +6,7 @@ export async function generateMetadata({ params }) {
     title: `Telematics Installation Partners in {city}`.replace('{city}', city),
     description: `Find certified GPS and IoT installation partners in {city}.`.replace('{city}', city),
     alternates: {
-      canonical: `https://www.wiziot.com/${cityStr}/partners`
+      canonical: `https://www.wiziot.com/partners`
     }
   };
 }
