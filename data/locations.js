@@ -298,5 +298,83 @@ export const LOCATIONS_DATA = [
     metaDescription: 'Track trucks from Casablanca to Tanger-Med and Europe. Seamless multi-country SIM roaming & BLE temperature logs.',
     recommendedHardware: 'BLE Temperature Probes + Multi-SIM EU-Africa Roaming',
     localCaseStudy: 'Protected fresh agricultural exports transiting Morocco into Europe.'
+  },
+  {
+    slug: 'medellin',
+    localMarketContext: 'Medellin operates as a critical logistics hub in the Aburrá Valley, connecting Colombia’s central region to the Caribbean and Pacific coasts. The steep Andean topography and intense tropical rainfall create severe operational hazards, including landslides and challenging braking conditions for heavy freight. High-altitude operations place extreme thermal stress on engines and braking systems, necessitating precise RPM and harsh braking telemetry. Fuel siphoning along mountainous passes remains a persistent threat, requiring highly calibrated capacitive fuel sensors. Cargo hijacking on secondary routes drives the need for continuous multi-constellation GPS tracking with geofencing. Cold-chain operations must comply with INVIMA standards for pharmaceutical and perishable transport across varying altitudes. Enterprise fleets deploy ruggedized telematics to ensure route compliance, fuel accountability, and asset security in this demanding topographical environment.',
+    city: 'Medellin',
+    country: 'Colombia',
+    region: 'South America',
+    corridor: 'Andean Mountain Pass Network',
+    primaryChallenge: 'Steep terrain braking, engine thermal stress & highway cargo theft',
+    heroHeadline: 'High-Altitude Fleet Telematics & Safety Tracking in Medellin',
+    metaDescription: 'Secure your fleet across the Colombian Andes. Advanced GPS tracking, harsh braking alerts, and capacitive fuel sensors.',
+    recommendedHardware: 'Rugged Tracker + Harsh Braking/Accelerometer Sensor',
+    localCaseStudy: 'Reduced accident rates by 42% for local heavy freight operators.'
+  },
+  {
+    slug: 'santos',
+    localMarketContext: 'Santos hosts Latin America’s largest seaport, serving as the primary maritime gateway for the São Paulo industrial heartland and broader Brazilian economy. Severe port congestion, massive truck staging queues, and complex appointment systems create extended asset dwell times and significant opportunities for unauthorized fuel access. High coastal humidity and tropical heat accelerate corrosion on vehicle electronics, requiring weather-hardened telematics equipment. Cargo hijacking on the Anchieta–Imigrantes highway corridor demands continuous GPS tracking with anti-jamming capabilities and AI dashcams for incident documentation. Cold-chain operators handling massive volumes of agricultural exports and pharmaceuticals must maintain strict temperature logs under ANVISA and international GDP standards. Fleet operators rely on ruggedized GPS trackers and precise fuel sensors to maintain operational visibility and asset integrity within the port ecosystem.',
+    city: 'Santos',
+    country: 'Brazil',
+    region: 'South America',
+    corridor: 'Port of Santos to São Paulo Logistics Corridor',
+    primaryChallenge: 'Extreme port congestion, extended dwell times & highway hijacking',
+    heroHeadline: 'Port Logistics & Fleet Security Telematics in Santos, Brazil',
+    metaDescription: 'Monitor fleet dwell times and prevent cargo theft at the Port of Santos. Real-time GPS, dashcams, and fuel tracking.',
+    recommendedHardware: 'Anti-Jamming GPS + AI Dashcam',
+    localCaseStudy: 'Cut unauthorized port dwell time by 35% for regional haulers.'
+  },
+  {
+    slug: 'riyadh',
+    localMarketContext: 'Riyadh anchors the Kingdom of Saudi Arabia’s central logistics network, connecting the Eastern Province ports to the Red Sea via major desert highway corridors. Extreme summer temperatures exceeding 48°C and intense sandstorms inflict severe thermal and abrasive stress on engines, EV batteries, and telematics hardware. High-speed long-haul routes present significant driver fatigue and speeding risks, driving demand for in-cabin AI dashcams and ADAS systems. Fuel management across vast desert stretches requires highly accurate capacitive sensors to detect volume anomalies. High-value cargo and government contractor movements demand continuous, secure GPS tracking with geofencing. Cold-chain logistics for food and pharmaceuticals must adhere to strict SFDA temperature logging requirements. Enterprise fleets deploy desert-hardened, high-temperature-rated telematics to maintain fuel integrity, driver safety, and unbroken environmental monitoring.',
+    city: 'Riyadh',
+    country: 'Saudi Arabia',
+    region: 'Middle East',
+    corridor: 'KSA East-West Desert Logistics Corridor',
+    primaryChallenge: 'Extreme desert heat, high-speed highway fatigue & fuel management',
+    heroHeadline: 'Desert-Hardened Fleet Telematics & GPS Tracking in Riyadh',
+    metaDescription: 'Manage long-haul fleets across the Saudi desert. High-temperature GPS trackers, fuel sensors, and driver fatigue dashcams.',
+    recommendedHardware: 'Desert-Hardened GPS + In-Cabin Driver Fatigue Camera',
+    localCaseStudy: 'Decreased high-speed incidents by 60% across KSA long-haul routes.'
+  },
+  {
+    slug: 'perth',
+    localMarketContext: 'Perth operates as Western Australia’s primary logistics hub, supporting massive mining, agricultural, and resource extraction sectors across vast remote territories. The sheer distance of outback haulage routes creates critical connectivity challenges, necessitating dual-mode satellite/cellular GPS trackers for uninterrupted visibility. Extreme summer heat and dust require highly ruggedized telematics hardware capable of withstanding heavy vibration on unsealed roads. Fatigue management is a critical compliance factor for road trains and heavy haulers, driving adoption of in-cabin AI monitoring systems. Fuel accountability across remote depots and long-range tanks requires precise capacitive sensors. Cold-chain transport to remote communities must maintain strict temperature compliance. Enterprise fleets and mining contractors deploy heavy-duty, satellite-enabled telematics to ensure driver safety, fuel integrity, and continuous tracking in one of the world’s most isolated operating environments.',
+    city: 'Perth',
+    country: 'Australia',
+    region: 'Oceania',
+    corridor: 'Western Australia Outback & Mining Corridors',
+    primaryChallenge: 'Zero cellular coverage outback, driver fatigue & extreme dust',
+    heroHeadline: 'Satellite Fleet Tracking & Mining Telematics in Perth, WA',
+    metaDescription: 'Track heavy haulers across the WA outback with dual-mode satellite GPS, driver fatigue dashcams, and fuel sensors.',
+    recommendedHardware: 'Dual-Mode Satellite/Cellular Tracker + ADAS Dashcam',
+    localCaseStudy: 'Achieved 100% outback tracking uptime for WA mining logistics fleet.'
+  },
+  {
+    slug: 'johor-bahru',
+    localMarketContext: 'Johor Bahru serves as a critical cross-border logistics gateway linking Peninsular Malaysia to Singapore via the Causeway and Second Link. Chronic border congestion, complex customs procedures, and extensive queuing generate significant asset dwell times and engine idling, requiring precise engine hours telemetry. Tropical humidity and heavy monsoon rains impose environmental stress on vehicle electronics. Fuel price differentials across the border incentivize fuel smuggling and siphoning, making high-precision capacitive fuel sensors essential for cross-border fleets. High-volume manufacturing and electronics transport demand continuous multi-constellation GPS tracking with geofencing to secure high-value cargo. Cold-chain operators must maintain seamless temperature records for perishables transiting into Singapore. Fleets deploy integrated telematics to ensure cross-border regulatory compliance, fuel accountability, and real-time operational visibility.',
+    city: 'Johor Bahru',
+    country: 'Malaysia',
+    region: 'APAC',
+    corridor: 'Malaysia-Singapore Cross-Border Logistics Link',
+    primaryChallenge: 'Border queue idling, cross-border fuel smuggling & humidity',
+    heroHeadline: 'Cross-Border Fleet Tracking & Fuel Monitoring in Johor Bahru',
+    metaDescription: 'Optimize cross-border logistics to Singapore. Prevent fuel smuggling, track border dwell times, and secure high-value cargo.',
+    recommendedHardware: 'High-Precision Capacitive Fuel Sensor + Multi-SIM Tracker',
+    localCaseStudy: 'Eliminated border fuel smuggling losses for cross-border electronics fleet.'
+  },
+  {
+    slug: 'jeddah',
+    localMarketContext: 'Jeddah functions as the primary Red Sea maritime gateway for Saudi Arabia, handling immense container traffic through Jeddah Islamic Port and supporting logistics for the holy cities. Severe port congestion and truck staging create extended asset dwell times. Extreme coastal humidity combined with intense desert heat accelerates corrosion and thermal stress on telematics hardware, demanding specialized weather-hardened equipment. Heavy urban traffic and long-haul connections to Riyadh require advanced route optimization and driver behavior monitoring via AI dashcams. Fuel siphoning during staging requires precise capacitive sensors. Cold-chain operators moving massive volumes of food and pharmaceuticals must maintain SFDA-compliant temperature logs. Enterprise fleets utilize ruggedized GPS trackers and multi-probe temperature monitors to maintain fuel integrity, regulatory compliance, and operational efficiency within the bustling Red Sea logistics ecosystem.',
+    city: 'Jeddah',
+    country: 'Saudi Arabia',
+    region: 'Middle East',
+    corridor: 'Red Sea Port & Mecca Logistics Corridor',
+    primaryChallenge: 'Port congestion, extreme humidity/heat & high-volume cold chain',
+    heroHeadline: 'Red Sea Port Telematics & Cold Chain Tracking in Jeddah',
+    metaDescription: 'Manage port drayage and cold chain transport in Jeddah. Rugged GPS trackers, temperature sensors, and AI dashcams.',
+    recommendedHardware: 'Ruggedized GPS Tracker + Multi-Zone BLE Temperature Probes',
+    localCaseStudy: 'Improved port turnaround times by 22% and ensured SFDA cold-chain compliance.'
   }
 ];
