@@ -52,7 +52,8 @@ export default function ContactPage() {
                 <Mail size={24} style={{ color: 'var(--accent-cyan)' }} />
                 <div>
                   <strong style={{ color: 'var(--text-main)', display: 'block' }}>Sales & Partnerships</strong>
-                  <a href="mailto:sales@wiziot.com" style={{ color: 'var(--accent-cyan)' }}>sales@wiziot.com</a>
+                  <a href="mailto:sales@wiziot.com" style={{ color: 'var(--accent-cyan)', display: 'block' }}>sales@wiziot.com</a>
+                  <a href="tel:7827176924" style={{ color: 'var(--accent-cyan)' }}>7827176924</a>
                 </div>
               </div>
 
@@ -60,7 +61,6 @@ export default function ContactPage() {
                 <Phone size={24} style={{ color: 'var(--accent-emerald)' }} />
                 <div>
                   <strong style={{ color: 'var(--text-main)', display: 'block' }}>Customer Support Desk</strong>
-                  <a href="tel:7827176924" style={{ color: 'var(--accent-emerald)' }}>7827176924</a>
                 </div>
               </div>
 
