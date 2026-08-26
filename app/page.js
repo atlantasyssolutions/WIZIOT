@@ -1,32 +1,11 @@
-'use client';
+import HomeClient from './HomeClient';
 
-import { useState } from 'react';
-import Hero from '@/components/sections/Hero';
-import FeaturesTab from '@/components/sections/FeaturesTab';
-import VerticalsGrid from '@/components/sections/VerticalsGrid';
-import SensorCompliance from '@/components/sections/SensorCompliance';
-import RoiCalculator from '@/components/sections/RoiCalculator';
-import GlobalPresence from '@/components/sections/GlobalPresence';
-import CtaBanner from '@/components/sections/CtaBanner';
-import ScheduleDemoModal from '@/components/ui/ScheduleDemoModal';
+export const metadata = {
+  title: 'WizIOT | AI-Powered B2B Fleet Management & Telematics',
+  description: 'Transform fleet performance, cut fuel waste, and protect EV battery health with WizIOT’s AI-powered SaaS platform.',
+  alternates: { canonical: 'https://www.wiziot.com' }
+};
 
-export default function HomePage() {
-  const [demoModalOpen, setDemoModalOpen] = useState(false);
-
-  return (
-    <>
-      <Hero onOpenDemo={() => setDemoModalOpen(true)} />
-      <FeaturesTab onOpenDemo={() => setDemoModalOpen(true)} />
-      <VerticalsGrid />
-      <SensorCompliance onOpenDemo={() => setDemoModalOpen(true)} />
-      <RoiCalculator onOpenDemo={() => setDemoModalOpen(true)} />
-      <GlobalPresence />
-      <CtaBanner onOpenDemo={() => setDemoModalOpen(true)} />
-      
-      <ScheduleDemoModal
-        isOpen={demoModalOpen}
-        onClose={() => setDemoModalOpen(false)}
-      />
-    </>
-  );
+export default function Page(props) {
+  return <HomeClient {...props} />;
 }

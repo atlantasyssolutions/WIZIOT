@@ -9,7 +9,7 @@ export default function GlobalPresence() {
           <div className="badge-pill">Global Infrastructure</div>
           <h2 style={{ fontSize: '2.5rem', marginBottom: '16px', color: 'var(--text-main)' }}>Powering Fleet Operations Worldwide</h2>
           <p style={{ color: 'var(--text-muted)', fontSize: '1.1rem' }}>
-            High-availability telemetry platform serving enterprise fleets across 25+ countries with 99.99% uptime SLA.
+            High-availability telemetry platform serving enterprise fleets with robust uptime monitoring.
           </p>
         </div>
 

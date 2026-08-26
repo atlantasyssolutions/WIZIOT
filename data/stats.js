@@ -1,7 +1,7 @@
 export const STATS_DATA = [
   { value: 'Enterprise', label: 'IoT & Telematics SaaS Platform', description: 'Unified cloud platform aggregating live sensor streams, CAN-bus & GPS telemetry' },
   { value: 'Zero', label: 'Telemetry Ingestion Latency', description: 'Real-time alert engine delivering instant threshold breach notifications' },
-  { value: '99.99%', label: 'Platform Uptime & SLA Guarantee', description: 'High-availability multi-cloud architecture with zero data loss' },
+  { value: '99.9%', label: 'Platform Uptime & SLA Guarantee', description: 'High-availability multi-cloud architecture with zero data loss' },
   { value: 'Global', label: 'Multi-Carrier Fleet Deployments', description: 'Multi-carrier SIM roaming & anti-jamming telemetry across borders' }
 ];
 

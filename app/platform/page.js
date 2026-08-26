@@ -4,7 +4,7 @@ import CtaBannerWrapper from '@/components/sections/CtaBannerWrapper';
 
 export const metadata = {
   title: 'Cloud Telematics Architecture & API Engine | WizIOT Platform',
-  description: 'Hardware-agnostic sub-second streaming telematics cloud. Connect OBD-II, CAN-bus, BLE sensors, ADAS cameras, and ERP Webhooks with 99.99% SLA.',
+  description: 'Hardware-agnostic sub-second streaming telematics cloud. Connect OBD-II, CAN-bus, BLE sensors, ADAS cameras, and ERP Webhooks with High-Availability SLA.',
   alternates: {
     canonical: 'https://www.wiziot.com/platform',
   },
@@ -53,7 +53,7 @@ export default function PlatformPage() {
             <Server size={32} style={{ color: 'var(--accent-emerald)', marginBottom: '16px' }} />
             <h3 style={{ fontSize: '1.3rem', marginBottom: '10px', fontWeight: '700' }}>Zero Latency Streaming Pipeline</h3>
             <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem', lineHeight: '1.6' }}>
-              Built on distributed WebSocket & MQTT event streams processing real-time telemetry data packets with 99.99% SLA.
+              Built on distributed WebSocket & MQTT event streams processing real-time telemetry data packets with High-Availability SLA.
             </p>
           </div>
 

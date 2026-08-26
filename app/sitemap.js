@@ -1,0 +1,45 @@
+import { getAllLocations } from '@/lib/locations';
+import { getAllBlogs } from '@/lib/blog';
+
+export default function sitemap() {
+  const baseUrl = 'https://www.wiziot.com';
+
+  // Core Pages
+  const routes = [
+    '',
+    '/pricing',
+    '/contact',
+    '/platform',
+    '/solutions',
+    '/partners',
+    '/locations',
+    '/blog'
+  ].map((route) => ({
+    url: `${baseUrl}${route}`,
+    
+    changeFrequency: 'weekly',
+    priority: route === '' ? 1.0 : 0.8,
+  }));
+
+  // City Pages
+  const locations = getAllLocations();
+  const locationRoutes = locations.map((loc) => ({
+    url: `${baseUrl}/${loc.slug}`,
+    
+    changeFrequency: 'monthly',
+    priority: 0.7,
+  }));
+
+  // Blog Pages (Exclude programmatic stem)
+  const blogs = getAllBlogs();
+  const validBlogs = blogs.filter(b => b.indexable === true);
+  
+  const blogRoutes = validBlogs.map((blog) => ({
+    url: `${baseUrl}/blog/${blog.slug}`,
+    lastModified: blog.publishedAt ? new Date(blog.publishedAt).toISOString() : undefined,
+    changeFrequency: 'monthly',
+    priority: 0.6,
+  }));
+
+  return [...routes, ...locationRoutes, ...blogRoutes];
+}

@@ -18,6 +18,7 @@ export async function generateMetadata({ params }) {
   if (!blog) return { title: 'Post Not Found | WizIOT Telematics' };
 
   const canonicalUrl = `https://www.wiziot.com/blog/${blog.slug}`;
+  const isIndexable = blog.indexable === true;
 
   return {
     title: `${blog.title} | WizIOT Telematics`,
@@ -26,10 +27,10 @@ export async function generateMetadata({ params }) {
       canonical: canonicalUrl,
     },
     robots: {
-      index: true,
+      index: isIndexable,
       follow: true,
       googleBot: {
-        index: true,
+        index: isIndexable,
         follow: true,
         'max-image-preview': 'large',
         'max-snippet': -1,
@@ -209,9 +210,11 @@ export default async function BlogPostPage({ params }) {
             <span style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>{blog.author?.role || 'Senior Telematics Architect'} • WizIOT Systems Engineering Lab</span>
           </div>
           <div style={{ display: 'flex', gap: '16px', fontSize: '0.85rem', color: 'var(--text-muted)', borderLeft: '1px solid #E2E8F0', paddingLeft: '16px' }}>
-            <span style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-              <Calendar size={14} /> {blog.publishedAt}
-            </span>
+            {blog.publishedAt && (
+              <span style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                <Calendar size={14} /> {blog.publishedAt}
+              </span>
+            )}
             <span style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
               <Clock size={14} /> {blog.readTime || '12 min read'}
             </span>

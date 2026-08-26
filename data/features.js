@@ -11,7 +11,7 @@ export const FEATURES_DATA = [
       'Multi-map view (Satellite, Traffic, Custom Boundaries)',
       'Asset theft prevention & remote immobilizer'
     ],
-    metric: '99.99%',
+    metric: '24/7',
     metricLabel: 'GPS Accuracy Rate',
     icon: 'Radio'
   },

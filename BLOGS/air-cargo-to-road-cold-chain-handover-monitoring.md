@@ -1,4 +1,5 @@
 ---
+indexable: true
 title: Air Cargo to Road Handover: Maintaining Cold Chain Integrity from Tarmac to Reefer Truck
 category: Cold Chain
 geoRegion: Global

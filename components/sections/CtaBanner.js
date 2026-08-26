@@ -22,7 +22,7 @@ export default function CtaBanner({ onOpenDemo }) {
             Ready to Transform Your Fleet Operations?
           </h2>
           <p style={{ color: '#E2E8F0', fontSize: '1.15rem', maxWidth: '640px', margin: '0 auto 36px' }}>
-            Join thousands of logistics managers, fleet operators, and system integrators using WizIOT's full-stack IoT platform.
+            Join global logistics managers, fleet operators, and system integrators using WizIOT's full-stack IoT platform.
           </p>
 
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '16px', flexWrap: 'wrap' }}>

@@ -10,7 +10,7 @@ export const LOCATIONS_DATA = [
     heroHeadline: 'AI Fleet Telematics & Anti-Fuel Theft Systems in Mombasa, Kenya',
     metaDescription: 'Eliminate diesel siphoning and track long-haul trucks from Mombasa Port to Nairobi & Kampala. WizIOT real-time GPS & capacitive fuel sensors.',
     recommendedHardware: 'Capacitive Fuel Sensor + Quad-SIM Global Roaming Tracker',
-    localCaseStudy: 'Reduced monthly fuel losses by 24% for Mombasa-based 80-truck freight carrier.'
+    localCaseStudy: 'Engineered for telematics deployments and compliance tracking along the East African Inland Logistics Hub.'
   },
   {
     slug: 'nairobi',
@@ -24,7 +24,7 @@ export const LOCATIONS_DATA = [
     heroHeadline: 'Commercial Fleet Management & ADAS Safety Software in Nairobi',
     metaDescription: 'Real-time fleet tracking, ADAS driver monitoring & fuel reconciliation for Nairobi transport fleets. Schedule a WizIOT demo.',
     recommendedHardware: 'ADAS AI Camera + CAN-bus ECU Telematics',
-    localCaseStudy: 'Prevented 42% of preventable collisions across Nairobi distribution routes.'
+    localCaseStudy: 'Engineered for telematics deployments and compliance tracking along the Lagos - Ibadan - Kano Freight Highway.'
   },
   {
     slug: 'lagos',
@@ -37,7 +37,7 @@ export const LOCATIONS_DATA = [
     heroHeadline: 'Fuel Theft Prevention & GPS Tracking Systems in Lagos, Nigeria',
     metaDescription: 'Stop driver fuel siphoning and fake fueling invoices in Lagos. WizIOT capacitive probes + automated fuel reconciliation.',
     recommendedHardware: 'Capacitive Fuel Sensor + Dual-SIM GSM Tracker',
-    localCaseStudy: 'Caught ₦4.2M in fraudulent fuel receipts within 90 days for Lagos fleet.'
+    localCaseStudy: 'Engineered for telematics deployments and compliance tracking along the Sahel & Sub-Saharan Cross-Border Corridor.'
   },
   {
     slug: 'kano',
@@ -50,7 +50,7 @@ export const LOCATIONS_DATA = [
     heroHeadline: 'Ruggedized Fleet Telematics & Engine Health Diagnostics in Kano',
     metaDescription: 'Track haulage trucks from Kano across Northern Nigeria. IP67 rugged trackers + vibration sensors & offline buffering.',
     recommendedHardware: 'IP67 Heavy-Duty Ruggedized Tracker + Vibration Sensor',
-    localCaseStudy: 'Decreased roadside breakdowns by 38% across unpaved Northern Nigerian routes.'
+    localCaseStudy: 'Engineered for telematics deployments and compliance tracking along the Gauteng Industrial & Freight Distribution Hub.'
   },
   {
     slug: 'johannesburg',
@@ -63,7 +63,7 @@ export const LOCATIONS_DATA = [
     heroHeadline: 'Anti-Hijack Telematics & Remote Engine Immobilization in Johannesburg',
     metaDescription: 'Safe remote engine kill switch and anti-theft GPS for Johannesburg fleets. Recover hijacked trucks in under 60 seconds.',
     recommendedHardware: 'Remote Engine Immobilizer + Panic Button + Armed Response API',
-    localCaseStudy: 'Achieved 100% vehicle recovery rate across 47 hijacking incidents on N3.'
+    localCaseStudy: 'Engineered for telematics deployments and compliance tracking along the Durban Container Terminal & Freight Freight Corridor.'
   },
   {
     slug: 'durban',
@@ -76,7 +76,7 @@ export const LOCATIONS_DATA = [
     heroHeadline: 'Reefer Temperature Sensors & Cold Chain Monitoring in Durban',
     metaDescription: 'Protect perishable food and pharmaceutical cargo out of Durban Port. BLE wireless temperature probes + instant SMS alarms.',
     recommendedHardware: 'BLE Temperature Sensors + Capacitive Fuel Sensor',
-    localCaseStudy: 'Saved R1.2M in perishable produce cargo from silent refrigeration failure.'
+    localCaseStudy: 'Engineered for telematics deployments and compliance tracking along the Trans-European North-South Transport Network (TEN-T).'
   },
   {
     slug: 'warsaw',
@@ -89,7 +89,7 @@ export const LOCATIONS_DATA = [
     heroHeadline: 'Anti-Jammer GPS Tracking & Cargo Security Systems in Warsaw, Poland',
     metaDescription: 'Defeat RF signal jammers on Polish EU transit routes. WizIOT multi-constellation GNSS + dual-SIM cellular anti-jamming telematics.',
     recommendedHardware: 'Anti-Jammer GNSS Receiver + RF Interference Sensor',
-    localCaseStudy: 'Maintained 100% visibility through 14 intentional jamming attacks in Poland.'
+    localCaseStudy: 'Engineered for telematics deployments and compliance tracking along the Central European Logistics & Cross-Border Freight.'
   },
   {
     slug: 'krakow',
@@ -102,7 +102,7 @@ export const LOCATIONS_DATA = [
     heroHeadline: 'Cross-Border EU Fleet Tracking & Tachograph Telematics in Krakow',
     metaDescription: 'Seamless Poland-EU fleet tracking with automatic SIM roaming & digital tachograph download. Request WizIOT demo.',
     recommendedHardware: 'Digital Tachograph CAN Telematics + Multi-SIM EU Roaming',
-    localCaseStudy: 'Automated EU driver hours compliance across 150 international Polish trucks.'
+    localCaseStudy: 'Engineered for telematics deployments and compliance tracking along the Balkan Transit Corridor & Danube Highway.'
   },
   {
     slug: 'bucharest',
@@ -115,7 +115,7 @@ export const LOCATIONS_DATA = [
     heroHeadline: 'Fleet Anti-Theft & Remote Immobilization Software in Bucharest, Romania',
     metaDescription: 'Protect high-value EU transit cargo passing Bucharest. Jammer-proof GPS + remote engine immobilization logic.',
     recommendedHardware: 'Covert Secondary GPS Tracker + Remote Fuel Cut-Off',
-    localCaseStudy: 'Secured high-value electronics transport across Romania to Hungary.'
+    localCaseStudy: 'Engineered for telematics deployments and compliance tracking along the Black Sea Port & Danube Logistics Gateway.'
   },
   {
     slug: 'constanta',
@@ -128,7 +128,7 @@ export const LOCATIONS_DATA = [
     heroHeadline: 'Port Container Tracking & Cold Chain Telematics in Constanta',
     metaDescription: 'Monitor reefer containers and container chassis at Constanta Port. Real-time temperature & BLE sensor telemetry.',
     recommendedHardware: 'BLE Temperature Sensors + Container GPS Tracker',
-    localCaseStudy: 'Ensured zero GDP cold chain compliance violations for pharma exports.'
+    localCaseStudy: 'Engineered for telematics deployments and compliance tracking along the Central European Highway Crossroads (M1/M3/M7).'
   },
   {
     slug: 'budapest',
@@ -141,7 +141,7 @@ export const LOCATIONS_DATA = [
     heroHeadline: 'Commercial Fleet Safety & ADAS Telematics in Budapest, Hungary',
     metaDescription: 'AI driver scoring and ADAS safety cameras for Hungarian haulage fleets. Reduce accidents and lower insurance premiums.',
     recommendedHardware: 'ADAS AI Dashcam + Dual-SIM Roaming Telematics',
-    localCaseStudy: 'Reduced fleet insurance premiums by 28% for Budapest logistics provider.'
+    localCaseStudy: 'Engineered for telematics deployments and compliance tracking along the Jebel Ali Port & Middle East Logistics Hub.'
   },
   {
     slug: 'dubai',
@@ -154,7 +154,7 @@ export const LOCATIONS_DATA = [
     heroHeadline: 'EV & BMS Telematics Platform in Dubai, UAE',
     metaDescription: 'Optimize electric vehicle battery health and range in Dubai. Real-time State of Charge (SoC) & thermal runaway warnings.',
     recommendedHardware: 'EV BMS CAN-bus Telematics + Thermal Alarm',
-    localCaseStudy: 'Extended EV fleet battery life by 25% under extreme UAE desert heat.'
+    localCaseStudy: 'Engineered for telematics deployments and compliance tracking along the Khalifa Port & Oil & Gas Industrial Supply Chain.'
   },
   {
     slug: 'abu-dhabi',
@@ -167,7 +167,7 @@ export const LOCATIONS_DATA = [
     heroHeadline: 'Heavy Equipment & Industrial IoT Tracking in Abu Dhabi',
     metaDescription: 'Track excavators, cranes & heavy assets in Abu Dhabi. Geofencing, engine hour telemetry & fuel drain alarms.',
     recommendedHardware: 'Heavy Machinery Telematics + Fuel Capacitive Sensor',
-    localCaseStudy: 'Prevented un-authorized off-hours equipment usage across 4 construction sites.'
+    localCaseStudy: 'Engineered for telematics deployments and compliance tracking along the NAFTA / US-Mexico Cross-Border Freight Highway (NAFIN).'
   },
   {
     slug: 'mexico-city',
@@ -180,7 +180,7 @@ export const LOCATIONS_DATA = [
     heroHeadline: 'Anti-Hijack Telematics & Fuel Theft Prevention in Mexico City',
     metaDescription: 'Stop truck hijackings and diesel siphoning across Mexico. WizIOT jammer-proof GPS, remote immobilizers & capacitive probes.',
     recommendedHardware: 'Jammer-Proof GNSS + Remote Engine Immobilizer + Fuel Sensor',
-    localCaseStudy: 'Prevented 12 highway cargo hijacking attempts on Mexico City - Veracruz corridor.'
+    localCaseStudy: 'Engineered for telematics deployments and compliance tracking along the Mercosur Southern Logistics & Port of Santos Corridor.'
   },
   {
     slug: 'sao-paulo',
@@ -193,7 +193,7 @@ export const LOCATIONS_DATA = [
     heroHeadline: 'Fleet Management Software & Cold Chain Telematics in São Paulo, Brazil',
     metaDescription: 'Real-time GPS tracking, DMS video telematics & cold chain temperature alarms for São Paulo fleets. Request demo.',
     recommendedHardware: 'Dual-AI DMS Camera + BLE Temperature Probes',
-    localCaseStudy: 'Cut cargo theft losses by 44% for São Paulo pharmaceutical logistics operator.'
+    localCaseStudy: 'Engineered for telematics deployments and compliance tracking along the Andean Freight Highway & Buenaventura Port Access.'
   },
   {
     slug: 'bogota',
@@ -206,7 +206,7 @@ export const LOCATIONS_DATA = [
     heroHeadline: 'Rugged Fleet Telematics & Fuel Theft Sensors in Bogotá, Colombia',
     metaDescription: 'Track haulage fleets across mountainous Colombian roads. IP67 rugged trackers, fuel sensors & offline satellite buffering.',
     recommendedHardware: 'IP67 Heavy-Duty Tracker + Volumetric Fuel Sensor',
-    localCaseStudy: 'Reduced fuel siphoning by 27% across Bogotá transport routes.'
+    localCaseStudy: 'Engineered for telematics deployments and compliance tracking along the Mediterranean Transport Corridor & Port Gateway.'
   },
   {
     slug: 'barcelona',
@@ -219,7 +219,7 @@ export const LOCATIONS_DATA = [
     heroHeadline: 'AI Route Optimization & Fleet Telematics in Barcelona, Spain',
     metaDescription: 'Best fleet tracking and route optimization software in Barcelona. Cut delivery time, reduce fuel & manage driver safety.',
     recommendedHardware: 'AI Route Dispatcher + ADAS Driver Monitoring',
-    localCaseStudy: 'Reduced fuel consumption by 19% across 200 urban delivery vans in Barcelona.'
+    localCaseStudy: 'Engineered for telematics deployments and compliance tracking along the Port of Hamburg & Baltic Maritime Transit.'
   },
   {
     slug: 'hamburg',
@@ -232,7 +232,7 @@ export const LOCATIONS_DATA = [
     heroHeadline: 'Intermodal Container & Cold Chain Telematics in Hamburg, Germany',
     metaDescription: 'Real-time container tracking & temperature logging out of Port of Hamburg. Compliant with EU GDP standards.',
     recommendedHardware: 'BLE Temperature Sensors + Long-Battery GPS Tracker',
-    localCaseStudy: 'Achieved 100% audit compliance for international vaccine shipments.'
+    localCaseStudy: 'Engineered for telematics deployments and compliance tracking along the Port of Rotterdam & Rhine Logistics Axis.'
   },
   {
     slug: 'rotterdam',
@@ -245,7 +245,7 @@ export const LOCATIONS_DATA = [
     heroHeadline: 'Enterprise Fleet Management & Predictive Maintenance in Rotterdam',
     metaDescription: 'Scale enterprise fleets at Europe’s largest port. WizIOT automated engine diagnostics and real-time GPS tracking.',
     recommendedHardware: 'CAN-bus ECU Diagnostic Reader + Enterprise Cloud API',
-    localCaseStudy: 'Reduced un-scheduled vehicle downtime by 36% for Rotterdam freight operator.'
+    localCaseStudy: 'Engineered for telematics deployments and compliance tracking along the Southeast Asian Maritime & Transshipment Hub.'
   },
   {
     slug: 'singapore',
@@ -258,7 +258,7 @@ export const LOCATIONS_DATA = [
     heroHeadline: 'Cross-Border Fleet Telematics & Driver Safety in Singapore',
     metaDescription: 'Track trucks seamlessly between Singapore and Malaysia. Dual-SIM auto-switching & ADAS driver fatigue detection.',
     recommendedHardware: 'Dual-SIM Roaming Telematics + In-Cabin DMS Camera',
-    localCaseStudy: 'Eliminated cross-border tracking blackouts on Causeway transit routes.'
+    localCaseStudy: 'Engineered for telematics deployments and compliance tracking along the Peninsular Malaysia Expressway (North-South).'
   },
   {
     slug: 'kuala-lumpur',
@@ -271,7 +271,7 @@ export const LOCATIONS_DATA = [
     heroHeadline: 'Commercial Fleet GPS & Speed Compliance Telematics in Kuala Lumpur',
     metaDescription: 'Ensure fleet speed compliance and prevent fuel theft across Malaysia. Real-time GPS, speed limit alerts & fuel monitoring.',
     recommendedHardware: 'Capacitive Fuel Sensor + OBD-II Telematics',
-    localCaseStudy: 'Decreased speeding violations by 78% for KL logistics fleet.'
+    localCaseStudy: 'Engineered for telematics deployments and compliance tracking along the Suez Canal & North African Transport Network.'
   },
   {
     slug: 'cairo',
@@ -284,7 +284,7 @@ export const LOCATIONS_DATA = [
     heroHeadline: 'Fleet Management Software & Fuel Theft Control in Cairo, Egypt',
     metaDescription: 'Eliminate diesel theft and track commercial trucks in Cairo & Suez. Real-time GPS, capacitive fuel probes & engine diagnostics.',
     recommendedHardware: 'Capacitive Fuel Sensor + High-Temp Rugged Tracker',
-    localCaseStudy: 'Cut monthly diesel losses by 21% for Egyptian long-haul transport firm.'
+    localCaseStudy: 'Engineered for telematics deployments and compliance tracking along the Tanger-Med & North Africa to Europe Logistics Highway.'
   },
   {
     slug: 'casablanca',
@@ -297,7 +297,7 @@ export const LOCATIONS_DATA = [
     heroHeadline: 'Cross-Border Fleet Telematics & Cold Chain Sensors in Casablanca',
     metaDescription: 'Track trucks from Casablanca to Tanger-Med and Europe. Seamless multi-country SIM roaming & BLE temperature logs.',
     recommendedHardware: 'BLE Temperature Probes + Multi-SIM EU-Africa Roaming',
-    localCaseStudy: 'Protected fresh agricultural exports transiting Morocco into Europe.'
+    localCaseStudy: 'Engineered for telematics deployments and compliance tracking along the Andean Mountain Pass Network.'
   },
   {
     slug: 'medellin',
@@ -310,7 +310,7 @@ export const LOCATIONS_DATA = [
     heroHeadline: 'High-Altitude Fleet Telematics & Safety Tracking in Medellin',
     metaDescription: 'Secure your fleet across the Colombian Andes. Advanced GPS tracking, harsh braking alerts, and capacitive fuel sensors.',
     recommendedHardware: 'Rugged Tracker + Harsh Braking/Accelerometer Sensor',
-    localCaseStudy: 'Reduced accident rates by 42% for local heavy freight operators.'
+    localCaseStudy: 'Engineered for telematics deployments and compliance tracking along the Port of Santos to São Paulo Logistics Corridor.'
   },
   {
     slug: 'santos',
@@ -323,7 +323,7 @@ export const LOCATIONS_DATA = [
     heroHeadline: 'Port Logistics & Fleet Security Telematics in Santos, Brazil',
     metaDescription: 'Monitor fleet dwell times and prevent cargo theft at the Port of Santos. Real-time GPS, dashcams, and fuel tracking.',
     recommendedHardware: 'Anti-Jamming GPS + AI Dashcam',
-    localCaseStudy: 'Cut unauthorized port dwell time by 35% for regional haulers.'
+    localCaseStudy: 'Engineered for telematics deployments and compliance tracking along the KSA East-West Desert Logistics Corridor.'
   },
   {
     slug: 'riyadh',
@@ -336,7 +336,7 @@ export const LOCATIONS_DATA = [
     heroHeadline: 'Desert-Hardened Fleet Telematics & GPS Tracking in Riyadh',
     metaDescription: 'Manage long-haul fleets across the Saudi desert. High-temperature GPS trackers, fuel sensors, and driver fatigue dashcams.',
     recommendedHardware: 'Desert-Hardened GPS + In-Cabin Driver Fatigue Camera',
-    localCaseStudy: 'Decreased high-speed incidents by 60% across KSA long-haul routes.'
+    localCaseStudy: 'Engineered for telematics deployments and compliance tracking along the Western Australia Outback & Mining Corridors.'
   },
   {
     slug: 'perth',
@@ -349,7 +349,7 @@ export const LOCATIONS_DATA = [
     heroHeadline: 'Satellite Fleet Tracking & Mining Telematics in Perth, WA',
     metaDescription: 'Track heavy haulers across the WA outback with dual-mode satellite GPS, driver fatigue dashcams, and fuel sensors.',
     recommendedHardware: 'Dual-Mode Satellite/Cellular Tracker + ADAS Dashcam',
-    localCaseStudy: 'Achieved 100% outback tracking uptime for WA mining logistics fleet.'
+    localCaseStudy: 'Engineered for telematics deployments and compliance tracking along the Malaysia-Singapore Cross-Border Logistics Link.'
   },
   {
     slug: 'johor-bahru',
@@ -362,7 +362,7 @@ export const LOCATIONS_DATA = [
     heroHeadline: 'Cross-Border Fleet Tracking & Fuel Monitoring in Johor Bahru',
     metaDescription: 'Optimize cross-border logistics to Singapore. Prevent fuel smuggling, track border dwell times, and secure high-value cargo.',
     recommendedHardware: 'High-Precision Capacitive Fuel Sensor + Multi-SIM Tracker',
-    localCaseStudy: 'Eliminated border fuel smuggling losses for cross-border electronics fleet.'
+    localCaseStudy: 'Engineered for telematics deployments and compliance tracking along the Red Sea Port & Mecca Logistics Corridor.'
   },
   {
     slug: 'jeddah',
@@ -375,7 +375,7 @@ export const LOCATIONS_DATA = [
     heroHeadline: 'Red Sea Port Telematics & Cold Chain Tracking in Jeddah',
     metaDescription: 'Manage port drayage and cold chain transport in Jeddah. Rugged GPS trackers, temperature sensors, and AI dashcams.',
     recommendedHardware: 'Ruggedized GPS Tracker + Multi-Zone BLE Temperature Probes',
-    localCaseStudy: 'Improved port turnaround times by 22% and ensured SFDA cold-chain compliance.'
+    localCaseStudy: 'Engineered for telematics deployments and compliance tracking along the Eastern Province Oil & Gas Industrial Network.'
   },
   {
     slug: 'dammam',
@@ -388,6 +388,6 @@ export const LOCATIONS_DATA = [
     heroHeadline: 'Industrial Fleet Telematics & GPS Tracking in Dammam',
     metaDescription: 'Manage heavy industrial fleets across the Eastern Province. High-temperature GPS trackers, fuel sensors, and Aramco-compliant safety telematics.',
     recommendedHardware: 'High-Temperature Industrial GPS + Advanced Geofencing',
-    localCaseStudy: 'Improved compliance and reduced harsh driving events by 55% for regional oil & gas logistics contractor.'
+    localCaseStudy: 'Engineered for telematics deployments and compliance tracking along the Eastern Province Oil & Gas Industrial Network.'
   }
 ];

@@ -17,7 +17,7 @@ export async function generateMetadata({ params }) {
   if (!location) return { title: 'Location Not Found' };
 
   return {
-    title: { absolute: location.heroHeadline.length <= 51 ? `${location.heroHeadline} | WizIOT` : location.heroHeadline },
+    title: { absolute: location.heroHeadline.includes('WizIOT') ? location.heroHeadline : (location.heroHeadline.length <= 51 ? `${location.heroHeadline} | WizIOT` : location.heroHeadline) },
     description: location.metaDescription,
     alternates: {
       canonical: `https://www.wiziot.com/${location.slug}`,
@@ -287,7 +287,7 @@ export default async function RootCityLocationPage({ params }) {
             </div>
             <div className="glass-card">
               <CheckCircle2 size={28} style={{ color: 'var(--accent-emerald)', marginBottom: '12px' }} />
-              <h4 style={{ fontSize: '1.15rem', marginBottom: '8px', fontWeight: '700' }}>Proven Local Outcome</h4>
+              <h4 style={{ fontSize: '1.15rem', marginBottom: '8px', fontWeight: '700' }}>Operational Deployment</h4>
               <p style={{ color: 'var(--text-muted)', fontSize: '0.925rem' }}>
                 {location.localCaseStudy}
               </p>

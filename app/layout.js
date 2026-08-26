@@ -3,7 +3,6 @@ import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import Script from 'next/script';
 
-import CanonicalTag from '@/components/ui/CanonicalTag';
 
 export const metadata = {
   metadataBase: new URL('https://www.wiziot.com'),
@@ -17,7 +16,6 @@ export const metadata = {
     type: 'website',
     siteName: 'WizIOT Telematics',
     locale: 'en_US',
-    url: 'https://www.wiziot.com',
     title: 'WizIOT | AI-Powered B2B Fleet & Logistics Telematics',
     description: 'Transform fleet performance, cut fuel waste, and protect EV battery health with WizIOT’s AI-powered SaaS platform.',
   },
@@ -32,8 +30,7 @@ const organizationSchema = {
   logo: 'https://www.wiziot.com/img/logo.svg',
   description: 'Enterprise B2B IoT & Telematics platform powering fleet management, EV analytics, and asset tracking globally.',
   sameAs: [
-    'https://www.linkedin.com/company/wiziot',
-    'https://www.facebook.com/wiziot'
+    'https://www.linkedin.com/company/wiziot-technologies/'
   ],
   contactPoint: {
     '@type': 'ContactPoint',
@@ -47,7 +44,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <CanonicalTag />
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-RFB2CHN07E"
           strategy="afterInteractive"

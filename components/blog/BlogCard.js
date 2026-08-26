@@ -58,9 +58,11 @@ export default function BlogCard({ blog }) {
         {/* Meta Footer */}
         <div style={{ paddingTop: '14px', borderTop: '1px solid #E2E8F0', display: 'flex', alignItems: 'center', justifyContent: 'space-between', fontSize: '0.8rem', color: 'var(--text-muted)' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-            <span style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
-              <Calendar size={13} /> {blog.publishedAt || '2026-08-18'}
-            </span>
+            {blog.publishedAt && (
+              <span style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
+                <Calendar size={13} /> {blog.publishedAt}
+              </span>
+            )}
             <span style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
               <Clock size={13} /> {blog.readTime || '12 min read'}
             </span>

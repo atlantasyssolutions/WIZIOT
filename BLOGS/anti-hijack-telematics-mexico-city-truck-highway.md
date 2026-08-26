@@ -1,4 +1,5 @@
 ---
+indexable: true
 title: "Anti-Hijack Telematics & Jammer-Proof GPS for Highway Freight in Mexico"
 category: "Security & Cargo Protection"
 publishedAt: "2026-08-18"

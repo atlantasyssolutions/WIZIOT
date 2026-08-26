@@ -84,7 +84,7 @@ export default function RoiCalculator({ onOpenDemo }) {
               {totalDataPoints.toLocaleString('en-US')}
             </div>
             <span style={{ fontSize: '0.85rem', color: 'var(--accent-cyan)' }}>
-              Platform Uptime SLA: <strong>99.99% Guaranteed</strong>
+              Platform Uptime SLA: <strong>Enterprise Guaranteed</strong>
             </span>
 
             <div className={styles.savingsBreakdown}>
