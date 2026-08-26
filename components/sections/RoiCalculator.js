@@ -81,7 +81,7 @@ export default function RoiCalculator({ onOpenDemo }) {
               ESTIMATED MONTHLY DATA POINTS PROCESSED
             </span>
             <div className={styles.annualSavingsVal}>
-              {totalDataPoints.toLocaleString()}
+              {totalDataPoints.toLocaleString('en-US')}
             </div>
             <span style={{ fontSize: '0.85rem', color: 'var(--accent-cyan)' }}>
               Platform Uptime SLA: <strong>99.99% Guaranteed</strong>
@@ -89,11 +89,11 @@ export default function RoiCalculator({ onOpenDemo }) {
 
             <div className={styles.savingsBreakdown}>
               <div className={styles.breakdownItem}>
-                <div className={styles.breakdownVal}>{locationPings.toLocaleString()}</div>
+                <div className={styles.breakdownVal}>{locationPings.toLocaleString('en-US')}</div>
                 <div className={styles.breakdownLbl}>GPS Location Pings</div>
               </div>
               <div className={styles.breakdownItem}>
-                <div className={styles.breakdownVal}>{sensorMetrics.toLocaleString()}</div>
+                <div className={styles.breakdownVal}>{sensorMetrics.toLocaleString('en-US')}</div>
                 <div className={styles.breakdownLbl}>CAN-bus & Sensor Metrics</div>
               </div>
             </div>

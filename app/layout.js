@@ -3,6 +3,8 @@ import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import Script from 'next/script';
 
+import CanonicalTag from '@/components/ui/CanonicalTag';
+
 export const metadata = {
   metadataBase: new URL('https://www.wiziot.com'),
   title: {
@@ -45,6 +47,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
+        <CanonicalTag />
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-RFB2CHN07E"
           strategy="afterInteractive"
