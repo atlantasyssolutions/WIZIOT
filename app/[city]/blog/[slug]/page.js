@@ -6,12 +6,7 @@ import { Calendar, Clock, Globe, ArrowLeft, Tag, MapPin, ShieldCheck, Layers, Ch
 import BlogCard from '@/components/blog/BlogCard';
 import LocalMarketContext from '@/components/blog/LocalMarketContext';
 
-export async function generateStaticParams() {
-  const allBlogs = getAllBlogs();
-  return allBlogs.map((b) => ({
-    slug: b.slug,
-  }));
-}
+
 
 export async function generateMetadata({ params }) {
   const resolvedParams = await params;
