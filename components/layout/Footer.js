@@ -107,7 +107,11 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className={styles.bottomBar}>
-          <p>© {new Date().getFullYear()} WizIOT. All Rights Reserved.</p>
+          <p>
+            © {new Date().getFullYear()} WizIOT. All Rights Reserved. 
+            <span style={{ margin: '0 8px', color: '#475569' }}>|</span> 
+            SEO by <a href="https://rankursite.com/" target="_blank" rel="noopener noreferrer" style={{ color: '#94A3B8', textDecoration: 'none' }}>RankurSite</a>
+          </p>
           <div className={styles.legalLinks}>
             <Link href="/privacy" className={styles.linkItem}>Privacy Policy</Link>
             <Link href="/terms" className={styles.linkItem}>Terms of Service</Link>
