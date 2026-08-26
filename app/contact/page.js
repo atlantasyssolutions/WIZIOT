@@ -60,6 +60,7 @@ export default function ContactPage() {
                 <Phone size={24} style={{ color: 'var(--accent-emerald)' }} />
                 <div>
                   <strong style={{ color: 'var(--text-main)', display: 'block' }}>Customer Support Desk</strong>
+                  <a href="tel:7827176924" style={{ color: 'var(--accent-emerald)' }}>7827176924</a>
                 </div>
               </div>
 
