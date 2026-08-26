@@ -33,3 +33,9 @@ next-env.d.ts
 # OS files
 .DS_Store
 Thumbs.db
+
+# Strategy & SEO Generator Files
+ALL_1000_BLOG_TITLES.md
+ALL_1000_HIGH_INTENT_KEYWORDS.md
+AGENTS.md
+scripts/
