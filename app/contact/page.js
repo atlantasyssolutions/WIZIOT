@@ -10,6 +10,7 @@ export default function ContactPage() {
     name: '',
     email: '',
     phone: '',
+    country: '',
     company: '',
     notes: ''
   });
@@ -106,6 +107,42 @@ export default function ContactPage() {
                     value={formData.email}
                     onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                   />
+                </div>
+
+                <div>
+                  <label className="form-label">WhatsApp or Mobile No. (with Country Code) *</label>
+                  <input
+                    type="tel"
+                    required
+                    placeholder="+1 (555) 000-0000"
+                    className="form-input"
+                    value={formData.phone}
+                    onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
+                  />
+                </div>
+
+                <div>
+                  <label className="form-label">Country *</label>
+                  <select
+                    required
+                    className="form-input"
+                    value={formData.country}
+                    onChange={(e) => setFormData({ ...formData, country: e.target.value })}
+                  >
+                    <option value="">Select your country...</option>
+                    <option value="United States">United States</option>
+                    <option value="United Kingdom">United Kingdom</option>
+                    <option value="United Arab Emirates">United Arab Emirates</option>
+                    <option value="Saudi Arabia">Saudi Arabia</option>
+                    <option value="South Africa">South Africa</option>
+                    <option value="Nigeria">Nigeria</option>
+                    <option value="Kenya">Kenya</option>
+                    <option value="India">India</option>
+                    <option value="Singapore">Singapore</option>
+                    <option value="Malaysia">Malaysia</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Other">Other</option>
+                  </select>
                 </div>
 
                 <div>
