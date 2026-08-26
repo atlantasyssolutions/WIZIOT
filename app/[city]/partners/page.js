@@ -22,7 +22,7 @@ export default function PartnersPage() {
         </div>
 
         {/* Global Partner Fleet Network Photo Banner */}
-        <div style={{ width: '100%', height: '380px', borderRadius: '20px', overflow: 'hidden', marginBottom: '60px', border: '1px solid #E2E8F0', boxShadow: '0 12px 36px rgba(15,45,78,0.1)', background: '#0F172A' }}>
+        <div style={{ position: 'relative', width: '100%', height: '380px', borderRadius: '20px', overflow: 'hidden', marginBottom: '60px', border: '1px solid #E2E8F0', boxShadow: '0 12px 36px rgba(15,45,78,0.1)', background: '#0F172A' }}>
           <Image 
              src="/enterprise-logistics-fleet.webp" 
             alt="WizIOT Global Commercial Logistics Fleet Network"

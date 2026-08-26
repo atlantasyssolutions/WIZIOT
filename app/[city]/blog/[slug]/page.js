@@ -222,9 +222,9 @@ export default async function BlogPostPage({ params }) {
         </div>
 
         {/* Featured Post Banner Image */}
-        <div style={{ width: '100%', height: '380px', borderRadius: '16px', overflow: 'hidden', marginBottom: '36px', border: '1px solid #E2E8F0', boxShadow: '0 8px 24px rgba(15,23,42,0.08)', background: '#0F172A' }}>
+        <div style={{ position: 'relative', width: '100%', height: '380px', borderRadius: '16px', overflow: 'hidden', marginBottom: '36px', border: '1px solid #E2E8F0', boxShadow: '0 8px 24px rgba(15,23,42,0.08)', background: '#0F172A' }}>
           <Image 
-             src={`/blog/${blog.slug} .webp`}
+             src={`/blog/${blog.slug}.webp`}
             alt={blog.title}
             
           fill style={{ objectFit: 'cover' }} />

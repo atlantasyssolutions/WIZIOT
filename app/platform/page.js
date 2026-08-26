@@ -32,7 +32,7 @@ export default function PlatformPage() {
         </div>
 
         {/* Platform Architecture Showcase Banner Photo */}
-        <div style={{ width: '100%', height: '420px', borderRadius: '20px', overflow: 'hidden', marginBottom: '60px', border: '1px solid #E2E8F0', boxShadow: '0 12px 36px rgba(15,45,78,0.1)', background: '#0F172A' }}>
+        <div style={{ position: 'relative', width: '100%', height: '420px', borderRadius: '20px', overflow: 'hidden', marginBottom: '60px', border: '1px solid #E2E8F0', boxShadow: '0 12px 36px rgba(15,45,78,0.1)', background: '#0F172A' }}>
           <Image 
              src="/platform-telematics-analytics.webp" 
             alt="WizIOT Platform Analytics & Command Dashboard"
@@ -91,7 +91,7 @@ export default function PlatformPage() {
                 </li>
               </ul>
             </div>
-            <div style={{ width: '100%', height: '320px', borderRadius: '16px', overflow: 'hidden', border: '1px solid #E2E8F0', background: '#0F172A' }}>
+            <div style={{ position: 'relative', width: '100%', height: '320px', borderRadius: '16px', overflow: 'hidden', border: '1px solid #E2E8F0', background: '#0F172A' }}>
               <Image 
                  src="/hardware-telematics-stack.webp" 
                 alt="WizIOT Industrial Telematics Hardware Stack"

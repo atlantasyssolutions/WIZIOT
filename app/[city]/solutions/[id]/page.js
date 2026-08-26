@@ -89,7 +89,7 @@ export default async function SolutionDetailPage({ params }) {
             </div>
           </div>
 
-          <div style={{ borderRadius: '20px', overflow: 'hidden', boxShadow: '0 12px 36px rgba(15,45,78,0.12)', border: '1px solid #E2E8F0' }}>
+          <div style={{ position: 'relative', minHeight: '400px', borderRadius: '20px', overflow: 'hidden', boxShadow: '0 12px 36px rgba(15,45,78,0.12)', border: '1px solid #E2E8F0' }}>
             <Image   src={vertical.detailImage}  alt={`${vertical.title} Detail`}  fill style={{ objectFit: 'cover' }} />
           </div>
         </div>
@@ -175,7 +175,7 @@ export default async function SolutionDetailPage({ params }) {
             {otherSolutions.slice(0, 3).map((sol) => (
               <Link key={sol.id} href={`/solutions/${sol.id}`} style={{ textDecoration: 'none' }}>
                 <div className="glass-card" style={{ padding: 0, overflow: 'hidden', cursor: 'pointer', transition: 'transform 0.2s ease' }}>
-                  <div style={{ height: '140px', background: '#0F172A', overflow: 'hidden' }}>
+                  <div style={{ position: 'relative', height: '140px', background: '#0F172A', overflow: 'hidden' }}>
                     <Image   src={sol.image}  alt={sol.title}  fill style={{ objectFit: 'cover' }} />
                   </div>
                   <div style={{ padding: '20px' }}>
