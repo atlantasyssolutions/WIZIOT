@@ -49,17 +49,19 @@ export default function ContactPage() {
             
             <div style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
               <div style={{ display: 'flex', gap: '16px' }}>
-                <Mail size={24} style={{ color: 'var(--accent-cyan)' }} />
+                <Phone size={24} style={{ color: 'var(--accent-cyan)' }} />
                 <div>
                   <strong style={{ color: 'var(--text-main)', display: 'block' }}>Sales & Partnerships</strong>
+                  <a href="tel:9990333720" style={{ color: 'var(--accent-cyan)', display: 'block' }}>+91 9990333720</a>
                   <a href="mailto:sales@wiziot.com" style={{ color: 'var(--accent-cyan)' }}>sales@wiziot.com</a>
                 </div>
               </div>
 
               <div style={{ display: 'flex', gap: '16px' }}>
-                <Phone size={24} style={{ color: 'var(--accent-emerald)' }} />
+                <Mail size={24} style={{ color: 'var(--accent-emerald)' }} />
                 <div>
                   <strong style={{ color: 'var(--text-main)', display: 'block' }}>Customer Support Desk</strong>
+                  <a href="mailto:support@wiziot.com" style={{ color: 'var(--accent-emerald)' }}>support@wiziot.com</a>
                 </div>
               </div>
 
