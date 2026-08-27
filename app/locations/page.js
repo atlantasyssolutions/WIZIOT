@@ -1,11 +1,10 @@
+'use client';
+
 import Link from 'next/link';
 import { getAllLocations } from '@/lib/locations';
 import { MapPin, Globe2 } from 'lucide-react';
 
-export const metadata = {
-  title: 'Global Fleet Telematics Locations & City Hubs | WizIOT',
-  description: 'Explore WizIOT\'s global telematics network. Find enterprise fleet tracking, fuel monitoring, and ADAS solutions in over 600 cities worldwide.',
-};
+// Client component for hover interactions
 
 export default function LocationsDirectoryPage() {
   const locations = getAllLocations();
