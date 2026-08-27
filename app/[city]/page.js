@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import { getLocationBySlug, getAllLocations, generateLocationSchema } from '@/lib/locations';
+import { getAllBlogs } from '@/lib/blog';
 import { MapPin, ShieldCheck, CheckCircle2, ArrowRight, ArrowLeft, Truck, Fuel, Zap, Globe, FileText, Search, PhoneCall, Award, Headphones } from 'lucide-react';
 
 export async function generateStaticParams() {
@@ -62,11 +63,79 @@ export default async function RootCityLocationPage({ params }) {
   if (!location) notFound(); // Strictly triggers 404 for non-city URLs that fall into this catch-all
 
   const locationSchema = generateLocationSchema(location);
+  
   const allLocations = getAllLocations();
+  const allBlogs = getAllBlogs().filter(b => b.indexable);
   
   // Seeded Randomizer for this specific city
   const seed = getSeed(location.slug);
   const rand = mulberry32(seed);
+
+  // Pick 4 unique relevant blogs for this city
+  const recommendedBlogs = shuffle([...allBlogs], rand).slice(0, 4);
+
+  // --- DYNAMIC CONTENT FORMULA ---
+  // The user requested a formula to cross-pollinate localCaseStudy and localMarketContext into FAQs
+  const caseStudySentences = location.localCaseStudy ? location.localCaseStudy.split(/(?<=\.)\s+/).filter(s => s.trim().length > 0) : [];
+  const marketSentences = location.localMarketContext ? location.localMarketContext.split(/(?<=\.)\s+/).filter(s => s.trim().length > 0) : [];
+
+  const dynamicFaqs = [];
+  
+  if (location.primaryChallenge) {
+    const q1Templates = [
+      `How does WizIOT mitigate ${location.primaryChallenge.toLowerCase()}?`,
+      `What is the telematics solution for ${location.primaryChallenge.toLowerCase()} in ${location.city}?`,
+      `How do fleets overcome ${location.primaryChallenge.toLowerCase()} on the ${location.corridor}?`
+    ];
+    dynamicFaqs.push({ 
+      question: q1Templates[Math.floor(rand() * q1Templates.length)], 
+      answer: `${caseStudySentences[0] || ''} Our enterprise telematics stack is purpose-built to mitigate these exact operational risks in ${location.region}.`.trim() 
+    });
+  }
+
+  if (location.recommendedHardware) {
+    const q2Templates = [
+      `What telematics hardware is recommended for the ${location.corridor}?`,
+      `Which WizIOT sensors perform best in ${location.city}?`,
+      `What is the recommended hardware stack for ${location.country} fleets?`
+    ];
+    dynamicFaqs.push({ 
+      question: q2Templates[Math.floor(rand() * q2Templates.length)], 
+      answer: `We strongly recommend deploying the ${location.recommendedHardware}. ${caseStudySentences[1] || marketSentences[0] || ''}`.trim() 
+    });
+  }
+
+  if (marketSentences.length > 1) {
+    const q3Templates = [
+      `Why is fleet tracking technically demanding in ${location.city}?`,
+      `What are the major logistics challenges in ${location.city}?`,
+      `How does the local environment impact telematics in ${location.city}?`
+    ];
+    const randomContext = marketSentences[Math.floor(rand() * (marketSentences.length - 1)) + 1];
+    dynamicFaqs.push({ 
+      question: q3Templates[Math.floor(rand() * q3Templates.length)], 
+      answer: `${randomContext} By utilizing our advanced edge-processing gateways, we ensure 99.9% data reliability regardless of these local constraints.`.trim() 
+    });
+  }
+
+  // Use explicit FAQs if they exist (e.g., from Grok), otherwise fallback to the dynamic formula
+  const finalFaqs = (location.faqs && location.faqs.length > 0) ? location.faqs : dynamicFaqs;
+
+  let faqSchema = null;
+  if (finalFaqs && finalFaqs.length > 0) {
+    faqSchema = {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": finalFaqs.map(faq => ({
+        "@type": "Question",
+        "name": faq.question,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": faq.answer
+        }
+      }))
+    };
+  }
 
   // Randomize Nearby Locations
   const otherLocations = allLocations.filter((l) => l.slug !== location.slug);
@@ -135,6 +204,12 @@ export default async function RootCityLocationPage({ params }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(locationSchema) }}
       />
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
 
       <div className="container" style={{ maxWidth: '960px' }}>
         <Link href="/locations" style={{ display: 'inline-flex', alignItems: 'center', gap: '6px', color: 'var(--primary-blue)', marginBottom: '32px', fontSize: '0.9rem', fontWeight: '600' }}>
@@ -300,20 +375,34 @@ export default async function RootCityLocationPage({ params }) {
             <FileText size={20} style={{ color: 'var(--primary-blue)' }} /> Recommended Technical Guides for {location.country} Fleets
           </h3>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '14px', fontSize: '0.925rem' }}>
-            <Link href="/blog/stop-driver-diesel-siphoning-night-kenya-trucks" style={{ color: 'var(--primary-blue)', fontWeight: '600', textDecoration: 'none' }}>
-              → Fuel Theft Prevention Guide
-            </Link>
-            <Link href="/blog/gps-jamming-detection-system-fleet-poland" style={{ color: 'var(--primary-blue)', fontWeight: '600', textDecoration: 'none' }}>
-              → Anti-Jamming Security Framework
-            </Link>
-            <Link href="/blog/cold-chain-monitoring-reefer-trailer-nigeria-vaccines" style={{ color: 'var(--primary-blue)', fontWeight: '600', textDecoration: 'none' }}>
-              → WHO GDP Cold Chain Compliance
-            </Link>
-            <Link href="/blog/multi-sim-gps-tracker-truck-africa-europe-border" style={{ color: 'var(--primary-blue)', fontWeight: '600', textDecoration: 'none' }}>
-              → Cross-Border Multi-SIM Telematics
-            </Link>
+            {recommendedBlogs.map((blog) => (
+              <Link key={blog.slug} href={`/blog/${blog.slug}`} style={{ color: 'var(--primary-blue)', fontWeight: '600', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                <span style={{ minWidth: '16px' }}>→</span> <span style={{ textOverflow: 'ellipsis', overflow: 'hidden', whiteSpace: 'nowrap' }}>{blog.title.length > 55 ? blog.title.substring(0, 55) + '...' : blog.title}</span>
+              </Link>
+            ))}
           </div>
         </div>
+
+        {/* Dynamic FAQ Section */}
+        {finalFaqs && finalFaqs.length > 0 && (
+          <div style={{ marginBottom: '60px' }}>
+            <h3 style={{ fontSize: '1.8rem', marginBottom: '24px', fontWeight: '800' }}>
+              Frequently Asked Questions for {location.city} Fleets
+            </h3>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+              {finalFaqs.map((faq, idx) => (
+                <div key={idx} className="glass-card" style={{ padding: '24px', borderLeft: '4px solid var(--primary-blue)' }}>
+                  <h4 style={{ fontSize: '1.15rem', marginBottom: '10px', color: 'var(--text-main)', fontWeight: '700' }}>
+                    {faq.question}
+                  </h4>
+                  <p style={{ color: 'var(--text-muted)', fontSize: '0.95rem', lineHeight: '1.6' }}>
+                    {faq.answer}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
 
         <div className="glass-card" style={{ padding: '40px', marginBottom: '60px', textAlign: 'center', background: 'linear-gradient(135deg, #0F2D4E 0%, #0169A9 100%)', color: '#FFFFFF' }}>
           <h3 style={{ fontSize: '1.8rem', marginBottom: '12px', color: '#FFFFFF' }}>Deploy WizIOT Telematics in {location.city}</h3>

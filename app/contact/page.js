@@ -1,7 +1,7 @@
 import ContactClient from './ContactClient';
 
 export const metadata = {
-  title: 'Contact Sales & Support | WizIOT Telematics',
+  title: 'Contact Sales & Support',
   description: 'Get in touch with WizIOT for custom telematics hardware integration and enterprise SLAs.',
   alternates: { canonical: 'https://www.wiziot.com/contact' }
 };
