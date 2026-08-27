@@ -26,20 +26,47 @@ jobs:
       - name: Build Next.js Production App
         run: npm run build
 
-      - name: Sync files to cPanel via FTP
+      - name: Create ZIP Archive and Unzipper
+        run: |
+          echo "Zipping all files..."
+          zip -q -r deploy.zip . -x "*.git*" "*node_modules*" "*.next/cache*" "*.md" "inject-*.js" "process-*.js" "fix-*.js" "performance/*" "BLOGS/*" "data-backup/*" "test.js"
+          
+          echo "Creating PHP unzipper script..."
+          cat << 'EOF' > unzip.php
+          <?php
+          $zip = new ZipArchive;
+          if ($zip->open('deploy.zip') === TRUE) {
+              $zip->extractTo('./');
+              $zip->close();
+              unlink('deploy.zip');
+              unlink('unzip.php');
+              
+              // Automatically tell cPanel to restart the Node.js server!
+              if (!file_exists('tmp')) mkdir('tmp');
+              file_put_contents('tmp/restart.txt', '');
+              
+              echo 'SUCCESS';
+          } else {
+              echo 'FAILED';
+          }
+          ?>
+          EOF
+          
+          echo "Moving files to deploy package..."
+          mkdir deploy_package
+          mv deploy.zip deploy_package/
+          mv unzip.php deploy_package/
+
+      - name: Fast Sync (Upload only ZIP)
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./
+          local-dir: ./deploy_package/
           server-dir: /wiziot.com/
-          exclude: |
-            **/.git*
-            **/.git*/**
-            **/node_modules/**
-            .next/cache/**
-            *.md
-            inject-*.js
-            process-*.js
-            fix-*.js
+
+      - name: Trigger Remote Extraction & Restart
+        run: |
+          echo "Triggering unzip on cPanel server..."
+          curl -s https://www.wiziot.com/unzip.php
