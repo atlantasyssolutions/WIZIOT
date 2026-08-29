@@ -37,12 +37,20 @@ export default function sitemap() {
   const blogs = getAllBlogs();
   const validBlogs = blogs.filter(b => b.indexable === true);
   
-  const blogRoutes = validBlogs.map((blog) => ({
-    url: `${baseUrl}/blog/${blog.slug}`,
-    ...(blog.publishedAt && { lastModified: new Date(blog.publishedAt).toISOString() }),
-    changeFrequency: 'monthly',
-    priority: 0.6,
-  }));
+  const blogRoutes = validBlogs.map((blog) => {
+    let lastMod;
+    try {
+      lastMod = blog.publishedAt ? new Date(blog.publishedAt).toISOString() : new Date().toISOString();
+    } catch {
+      lastMod = new Date().toISOString();
+    }
+    return {
+      url: `${baseUrl}/blog/${blog.slug}`,
+      lastModified: lastMod,
+      changeFrequency: 'monthly',
+      priority: 0.6,
+    };
+  });
 
   return [...routes, ...locationRoutes, ...blogRoutes];
 }

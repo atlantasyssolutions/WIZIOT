@@ -16,7 +16,6 @@ export const metadata = {
     type: 'website',
     siteName: 'WizIOT Telematics',
     locale: 'en_US',
-    title: 'WizIOT | AI-Powered B2B Fleet & Logistics Telematics',
     description: 'Transform fleet performance, cut fuel waste, and protect EV battery health with WizIOT’s AI-powered SaaS platform.',
   },
 };

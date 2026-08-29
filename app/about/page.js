@@ -4,11 +4,16 @@ import { ShieldCheck, Cpu, Globe, Award, CheckCircle2, ArrowRight, Building2, Us
 import CtaBannerWrapper from '@/components/sections/CtaBannerWrapper';
 
 export const metadata = {
-  title: 'About WizIOT & Leadership | Enterprise Fleet Telematics',
+  title: 'About Us & Executive Leadership | WizIOT Telematics',
   description: 'Learn about WizIOT Technologies. Meet leadership including Nischal Narula, Head of Strategic Alliances.',
   alternates: {
     canonical: 'https://www.wiziot.com/about',
   },
+  openGraph: {
+    title: 'About Us & Executive Leadership | WizIOT Telematics',
+    description: 'Learn about WizIOT Technologies. Meet leadership including Nischal Narula, Head of Strategic Alliances.',
+    url: 'https://www.wiziot.com/about'
+  }
 };
 
 export default function AboutPage() {

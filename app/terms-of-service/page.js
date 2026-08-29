@@ -1,11 +1,16 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Terms of Service | WizIOT Telematics',
+  title: 'Terms of Service & User Agreement | WizIOT Telematics',
   description: 'User Agreement and Terms of Use for WizIOT telematics services and web platform.',
   alternates: {
     canonical: 'https://www.wiziot.com/terms-of-service',
   },
+  openGraph: {
+    title: 'Terms of Service & User Agreement | WizIOT Telematics',
+    description: 'User Agreement and Terms of Use for WizIOT telematics services and web platform.',
+    url: 'https://www.wiziot.com/terms-of-service'
+  }
 };
 
 export default function TermsOfServicePage() {

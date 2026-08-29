@@ -6,6 +6,11 @@ export const metadata = {
   alternates: {
     canonical: 'https://www.wiziot.com/privacy-policy',
   },
+  openGraph: {
+    title: 'Privacy Policy | WizIOT Telematics',
+    description: 'WizIOT Privacy Policy regarding personal data, location tracking, camera permissions, and telemetry privacy.',
+    url: 'https://www.wiziot.com/privacy-policy'
+  }
 };
 
 export default function PrivacyPolicyPage() {
