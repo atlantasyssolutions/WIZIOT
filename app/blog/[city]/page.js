@@ -8,13 +8,13 @@ import BlogCard from '@/components/blog/BlogCard';
 export async function generateStaticParams() {
   const allBlogs = getAllBlogs();
   return allBlogs.map((b) => ({
-    slug: b.slug,
+    city: b.slug,
   }));
 }
 
 export async function generateMetadata({ params }) {
   const resolvedParams = await params;
-  const blog = getBlogBySlug(resolvedParams?.slug);
+  const blog = getBlogBySlug(resolvedParams?.city);
   if (!blog) return { title: 'Post Not Found | WizIOT Telematics' };
 
   const canonicalUrl = `https://www.wiziot.com/blog/${blog.slug}`;
@@ -72,7 +72,6 @@ function slugify(text) {
 }
 
 function renderFormattedText(text) {
-  // Utility to replace domain links like https://www.wiziot.com/contact with relative SPA Links
   const linkRegex = /\[([^\]]+)\]\(([^)]+)\)/g;
   const parts = [];
   let lastIndex = 0;
@@ -85,7 +84,6 @@ function renderFormattedText(text) {
     const label = match[1];
     let url = match[2];
 
-    // Clean up domain URL to relative path if internal
     if (url.startsWith('https://www.wiziot.com') || url.startsWith('https://wiziot.com')) {
       url = url.replace(/https:\/\/(www\.)?wiziot\.com/, '');
       if (!url.startsWith('/')) url = '/' + url;
@@ -116,7 +114,7 @@ function renderFormattedText(text) {
 
 export default async function BlogPostPage({ params }) {
   const resolvedParams = await params;
-  const blog = getBlogBySlug(resolvedParams?.slug);
+  const blog = getBlogBySlug(resolvedParams?.city);
   if (!blog) notFound();
 
   const allBlogs = getAllBlogs();
@@ -138,7 +136,6 @@ export default async function BlogPostPage({ params }) {
   const faqSchema = generateFaqSchema(blog);
   const breadcrumbSchema = generateBreadcrumbSchema(blog);
 
-  // Extract headings for Table of Contents (TOC)
   const headings = [];
   const rawParagraphs = blog.content.split('\n\n');
   rawParagraphs.forEach((p) => {
@@ -151,7 +148,6 @@ export default async function BlogPostPage({ params }) {
 
   return (
     <article className="section-padding" style={{ paddingTop: '140px' }}>
-      {/* Schema.org JSON-LD Injections */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
@@ -170,7 +166,6 @@ export default async function BlogPostPage({ params }) {
       )}
 
       <div className="container" style={{ maxWidth: '880px' }}>
-        {/* Breadcrumbs & Navigation */}
         <nav aria-label="Breadcrumb" style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '28px', fontSize: '0.875rem', color: 'var(--text-muted)' }}>
           <Link href="/blog" style={{ color: 'var(--primary-blue)', fontWeight: '600', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '4px' }}>
             <ArrowLeft size={14} /> Knowledge Hub
@@ -179,7 +174,6 @@ export default async function BlogPostPage({ params }) {
           <span>{blog.category}</span>
         </nav>
 
-        {/* Category & Region Badges */}
         <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '20px', flexWrap: 'wrap' }}>
           <span className="badge-pill" style={{ margin: 0, background: '#E0F2FE', color: '#0369A1' }}>
             <Layers size={13} style={{ marginRight: '6px' }} /> {blog.category}
@@ -192,12 +186,10 @@ export default async function BlogPostPage({ params }) {
           </span>
         </div>
 
-        {/* Article Headline */}
         <h1 style={{ fontSize: '2.5rem', lineHeight: '1.25', marginBottom: '24px', color: 'var(--text-main)', fontWeight: '800' }}>
           {blog.title}
         </h1>
 
-        {/* E-E-A-T Author Card */}
         <div style={{ display: 'flex', alignItems: 'center', gap: '16px', padding: '20px 24px', background: '#F8FAFC', borderRadius: '12px', border: '1px solid #E2E8F0', marginBottom: '32px', flexWrap: 'wrap' }}>
           <div style={{ width: '48px', height: '48px', borderRadius: '50%', background: 'linear-gradient(135deg, #0F2D4E 0%, #0169A9 100%)', color: '#FFFFFF', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: '800', fontSize: '1.2rem', flexShrink: 0 }}>
             {blog.author?.name ? blog.author.name.charAt(0) : 'W'}
@@ -221,22 +213,19 @@ export default async function BlogPostPage({ params }) {
           </div>
         </div>
 
-        {/* Featured Post Banner Image */}
         <div style={{ position: 'relative', width: '100%', height: '380px', borderRadius: '16px', overflow: 'hidden', marginBottom: '36px', border: '1px solid #E2E8F0', boxShadow: '0 8px 24px rgba(15,23,42,0.08)', background: '#0F172A' }}>
           <Image 
-             src={`/blog/${blog.slug}.webp`}
+            src={`/blog/${blog.slug}.webp`}
             alt={blog.title}
-            
-          fill style={{ objectFit: 'cover' }} />
+            fill style={{ objectFit: 'cover' }} 
+          />
         </div>
 
-        {/* Executive Summary Lead Box */}
         <div style={{ padding: '24px 28px', background: 'linear-gradient(135deg, #F0F9FF 0%, #E0F2FE 100%)', borderRadius: '12px', borderLeft: '5px solid var(--primary-blue)', marginBottom: '36px', fontSize: '1.1rem', lineHeight: '1.7', color: '#0369A1', fontWeight: '500' }}>
           <strong style={{ display: 'block', marginBottom: '6px', color: '#0C4A6E', fontSize: '0.85rem', letterSpacing: '0.05em', textTransform: 'uppercase' }}>Executive Summary & Operational Context</strong>
           {blog.excerpt}
         </div>
 
-        {/* Table of Contents (TOC) */}
         {headings.length > 0 && (
           <div style={{ padding: '24px 28px', background: '#FFFFFF', borderRadius: '14px', border: '1px solid #E2E8F0', boxShadow: '0 4px 12px rgba(0,0,0,0.03)', marginBottom: '44px' }}>
             <h3 style={{ fontSize: '1.1rem', fontWeight: '800', marginBottom: '14px', display: 'flex', alignItems: 'center', gap: '8px', color: 'var(--text-main)' }}>
@@ -254,7 +243,6 @@ export default async function BlogPostPage({ params }) {
           </div>
         )}
 
-        {/* Article Body Content */}
         <div style={{ fontSize: '1.08rem', lineHeight: '1.8', color: 'var(--text-main)' }}>
           {rawParagraphs.map((paragraph, index) => {
             const trimmed = paragraph.trim();
@@ -284,7 +272,6 @@ export default async function BlogPostPage({ params }) {
               const subText = trimmed.replace('### ', '');
               const subSlug = slugify(subText);
 
-              // Styled FAQ Question Box
               if (subText.startsWith('Q') && subText.includes(':')) {
                 return (
                   <h3 key={index} id={subSlug} style={{ fontSize: '1.25rem', marginTop: '28px', marginBottom: '10px', color: '#0F2D4E', fontWeight: '700', background: '#F8FAFC', padding: '12px 18px', borderRadius: '8px', borderLeft: '4px solid var(--primary-blue)' }}>
@@ -332,7 +319,6 @@ export default async function BlogPostPage({ params }) {
           })}
         </div>
 
-        {/* E-E-A-T Verification Sign-Off Footer */}
         <div style={{ marginTop: '50px', padding: '24px', background: '#F8FAFC', borderRadius: '14px', border: '1px solid #E2E8F0', display: 'flex', alignItems: 'center', gap: '16px' }}>
           <CheckCircle2 size={28} style={{ color: 'var(--accent-emerald)', flexShrink: 0 }} />
           <div style={{ fontSize: '0.9rem', color: 'var(--text-muted)' }}>
@@ -341,7 +327,6 @@ export default async function BlogPostPage({ params }) {
           </div>
         </div>
 
-        {/* Contextual Internal Links Matrix */}
         <div style={{ marginTop: '40px', padding: '28px', background: '#F1F5F9', borderRadius: '16px', border: '1px solid #E2E8F0' }}>
           <h4 style={{ fontSize: '1.1rem', marginBottom: '16px', color: 'var(--text-main)', fontWeight: '700', display: 'flex', alignItems: 'center', gap: '8px' }}>
             <MapPin size={18} style={{ color: 'var(--primary-blue)' }} /> Target Telematics Hubs & Enterprise Solutions
@@ -374,7 +359,6 @@ export default async function BlogPostPage({ params }) {
           </div>
         </div>
 
-        {/* CTA Conversion Box */}
         <div className="glass-card" style={{ padding: '36px', marginTop: '48px', marginBottom: '48px', background: 'linear-gradient(135deg, #0F2D4E 0%, #0169A9 100%)', color: '#FFFFFF', textAlign: 'center' }}>
           <h3 style={{ fontSize: '1.75rem', marginBottom: '12px', fontWeight: '800' }}>Protect Your Commercial Fleet Today</h3>
           <p style={{ color: '#E2E8F0', marginBottom: '24px', maxWidth: '600px', margin: '0 auto 24px' }}>
@@ -390,7 +374,6 @@ export default async function BlogPostPage({ params }) {
           </div>
         </div>
 
-        {/* Prev / Next Article Navigation */}
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: '16px', marginTop: '40px', paddingTop: '24px', borderTop: '1px solid #E2E8F0', flexWrap: 'wrap' }}>
           {prevBlog ? (
             <Link href={`/blog/${prevBlog.slug}`} style={{ flex: 1, minWidth: '240px', padding: '16px', borderRadius: '12px', border: '1px solid #E2E8F0', textDecoration: 'none', color: 'inherit', background: '#FFFFFF' }}>
@@ -407,7 +390,6 @@ export default async function BlogPostPage({ params }) {
           ) : <div />}
         </div>
 
-        {/* SEO Keyword Tags */}
         {blog.seoKeywords && blog.seoKeywords.length > 0 && (
           <div style={{ marginTop: '36px', paddingTop: '20px', borderTop: '1px solid #E2E8F0', display: 'flex', alignItems: 'center', gap: '10px', flexWrap: 'wrap' }}>
             <Tag size={16} style={{ color: 'var(--primary-blue)' }} />
@@ -420,7 +402,6 @@ export default async function BlogPostPage({ params }) {
           </div>
         )}
 
-        {/* Related Articles Grid */}
         <div style={{ marginTop: '60px' }}>
           <h3 style={{ fontSize: '1.6rem', marginBottom: '24px', fontWeight: '800' }}>Related Telematics Insights</h3>
           <div className="grid-2">
