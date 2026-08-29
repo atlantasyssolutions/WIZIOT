@@ -39,7 +39,7 @@ export default function sitemap() {
   
   const blogRoutes = validBlogs.map((blog) => ({
     url: `${baseUrl}/blog/${blog.slug}`,
-    lastModified: blog.publishedAt ? new Date(blog.publishedAt).toISOString() : undefined,
+    ...(blog.publishedAt && { lastModified: new Date(blog.publishedAt).toISOString() }),
     changeFrequency: 'monthly',
     priority: 0.6,
   }));

@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { Check, ArrowRight, ShieldCheck } from 'lucide-react';
 import ScheduleDemoModal from '@/components/ui/ScheduleDemoModal';
 
-export default function PricingPage() {
+export default function PricingPage({ location }) {
   const [isAnnual, setIsAnnual] = useState(true);
   const [demoOpen, setDemoOpen] = useState(false);
 
@@ -61,7 +61,7 @@ export default function PricingPage() {
         {/* Header */}
         <div style={{ textAlign: 'center', maxWidth: '760px', margin: '0 auto 40px' }}>
           <div className="badge-pill">Transparent SaaS Pricing</div>
-          <h1 style={{ fontSize: '3rem', marginBottom: '16px' }}>Predictable Pricing for Growing Fleets</h1>
+          <h1 style={{ fontSize: '3rem', marginBottom: '16px' }}>Predictable Pricing for Growing Fleets {location ? `in ${location.city}` : ''}</h1>
           <p style={{ color: 'var(--text-muted)', fontSize: '1.15rem' }}>
             Choose the telematics plan that fits your operational scale. No hidden hardware lock-in fees.
           </p>
@@ -148,7 +148,7 @@ export default function PricingPage() {
               </ul>
 
               <button onClick={() => setDemoOpen(true)} className={tier.featured ? 'btn btn-primary' : 'btn btn-secondary'} style={{ width: '100%' }}>
-                {tier.priceCustom ? 'Contact Enterprise Team' : 'Start 14-Day Free Pilot'} <ArrowRight size={16} />
+                {tier.priceCustom ? 'Contact Enterprise Team' : `Start 14-Day Free Pilot ${location ? `in ${location.city}` : ''}`} <ArrowRight size={16} />
               </button>
             </div>
           ))}

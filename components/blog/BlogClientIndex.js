@@ -8,8 +8,8 @@ import { Search, Globe, Filter, MapPin, ArrowRight, Layers } from 'lucide-react'
 
 const ITEMS_PER_PAGE = 12;
 
-export default function BlogClientIndex({ blogs = [] }) {
-  const [selectedRegion, setSelectedRegion] = useState('All');
+export default function BlogClientIndex({ blogs = [], location = null }) {
+  const [selectedRegion, setSelectedRegion] = useState(location ? (location.region || 'All') : 'All');
   const [selectedCategory, setSelectedCategory] = useState('All');
   const [searchQuery, setSearchQuery] = useState('');
   const [currentPage, setCurrentPage] = useState(1);
@@ -92,10 +92,10 @@ export default function BlogClientIndex({ blogs = [] }) {
             <Globe size={14} /> Global B2B Telematics Knowledge Hub
           </div>
           <h1 style={{ fontSize: '3rem', marginBottom: '16px', fontWeight: '800' }}>
-            WizIOT Telematics Knowledge Hub
+            Telematics & IoT Insights {location ? `for ${location.city} Fleets` : 'Knowledge Hub'}
           </h1>
           <p style={{ color: 'var(--text-muted)', fontSize: '1.15rem', lineHeight: '1.6' }}>
-            Comprehensive engineering solutions, compliance frameworks, fuel theft algorithms, and regional logistics reports for Fleet Directors across West Africa, East Africa, GCC, LATAM, EU & APAC.
+            Comprehensive engineering solutions, compliance frameworks, fuel theft algorithms, and regional logistics reports for Fleet Directors{location ? ` in ${location.city} and across ${location.region}` : ' across West Africa, East Africa, GCC, LATAM, EU & APAC'}.
           </p>
         </div>
 
