@@ -51,15 +51,16 @@ export default function Header({ onOpenDemo }) {
         </Link>
 
         {/* Desktop Navigation */}
-        <nav style={{ height: '100%' }}>
-          <ul className={styles.navLinks}>
+        <nav style={{ height: '100%' }} suppressHydrationWarning>
+          <ul className={styles.navLinks} suppressHydrationWarning>
             {links.map((link) => {
               const isActive = pathname === link.href;
               return (
-                <li key={link.href} className={styles.navItem}>
+                <li key={link.href} className={styles.navItem} suppressHydrationWarning>
                   <Link
                     href={link.href}
                     className={`${styles.navLink} ${isActive ? styles.activeLink : ''}`}
+                    suppressHydrationWarning
                   >
                     {link.label}
                   </Link>
