@@ -1,8 +1,8 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Privacy Policy | WizIOT by Atlanta Systems',
-  description: 'WizIOT Privacy Policy regarding personal data, location tracking, camera permissions, and telemetry privacy by Atlanta Systems Private Limited.',
+  title: 'Privacy Policy | WizIOT Telematics',
+  description: 'WizIOT Privacy Policy regarding personal data, location tracking, camera permissions, and telemetry privacy.',
   alternates: {
     canonical: 'https://www.wiziot.com/privacy-policy',
   },
@@ -29,7 +29,7 @@ export default function PrivacyPolicyPage() {
             1. Introduction
           </h2>
           <p style={{ marginBottom: '24px' }}>
-            Atlanta Systems Private Limited ("we," "our," "us") has developed the WizIOT telematics app and SaaS platform ("Service"). This Privacy Policy is designed to inform users ("you," "your") about our policies regarding the collection, use, and disclosure of Personal Information when you decide to use our Service. By using the Service, you agree to the collection and use of information in accordance with this policy.
+            WizIOT Technologies ("we," "our," "us") has developed the WizIOT telematics app and SaaS platform ("Service"). This Privacy Policy is designed to inform users ("you," "your") about our policies regarding the collection, use, and disclosure of Personal Information when you decide to use our Service. By using the Service, you agree to the collection and use of information in accordance with this policy.
           </p>
 
           <h2 style={{ fontSize: '1.4rem', fontWeight: '700', color: 'var(--primary-blue)', marginBottom: '12px' }}>
@@ -110,10 +110,9 @@ export default function PrivacyPolicyPage() {
             If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us:
           </p>
           <div style={{ background: '#F8FAFC', padding: '20px', borderRadius: '12px', border: '1px solid #E2E8F0', marginTop: '12px' }}>
-            <p style={{ margin: '0 0 6px 0', fontWeight: '700', color: 'var(--text-main)' }}>Atlanta Systems Private Limited</p>
-            <p style={{ margin: '0 0 4px 0', fontSize: '0.95rem' }}><strong>Address:</strong> M-135, 2nd Floor, M Block, CP, New Delhi, India</p>
-            <p style={{ margin: '0 0 4px 0', fontSize: '0.95rem' }}><strong>Email:</strong> support@atlantasys.com | support@wiziot.com</p>
-            <p style={{ margin: 0, fontSize: '0.95rem' }}><strong>Phone:</strong> +91 011-49039700 / +91 9990333720</p>
+            <p style={{ margin: '0 0 6px 0', fontWeight: '700', color: 'var(--text-main)' }}>WizIOT Technologies</p>
+            <p style={{ margin: '0 0 4px 0', fontSize: '0.95rem' }}><strong>Email:</strong> support@wiziot.com</p>
+            <p style={{ margin: 0, fontSize: '0.95rem' }}><strong>Sales & Support Phone:</strong> +91 9990333720</p>
           </div>
         </div>
       </div>

@@ -4,8 +4,8 @@ import { ShieldCheck, Cpu, Globe, Award, CheckCircle2, ArrowRight, Building2, Us
 import CtaBannerWrapper from '@/components/sections/CtaBannerWrapper';
 
 export const metadata = {
-  title: 'About WizIOT & Leadership | Atlanta Systems Private Limited',
-  description: 'Learn about WizIOT, developed by Atlanta Systems Private Limited. Meet leadership including Nischal Narula, Head of Strategic Alliances.',
+  title: 'About WizIOT & Leadership | Enterprise Fleet Telematics',
+  description: 'Learn about WizIOT Technologies. Meet leadership including Nischal Narula, Head of Strategic Alliances.',
   alternates: {
     canonical: 'https://www.wiziot.com/about',
   },
@@ -19,13 +19,13 @@ export default function AboutPage() {
         {/* Page Hero Header */}
         <div style={{ textAlign: 'center', maxWidth: '820px', margin: '0 auto 50px' }}>
           <span className="badge-pill" style={{ display: 'inline-flex', alignItems: 'center', gap: '6px' }}>
-            <Building2 size={14} /> Atlanta Systems Enterprise Technology
+            <Building2 size={14} /> Enterprise Telematics Technology
           </span>
           <h1 style={{ fontSize: '3rem', marginBottom: '18px', fontWeight: '800', lineHeight: '1.2' }}>
             Pioneering Next-Gen Telematics & IoT Engineering
           </h1>
           <p style={{ color: 'var(--text-muted)', fontSize: '1.2rem', lineHeight: '1.65' }}>
-            WizIOT is an enterprise telematics platform developed by <strong>Atlanta Systems Private Limited</strong>. We build hardware-agnostic IoT infrastructure, ISO-certified fuel sensors, and AI fleet security solutions serving logistics operators across 600+ hubs globally.
+            WizIOT Technologies builds hardware-agnostic IoT infrastructure, ISO-certified fuel sensors, and AI fleet security solutions serving commercial logistics operators across 600+ hubs globally.
           </p>
         </div>
 
@@ -33,7 +33,7 @@ export default function AboutPage() {
         <div style={{ position: 'relative', width: '100%', height: '420px', borderRadius: '20px', overflow: 'hidden', marginBottom: '60px', border: '1px solid #E2E8F0', boxShadow: '0 12px 36px rgba(15,45,78,0.1)', background: '#0F172A' }}>
           <Image 
             src="/heavy-equipment-telematics.webp" 
-            alt="Atlanta Systems & WizIOT Telematics Operations Center"
+            alt="WizIOT Enterprise Telematics Operations Center"
             fill 
             style={{ objectFit: 'cover' }} 
           />
@@ -44,31 +44,31 @@ export default function AboutPage() {
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '32px', alignItems: 'center' }}>
             <div>
               <span style={{ fontSize: '0.85rem', fontWeight: '700', color: 'var(--primary-blue)', textTransform: 'uppercase', letterSpacing: '0.5px' }}>
-                Corporate Background
+                Corporate Mission
               </span>
               <h2 style={{ fontSize: '1.85rem', fontWeight: '800', marginTop: '6px', marginBottom: '16px', color: 'var(--text-main)' }}>
-                Powered by Atlanta Systems Private Limited
+                Building the Future of Autonomous Fleet Intelligence
               </h2>
               <p style={{ color: 'var(--text-muted)', fontSize: '1rem', lineHeight: '1.7', marginBottom: '16px' }}>
-                Headquartered in Connaught Place, New Delhi, Atlanta Systems Private Limited has been a technology innovator in GPS/GSM hardware, sensor calibration, and telematics software solutions for over a decade.
+                WizIOT Technologies is a pioneer in GPS/GSM hardware integration, precision sensor calibration, and cloud-native telematics software built for enterprise fleet operations.
               </p>
               <p style={{ color: 'var(--text-muted)', fontSize: '1rem', lineHeight: '1.7' }}>
-                WizIOT represents the evolution of our high-throughput, sub-second telemetry cloud—designed to give fleet managers absolute transparency into fuel siphoning, engine diagnostics, temperature cold chain compliance, and vehicle safety.
+                Our high-throughput, sub-second telemetry cloud gives fleet managers absolute transparency into fuel siphoning, engine diagnostics, temperature cold chain compliance, and driver safety.
               </p>
             </div>
 
             <div style={{ background: '#F8FAFC', padding: '28px', borderRadius: '16px', border: '1px solid #E2E8F0' }}>
               <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginBottom: '16px', color: 'var(--text-main)' }}>
-                Corporate Snapshot
+                Platform Snapshot
               </h3>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '12px', fontSize: '0.925rem' }}>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
                   <Building2 size={16} style={{ color: 'var(--primary-blue)' }} />
-                  <span><strong>Entity:</strong> Atlanta Systems Private Limited</span>
+                  <span><strong>Entity:</strong> WizIOT Technologies</span>
                 </div>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
                   <Globe size={16} style={{ color: 'var(--primary-blue)' }} />
-                  <span><strong>Headquarters:</strong> M-135, CP, New Delhi, India</span>
+                  <span><strong>Global Footprint:</strong> UAE | India | Singapore | SA</span>
                 </div>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
                   <ShieldCheck size={16} style={{ color: 'var(--accent-emerald)' }} />
@@ -102,7 +102,7 @@ export default function AboutPage() {
                 <div style={{ position: 'relative', width: '220px', height: '220px', borderRadius: '50%', overflow: 'hidden', margin: '0 auto 20px', border: '4px solid var(--primary-blue)', boxShadow: '0 8px 24px rgba(1,105,169,0.2)' }}>
                   <Image 
                     src="/nischal-narula.jpeg" 
-                    alt="Nischal Narula - Head of Strategic Alliances at Atlanta Systems"
+                    alt="Nischal Narula - Head of Strategic Alliances at WizIOT Technologies"
                     fill
                     style={{ objectFit: 'cover' }}
                   />
@@ -111,7 +111,7 @@ export default function AboutPage() {
                   Nischal Narula
                 </h3>
                 <p style={{ color: 'var(--primary-blue)', fontWeight: '700', fontSize: '0.95rem', marginBottom: '12px' }}>
-                  Head - Strategic Alliances at Atlanta Systems
+                  Head - Strategic Alliances at WizIOT Technologies
                 </p>
                 <a 
                   href="https://www.linkedin.com/in/nischal-narula" 
@@ -138,7 +138,7 @@ export default function AboutPage() {
                 </div>
 
                 <p style={{ fontSize: '1.05rem', lineHeight: '1.7', color: 'var(--text-main)', marginBottom: '16px' }}>
-                  Nischal Narula leads Strategic Alliances at Atlanta Systems, orchestrating international business development, technology partnerships, and go-to-market strategies for WizIOT's IoT and telematics suite.
+                  Nischal Narula leads Strategic Alliances at WizIOT Technologies, orchestrating international business development, technology partnerships, and go-to-market strategies for WizIOT's IoT and telematics suite.
                 </p>
 
                 <p style={{ fontSize: '0.95rem', lineHeight: '1.65', color: 'var(--text-muted)', marginBottom: '20px' }}>
