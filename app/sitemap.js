@@ -30,7 +30,7 @@ export default function sitemap() {
     priority: 0.7,
   }));
 
-  // Blog Pages (Exclude programmatic stem)
+  // Blog Pages (Global)
   const blogs = getAllBlogs();
   const validBlogs = blogs.filter(b => b.indexable === true);
   
