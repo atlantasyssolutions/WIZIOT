@@ -14,6 +14,14 @@ const nextConfig = {
         source: '/sitemap/:city.xml',
         destination: '/city-sitemaps/:city.xml',
       },
+      {
+        source: '/privacy',
+        destination: '/privacy-policy',
+      },
+      {
+        source: '/terms',
+        destination: '/terms-of-service',
+      },
     ];
   },
 };

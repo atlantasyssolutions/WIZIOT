@@ -113,8 +113,8 @@ export default function Footer() {
             SEO by <a href="https://rankursite.com/" target="_blank" rel="noopener noreferrer" style={{ color: '#94A3B8', textDecoration: 'none' }}>RankurSite</a>
           </p>
           <div className={styles.legalLinks}>
-            <Link href="/privacy" className={styles.linkItem}>Privacy Policy</Link>
-            <Link href="/terms" className={styles.linkItem}>Terms of Service</Link>
+            <Link href="/privacy-policy" className={styles.linkItem}>Privacy Policy</Link>
+            <Link href="/terms-of-service" className={styles.linkItem}>Terms of Service</Link>
           </div>
         </div>
       </div>
