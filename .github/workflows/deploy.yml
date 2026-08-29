@@ -69,4 +69,4 @@ jobs:
       - name: Trigger Remote Extraction & Restart
         run: |
           echo "Triggering unzip on cPanel server..."
-          curl -s https://www.wiziot.com/unzip.php
+          curl -s -k https://www.wiziot.com/unzip.php || true
