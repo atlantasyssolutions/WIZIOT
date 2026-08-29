@@ -22,6 +22,11 @@ export async function GET(request, { params }) {
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>${baseUrl}/${location.slug}</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
   ${blogs.map(blog => `
   <url>
     <loc>${baseUrl}/blog/${location.slug}/${blog.slug}</loc>
