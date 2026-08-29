@@ -13,7 +13,10 @@ export default function sitemap() {
     '/solutions',
     '/partners',
     '/locations',
-    '/blog'
+    '/blog',
+    '/about',
+    '/privacy-policy',
+    '/terms-of-service'
   ].map((route) => ({
     url: `${baseUrl}${route}`,
     
