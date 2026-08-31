@@ -12,11 +12,41 @@ export const metadata = {
   },
   description:
     'Smarter decisions in fleet & logistics. Real-time GPS tracking, EV & BMS analytics, route optimization, ADAS driver safety, and cold chain telemetry.',
+  alternates: {
+    canonical: 'https://www.wiziot.com',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
   openGraph: {
     type: 'website',
+    url: 'https://www.wiziot.com',
     siteName: 'WizIOT Telematics',
     locale: 'en_US',
+    title: 'WizIOT | AI-Powered B2B Fleet Management & Telematics Platform',
     description: 'Transform fleet performance, cut fuel waste, and protect EV battery health with WizIOT’s AI-powered SaaS platform.',
+    images: [
+      {
+        url: 'https://www.wiziot.com/hero-telematics-dashboard.webp',
+        width: 1200,
+        height: 630,
+        alt: 'WizIOT AI Fleet Telematics Dashboard Interface',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'WizIOT | AI-Powered B2B Fleet Management & Telematics Platform',
+    description: 'Real-time GPS tracking, EV & BMS analytics, route optimization, ADAS driver safety, and cold chain telemetry.',
+    images: ['https://www.wiziot.com/hero-telematics-dashboard.webp'],
   },
 };
 
@@ -26,7 +56,7 @@ const organizationSchema = {
   name: 'WizIOT Telematics Inc.',
   alternateName: 'WizIOT',
   url: 'https://www.wiziot.com',
-  logo: 'https://www.wiziot.com/img/logo.svg',
+  logo: 'https://www.wiziot.com/images/logo.svg',
   description: 'Enterprise B2B IoT & Telematics platform powering fleet management, EV analytics, and asset tracking globally.',
   sameAs: [
     'https://www.linkedin.com/company/wiziot-technologies/'
@@ -37,6 +67,25 @@ const organizationSchema = {
     contactType: 'sales',
     availableLanguage: ['English', 'Arabic']
   }
+};
+
+const softwareAppSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'SoftwareApplication',
+  name: 'WizIOT Fleet Telematics SaaS',
+  operatingSystem: 'Web, iOS, Android',
+  applicationCategory: 'BusinessApplication',
+  offers: {
+    '@type': 'Offer',
+    price: '0.00',
+    priceCurrency: 'USD',
+    availability: 'https://schema.org/InStock',
+  },
+  aggregateRating: {
+    '@type': 'AggregateRating',
+    ratingValue: '4.9',
+    ratingCount: '128',
+  },
 };
 
 export default function RootLayout({ children }) {
@@ -61,6 +110,10 @@ export default function RootLayout({ children }) {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(softwareAppSchema) }}
         />
       </body>
     </html>

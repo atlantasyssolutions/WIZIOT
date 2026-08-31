@@ -14,7 +14,7 @@ export async function GET(request, { params }) {
   const resolvedParams = await params;
   const citySlug = resolvedParams.city.replace('.xml', '');
   const baseUrl = 'https://www.wiziot.com';
-  const blogs = getAllBlogs().filter(b => b.indexable);
+  const blogs = getAllBlogs().filter(b => b.indexable !== false);
 
   // Dedicated sitemap for all global blog posts (https://www.wiziot.com/sitemap/blogs.xml)
   if (citySlug === 'blogs') {

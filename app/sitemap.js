@@ -35,7 +35,7 @@ export default function sitemap() {
 
   // Blog Pages (Global)
   const blogs = getAllBlogs();
-  const validBlogs = blogs.filter(b => b.indexable === true);
+  const validBlogs = blogs.filter(b => b.indexable !== false);
   
   const blogRoutes = validBlogs.map((blog) => {
     let lastMod;
