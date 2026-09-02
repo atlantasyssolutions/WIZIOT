@@ -112,7 +112,7 @@ WizIOT software transmits real-time GPS coordinates to armed security teams whil
 
 ## Explore WizIOT Solutions
 
-- [WizIOT EV & BMS Fleet Analytics](/solutions#ev-fleets)
+- [WizIOT EV & BMS Fleet Analytics](/solutions/ev-fleets)
 - [WizIOT Anti-Theft & Cargo Security Platform](/platform)
 
 [Request a Free Fleet Assessment & Demo](/contact)

@@ -78,7 +78,7 @@ Unmonitored heavy-haul operations in West Africa surface persistent integrity ga
 
 Eliminate operational shrinkage, protect driver safety, and guarantee regulatory compliance with WizIOT enterprise telematics solutions.
 
-[Schedule Your Technical Strategy Call](https://www.wiziot.com/contact) | [Explore Platform Architecture](https://www.wiziot.com/platform)
+[Schedule Your Technical Strategy Call](/contact) | [Explore Platform Architecture](/platform)
 
 ---
 
@@ -111,7 +111,7 @@ A: Every event is SHA-256 hashed and exported via signed webhooks for immutable 
 
 ## Explore WizIOT Solutions
 
-- [WizIOT Cold Chain & Pharma Logistics](/solutions#cold-chain)
+- [WizIOT Cold Chain & Pharma Logistics](/solutions/cold-chain)
 - [WizIOT Enterprise ROI & Compliance Dashboard](/platform)
 
 [Request a Free Fleet Assessment & Demo](/contact)

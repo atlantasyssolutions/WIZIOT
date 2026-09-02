@@ -120,7 +120,7 @@ When a fuel card swipe records R 5,000 (e.g., 220 Liters) but the in-tank probe 
 
 ## Explore WizIOT Solutions
 
-- [WizIOT Fuel Monitoring & Anti-Theft Sensors](/solutions#telematics)
-- [WizIOT ADAS & Driver Safety Monitoring](/solutions#healthcare)
+- [WizIOT Fuel Monitoring & Anti-Theft Sensors](/solutions/telematics)
+- [WizIOT ADAS & Driver Safety Monitoring](/solutions/healthcare)
 
 [Request a Free Fleet Assessment & Demo](/contact)

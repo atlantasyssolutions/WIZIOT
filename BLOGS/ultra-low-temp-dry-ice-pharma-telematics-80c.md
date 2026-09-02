@@ -128,6 +128,6 @@ WizIOT generates instant digital QR-code audit certificates; customs officers sc
 
 ## Explore WizIOT Solutions
 
-- [WizIOT Cold Chain & Pharma Logistics](/solutions#cold-chain)
+- [WizIOT Cold Chain & Pharma Logistics](/solutions/cold-chain)
 
 [Request a Free Fleet Assessment & Demo](/contact)

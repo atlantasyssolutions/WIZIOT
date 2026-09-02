@@ -126,6 +126,6 @@ WizIOT software logs all telemetry in Coordinated Universal Time (UTC), automati
 
 ## Explore WizIOT Solutions
 
-- [WizIOT Cold Chain & Pharma Logistics](/solutions#cold-chain)
+- [WizIOT Cold Chain & Pharma Logistics](/solutions/cold-chain)
 
 [Request a Free Fleet Assessment & Demo](/contact)

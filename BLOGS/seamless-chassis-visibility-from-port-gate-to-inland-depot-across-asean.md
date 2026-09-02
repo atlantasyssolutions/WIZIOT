@@ -78,7 +78,7 @@ Freight assets operating without sensor coverage in APAC & ASEAN accumulate seve
 
 Eliminate operational shrinkage, protect driver safety, and guarantee regulatory compliance with WizIOT enterprise telematics solutions.
 
-[Schedule Your Technical Strategy Call](https://www.wiziot.com/contact) | [Explore Platform Architecture](https://www.wiziot.com/platform)
+[Schedule Your Technical Strategy Call](/contact) | [Explore Platform Architecture](/platform)
 
 ---
 
@@ -111,7 +111,7 @@ A: Confirmed jamming triggers progressive torque limitation within seconds while
 
 ## Explore WizIOT Solutions
 
-- [WizIOT Fuel Monitoring & Anti-Theft Sensors](/solutions#telematics)
-- [WizIOT Heavy Equipment & Mining Telematics](/solutions#industrial-iot)
+- [WizIOT Fuel Monitoring & Anti-Theft Sensors](/solutions/telematics)
+- [WizIOT Heavy Equipment & Mining Telematics](/solutions/industrial-iot)
 
 [Request a Free Fleet Assessment & Demo](/contact)

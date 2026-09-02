@@ -120,7 +120,7 @@ No. WizIOT mobile installation teams perform probe mounting and 10-point tank ca
 
 ## Explore WizIOT Solutions
 
-- [WizIOT Fuel Monitoring & Anti-Theft Sensors](/solutions#telematics)
-- [WizIOT Heavy Equipment & Mining Telematics](/solutions#industrial-iot)
+- [WizIOT Fuel Monitoring & Anti-Theft Sensors](/solutions/telematics)
+- [WizIOT Heavy Equipment & Mining Telematics](/solutions/industrial-iot)
 
 [Request a Free Fleet Assessment & Demo](/contact)

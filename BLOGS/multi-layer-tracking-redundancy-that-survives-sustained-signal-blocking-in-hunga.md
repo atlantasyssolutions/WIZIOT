@@ -78,7 +78,7 @@ Sensor-blind logistics networks in Eastern Europe inherit acute vulnerability pr
 
 Eliminate operational shrinkage, protect driver safety, and guarantee regulatory compliance with WizIOT enterprise telematics solutions.
 
-[Schedule Your Technical Strategy Call](https://www.wiziot.com/contact) | [Explore Platform Architecture](https://www.wiziot.com/platform)
+[Schedule Your Technical Strategy Call](/contact) | [Explore Platform Architecture](/platform)
 
 ---
 
@@ -111,7 +111,7 @@ A: Speed-restriction logic follows UN ECE R116 requirements and activates only a
 
 ## Explore WizIOT Solutions
 
-- [WizIOT Cold Chain & Pharma Logistics](/solutions#cold-chain)
+- [WizIOT Cold Chain & Pharma Logistics](/solutions/cold-chain)
 - [WizIOT Enterprise ROI & Compliance Dashboard](/platform)
 
 [Request a Free Fleet Assessment & Demo](/contact)

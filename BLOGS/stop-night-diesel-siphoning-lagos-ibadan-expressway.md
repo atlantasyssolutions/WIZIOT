@@ -81,7 +81,7 @@ Before selecting a telematics vendor, fleet directors must ask these critical en
 
 Eliminate operational waste, guarantee regulatory compliance, and lower fleet operating costs with WizIOT enterprise telematics.
 
-[Schedule Your Technical Strategy Call](https://www.wiziot.com/contact) | [Explore Platform Features](https://www.wiziot.com/platform)
+[Schedule Your Technical Strategy Call](/contact) | [Explore Platform Features](/platform)
 
 ---
 
@@ -117,7 +117,7 @@ WizIOT hardware carries a 3-year full replacement warranty for all commercial fl
 
 ## Explore WizIOT Solutions
 
-- [WizIOT Fuel Monitoring & Anti-Theft Sensors](/solutions#telematics)
-- [WizIOT EV & BMS Fleet Analytics](/solutions#ev-fleets)
+- [WizIOT Fuel Monitoring & Anti-Theft Sensors](/solutions/telematics)
+- [WizIOT EV & BMS Fleet Analytics](/solutions/ev-fleets)
 
 [Request a Free Fleet Assessment & Demo](/contact)

@@ -125,7 +125,7 @@ Immutable PDF temp/humidity graphs provide definitive proof that carrier climate
 
 ## Explore WizIOT Solutions
 
-- [WizIOT EV & BMS Fleet Analytics](/solutions#ev-fleets)
-- [WizIOT Cold Chain & Pharma Logistics](/solutions#cold-chain)
+- [WizIOT EV & BMS Fleet Analytics](/solutions/ev-fleets)
+- [WizIOT Cold Chain & Pharma Logistics](/solutions/cold-chain)
 
 [Request a Free Fleet Assessment & Demo](/contact)

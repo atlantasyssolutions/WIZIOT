@@ -1,5 +1,6 @@
 import { getAllLocations } from '@/lib/locations';
 import { getAllBlogs } from '@/lib/blog';
+import { VERTICALS_DATA } from '@/data/verticals';
 
 export default function sitemap() {
   const baseUrl = 'https://www.wiziot.com';
@@ -19,16 +20,21 @@ export default function sitemap() {
     '/terms-of-service'
   ].map((route) => ({
     url: `${baseUrl}${route}`,
-    
     changeFrequency: 'weekly',
     priority: route === '' ? 1.0 : 0.8,
+  }));
+
+  // Dedicated Solution Pages (High-Priority Transactional Landing Pages)
+  const solutionRoutes = VERTICALS_DATA.map((vert) => ({
+    url: `${baseUrl}/solutions/${vert.id}`,
+    changeFrequency: 'weekly',
+    priority: 0.9,
   }));
 
   // City Pages
   const locations = getAllLocations();
   const locationRoutes = locations.map((loc) => ({
     url: `${baseUrl}/${loc.slug}`,
-    
     changeFrequency: 'monthly',
     priority: 0.7,
   }));
@@ -52,5 +58,5 @@ export default function sitemap() {
     };
   });
 
-  return [...routes, ...locationRoutes, ...blogRoutes];
+  return [...routes, ...solutionRoutes, ...locationRoutes, ...blogRoutes];
 }

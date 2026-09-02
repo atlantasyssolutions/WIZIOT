@@ -78,7 +78,7 @@ Unprotected freight corridors throughout GCC & Middle East expose fleets to laye
 
 Eliminate operational shrinkage, protect driver safety, and guarantee regulatory compliance with WizIOT enterprise telematics solutions.
 
-[Schedule Your Technical Strategy Call](https://www.wiziot.com/contact) | [Explore Platform Architecture](https://www.wiziot.com/platform)
+[Schedule Your Technical Strategy Call](/contact) | [Explore Platform Architecture](/platform)
 
 ---
 
@@ -111,6 +111,6 @@ A: SHA-256 cryptographic sealing plus timestamped webhook delivery creates immut
 
 ## Explore WizIOT Solutions
 
-- [WizIOT EV & BMS Fleet Analytics](/solutions#ev-fleets)
+- [WizIOT EV & BMS Fleet Analytics](/solutions/ev-fleets)
 
 [Request a Free Fleet Assessment & Demo](/contact)

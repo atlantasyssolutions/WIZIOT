@@ -149,7 +149,7 @@ WizIOT offers flexible Hardware-as-a-Service (HaaS) subscription options that co
 
 ## Explore WizIOT Solutions
 
-- [WizIOT Fuel Monitoring & Anti-Theft Sensors](/solutions#telematics)
+- [WizIOT Fuel Monitoring & Anti-Theft Sensors](/solutions/telematics)
 - [WizIOT Enterprise ROI & Compliance Dashboard](/platform)
 
 [Request a Free Fleet Assessment & Demo](/contact)

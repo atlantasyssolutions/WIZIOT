@@ -78,7 +78,7 @@ Freight assets operating without sensor coverage in APAC & ASEAN accumulate seve
 
 Eliminate operational shrinkage, protect driver safety, and guarantee regulatory compliance with WizIOT enterprise telematics solutions.
 
-[Schedule Your Technical Strategy Call](https://www.wiziot.com/contact) | [Explore Platform Architecture](https://www.wiziot.com/platform)
+[Schedule Your Technical Strategy Call](/contact) | [Explore Platform Architecture](/platform)
 
 ---
 

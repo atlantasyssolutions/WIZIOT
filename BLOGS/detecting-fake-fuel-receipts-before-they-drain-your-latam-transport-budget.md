@@ -78,7 +78,7 @@ Sensor-blind logistics networks in Latin America (LATAM) inherit acute vulnerabi
 
 Eliminate operational shrinkage, protect driver safety, and guarantee regulatory compliance with WizIOT enterprise telematics solutions.
 
-[Schedule Your Technical Strategy Call](https://www.wiziot.com/contact) | [Explore Platform Architecture](https://www.wiziot.com/platform)
+[Schedule Your Technical Strategy Call](/contact) | [Explore Platform Architecture](/platform)
 
 ---
 
@@ -111,6 +111,6 @@ A: Yes—confirmed signal loss triggers ECE R116-compliant speed restriction wit
 
 ## Explore WizIOT Solutions
 
-- [WizIOT Fuel Monitoring & Anti-Theft Sensors](/solutions#telematics)
+- [WizIOT Fuel Monitoring & Anti-Theft Sensors](/solutions/telematics)
 
 [Request a Free Fleet Assessment & Demo](/contact)

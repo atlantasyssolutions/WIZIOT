@@ -78,7 +78,7 @@ Freight assets operating without sensor coverage in Latin America (LATAM) accumu
 
 Eliminate operational shrinkage, protect driver safety, and guarantee regulatory compliance with WizIOT enterprise telematics solutions.
 
-[Schedule Your Technical Strategy Call](https://www.wiziot.com/contact) | [Explore Platform Architecture](https://www.wiziot.com/platform)
+[Schedule Your Technical Strategy Call](/contact) | [Explore Platform Architecture](/platform)
 
 ---
 
@@ -111,6 +111,6 @@ A: Authenticated REST webhooks deliver complete, SHA-256 sealed event streams in
 
 ## Explore WizIOT Solutions
 
-- [WizIOT EV & BMS Fleet Analytics](/solutions#ev-fleets)
+- [WizIOT EV & BMS Fleet Analytics](/solutions/ev-fleets)
 
 [Request a Free Fleet Assessment & Demo](/contact)

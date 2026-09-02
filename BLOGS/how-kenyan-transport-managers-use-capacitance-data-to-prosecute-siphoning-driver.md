@@ -78,7 +78,7 @@ Unprotected freight corridors throughout East Africa expose fleets to layered op
 
 Eliminate operational shrinkage, protect driver safety, and guarantee regulatory compliance with WizIOT enterprise telematics solutions.
 
-[Schedule Your Technical Strategy Call](https://www.wiziot.com/contact) | [Explore Platform Architecture](https://www.wiziot.com/platform)
+[Schedule Your Technical Strategy Call](/contact) | [Explore Platform Architecture](/platform)
 
 ---
 
@@ -111,7 +111,7 @@ A: Authenticated REST webhooks deliver complete, SHA-256 sealed event streams in
 
 ## Explore WizIOT Solutions
 
-- [WizIOT Fuel Monitoring & Anti-Theft Sensors](/solutions#telematics)
-- [WizIOT Cold Chain & Pharma Logistics](/solutions#cold-chain)
+- [WizIOT Fuel Monitoring & Anti-Theft Sensors](/solutions/telematics)
+- [WizIOT Cold Chain & Pharma Logistics](/solutions/cold-chain)
 
 [Request a Free Fleet Assessment & Demo](/contact)

@@ -78,7 +78,7 @@ Uninstrumented commercial corridors across GCC & Middle East generate cascading 
 
 Eliminate operational shrinkage, protect driver safety, and guarantee regulatory compliance with WizIOT enterprise telematics solutions.
 
-[Schedule Your Technical Strategy Call](https://www.wiziot.com/contact) | [Explore Platform Architecture](https://www.wiziot.com/platform)
+[Schedule Your Technical Strategy Call](/contact) | [Explore Platform Architecture](/platform)
 
 ---
 
@@ -111,7 +111,7 @@ A: Standardized REST webhooks and J1939 data enrichment enable plug-and-play con
 
 ## Explore WizIOT Solutions
 
-- [WizIOT EV & BMS Fleet Analytics](/solutions#ev-fleets)
-- [WizIOT Cold Chain & Pharma Logistics](/solutions#cold-chain)
+- [WizIOT EV & BMS Fleet Analytics](/solutions/ev-fleets)
+- [WizIOT Cold Chain & Pharma Logistics](/solutions/cold-chain)
 
 [Request a Free Fleet Assessment & Demo](/contact)

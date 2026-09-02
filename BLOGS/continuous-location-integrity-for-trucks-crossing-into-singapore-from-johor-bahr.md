@@ -78,7 +78,7 @@ Freight movements lacking continuous telemetry across APAC & ASEAN confront mult
 
 Eliminate operational shrinkage, protect driver safety, and guarantee regulatory compliance with WizIOT enterprise telematics solutions.
 
-[Schedule Your Technical Strategy Call](https://www.wiziot.com/contact) | [Explore Platform Architecture](https://www.wiziot.com/platform)
+[Schedule Your Technical Strategy Call](/contact) | [Explore Platform Architecture](/platform)
 
 ---
 
@@ -111,6 +111,6 @@ A: Yes—confirmed signal loss triggers ECE R116-compliant speed restriction wit
 
 ## Explore WizIOT Solutions
 
-- [WizIOT ADAS & Driver Safety Monitoring](/solutions#healthcare)
+- [WizIOT ADAS & Driver Safety Monitoring](/solutions/healthcare)
 
 [Request a Free Fleet Assessment & Demo](/contact)

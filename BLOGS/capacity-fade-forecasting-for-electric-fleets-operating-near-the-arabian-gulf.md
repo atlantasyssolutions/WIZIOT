@@ -78,7 +78,7 @@ Telemetry-deficient transport fleets spanning APAC & ASEAN inherit critical expo
 
 Eliminate operational shrinkage, protect driver safety, and guarantee regulatory compliance with WizIOT enterprise telematics solutions.
 
-[Schedule Your Technical Strategy Call](https://www.wiziot.com/contact) | [Explore Platform Architecture](https://www.wiziot.com/platform)
+[Schedule Your Technical Strategy Call](/contact) | [Explore Platform Architecture](/platform)
 
 ---
 
@@ -111,7 +111,7 @@ A: Authenticated REST webhooks deliver complete, SHA-256 sealed event streams in
 
 ## Explore WizIOT Solutions
 
-- [WizIOT EV & BMS Fleet Analytics](/solutions#ev-fleets)
-- [WizIOT Heavy Equipment & Mining Telematics](/solutions#industrial-iot)
+- [WizIOT EV & BMS Fleet Analytics](/solutions/ev-fleets)
+- [WizIOT Heavy Equipment & Mining Telematics](/solutions/industrial-iot)
 
 [Request a Free Fleet Assessment & Demo](/contact)

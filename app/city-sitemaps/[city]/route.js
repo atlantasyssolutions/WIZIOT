@@ -55,13 +55,26 @@ export async function GET(request, { params }) {
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-  ${blogs.map(blog => `
   <url>
-    <loc>${baseUrl}/blog/${location.slug}/${blog.slug}</loc>
-    <lastmod>${blog.publishedAt ? new Date(blog.publishedAt).toISOString() : new Date().toISOString()}</lastmod>
+    <loc>${baseUrl}/${location.slug}/solutions</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>`).join('')}
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>${baseUrl}/${location.slug}/platform</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>${baseUrl}/${location.slug}/pricing</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>${baseUrl}/${location.slug}/contact</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>`;
 
   return new Response(xml, {

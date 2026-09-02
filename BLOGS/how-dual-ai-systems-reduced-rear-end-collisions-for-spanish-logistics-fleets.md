@@ -78,7 +78,7 @@ Freight assets operating without sensor coverage in Global Trade Corridors accum
 
 Eliminate operational shrinkage, protect driver safety, and guarantee regulatory compliance with WizIOT enterprise telematics solutions.
 
-[Schedule Your Technical Strategy Call](https://www.wiziot.com/contact) | [Explore Platform Architecture](https://www.wiziot.com/platform)
+[Schedule Your Technical Strategy Call](/contact) | [Explore Platform Architecture](/platform)
 
 ---
 
@@ -111,7 +111,7 @@ A: SHA-256 cryptographic sealing plus timestamped webhook delivery creates immut
 
 ## Explore WizIOT Solutions
 
-- [WizIOT EV & BMS Fleet Analytics](/solutions#ev-fleets)
-- [WizIOT ADAS & Driver Safety Monitoring](/solutions#healthcare)
+- [WizIOT EV & BMS Fleet Analytics](/solutions/ev-fleets)
+- [WizIOT ADAS & Driver Safety Monitoring](/solutions/healthcare)
 
 [Request a Free Fleet Assessment & Demo](/contact)

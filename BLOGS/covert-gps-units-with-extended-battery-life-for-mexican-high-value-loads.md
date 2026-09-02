@@ -78,7 +78,7 @@ Telemetry-deficient transport fleets spanning Latin America (LATAM) inherit crit
 
 Eliminate operational shrinkage, protect driver safety, and guarantee regulatory compliance with WizIOT enterprise telematics solutions.
 
-[Schedule Your Technical Strategy Call](https://www.wiziot.com/contact) | [Explore Platform Architecture](https://www.wiziot.com/platform)
+[Schedule Your Technical Strategy Call](/contact) | [Explore Platform Architecture](/platform)
 
 ---
 
@@ -111,7 +111,7 @@ A: Speed-restriction logic follows UN ECE R116 requirements and activates only a
 
 ## Explore WizIOT Solutions
 
-- [WizIOT EV & BMS Fleet Analytics](/solutions#ev-fleets)
+- [WizIOT EV & BMS Fleet Analytics](/solutions/ev-fleets)
 - [WizIOT Anti-Theft & Cargo Security Platform](/platform)
 
 [Request a Free Fleet Assessment & Demo](/contact)

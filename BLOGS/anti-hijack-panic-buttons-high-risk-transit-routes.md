@@ -120,7 +120,7 @@ Yes. WizIOT emergency panic hardware operates across wide DC voltage ranges (9V 
 
 ## Explore WizIOT Solutions
 
-- [WizIOT ADAS & Driver Safety Monitoring](/solutions#healthcare)
+- [WizIOT ADAS & Driver Safety Monitoring](/solutions/healthcare)
 - [WizIOT Anti-Theft & Cargo Security Platform](/platform)
 
 [Request a Free Fleet Assessment & Demo](/contact)

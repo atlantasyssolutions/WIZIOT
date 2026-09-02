@@ -26,8 +26,7 @@ export async function generateMetadata({ params }) {
   const location = getLocationBySlug(resolvedParams?.city);
   if (!blog || !location) return { title: 'Post Not Found | WizIOT Telematics' };
 
-  const canonicalUrl = `https://www.wiziot.com/blog/${location.slug}/${blog.slug}`;
-  const isIndexable = blog.indexable === true;
+  const canonicalUrl = `https://www.wiziot.com/blog/${blog.slug}`;
   const localizedTitle = `${blog.title} in ${location.city} | WizIOT Telematics`;
 
   return {
@@ -37,10 +36,10 @@ export async function generateMetadata({ params }) {
       canonical: canonicalUrl,
     },
     robots: {
-      index: isIndexable,
+      index: false, // Let Google index the master global blog to avoid duplicate content bloat
       follow: true,
       googleBot: {
-        index: isIndexable,
+        index: false,
         follow: true,
         'max-image-preview': 'large',
         'max-snippet': -1,

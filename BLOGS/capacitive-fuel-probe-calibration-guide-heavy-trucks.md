@@ -125,6 +125,6 @@ For maximum accuracy, initial 10-point calibration requires starting from an emp
 
 ## Explore WizIOT Solutions
 
-- [WizIOT Fuel Monitoring & Anti-Theft Sensors](/solutions#telematics)
+- [WizIOT Fuel Monitoring & Anti-Theft Sensors](/solutions/telematics)
 
 [Request a Free Fleet Assessment & Demo](/contact)

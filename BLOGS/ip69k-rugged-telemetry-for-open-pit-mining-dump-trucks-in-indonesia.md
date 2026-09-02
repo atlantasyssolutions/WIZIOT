@@ -78,7 +78,7 @@ Logistics networks devoid of continuous monitoring in APAC & ASEAN face concentr
 
 Eliminate operational shrinkage, protect driver safety, and guarantee regulatory compliance with WizIOT enterprise telematics solutions.
 
-[Schedule Your Technical Strategy Call](https://www.wiziot.com/contact) | [Explore Platform Architecture](https://www.wiziot.com/platform)
+[Schedule Your Technical Strategy Call](/contact) | [Explore Platform Architecture](/platform)
 
 ---
 
@@ -111,7 +111,7 @@ A: Progressive speed limitation activates only after confirmed multi-sensor jamm
 
 ## Explore WizIOT Solutions
 
-- [WizIOT Heavy Equipment & Mining Telematics](/solutions#industrial-iot)
+- [WizIOT Heavy Equipment & Mining Telematics](/solutions/industrial-iot)
 - [WizIOT Anti-Theft & Cargo Security Platform](/platform)
 
 [Request a Free Fleet Assessment & Demo](/contact)

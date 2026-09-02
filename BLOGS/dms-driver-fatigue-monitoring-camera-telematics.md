@@ -90,7 +90,7 @@ To comply with global data privacy regulations (such as EU GDPR), WizIOT video t
 
 Protect your drivers, lower insurance premiums, and eliminate preventable collisions. Schedule a live demonstration of WizIOT Dual-AI DMS and ADAS video telematics today.
 
-[Book Your Fleet Safety Demo](https://www.wiziot.com/contact) | [Explore Platform Features](https://www.wiziot.com/platform)
+[Book Your Fleet Safety Demo](/contact) | [Explore Platform Features](/platform)
 
 ---
 
@@ -126,6 +126,6 @@ Insurance underwriters award significant premium discounts (up to 30%) to fleets
 
 ## Explore WizIOT Solutions
 
-- [WizIOT ADAS & Driver Safety Monitoring](/solutions#healthcare)
+- [WizIOT ADAS & Driver Safety Monitoring](/solutions/healthcare)
 
 [Request a Free Fleet Assessment & Demo](/contact)

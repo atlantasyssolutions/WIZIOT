@@ -100,7 +100,7 @@ Upload the 10-point frequency-to-volume mapping table to the WizIOT cloud platfo
 
 Stop fuel theft, eliminate false alarms, and gain total control over your fleet's diesel consumption. Schedule a consultation with WizIOT fuel engineering specialists.
 
-[Book Your Fuel Calibration Consultation](https://www.wiziot.com/contact) | [Explore Fuel Telematics](https://www.wiziot.com/solutions)
+[Book Your Fuel Calibration Consultation](/contact) | [Explore Fuel Telematics](/solutions)
 
 ---
 
@@ -136,6 +136,6 @@ WizIOT monitors the relationship between CAN-bus fuel consumption rate and tank 
 
 ## Explore WizIOT Solutions
 
-- [WizIOT Fuel Monitoring & Anti-Theft Sensors](/solutions#telematics)
+- [WizIOT Fuel Monitoring & Anti-Theft Sensors](/solutions/telematics)
 
 [Request a Free Fleet Assessment & Demo](/contact)

@@ -78,7 +78,7 @@ Unprotected freight corridors throughout Global Trade Corridors expose fleets to
 
 Eliminate operational shrinkage, protect driver safety, and guarantee regulatory compliance with WizIOT enterprise telematics solutions.
 
-[Schedule Your Technical Strategy Call](https://www.wiziot.com/contact) | [Explore Platform Architecture](https://www.wiziot.com/platform)
+[Schedule Your Technical Strategy Call](/contact) | [Explore Platform Architecture](/platform)
 
 ---
 
@@ -111,6 +111,6 @@ A: Standardized REST webhooks and J1939 data enrichment enable plug-and-play con
 
 ## Explore WizIOT Solutions
 
-- [WizIOT Heavy Equipment & Mining Telematics](/solutions#industrial-iot)
+- [WizIOT Heavy Equipment & Mining Telematics](/solutions/industrial-iot)
 
 [Request a Free Fleet Assessment & Demo](/contact)

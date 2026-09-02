@@ -78,7 +78,7 @@ Sensor-blind logistics networks in Global Trade Corridors inherit acute vulnerab
 
 Eliminate operational shrinkage, protect driver safety, and guarantee regulatory compliance with WizIOT enterprise telematics solutions.
 
-[Schedule Your Technical Strategy Call](https://www.wiziot.com/contact) | [Explore Platform Architecture](https://www.wiziot.com/platform)
+[Schedule Your Technical Strategy Call](/contact) | [Explore Platform Architecture](/platform)
 
 ---
 
@@ -111,7 +111,7 @@ A: SHA-256 cryptographic sealing plus timestamped webhook delivery creates immut
 
 ## Explore WizIOT Solutions
 
-- [WizIOT Fuel Monitoring & Anti-Theft Sensors](/solutions#telematics)
+- [WizIOT Fuel Monitoring & Anti-Theft Sensors](/solutions/telematics)
 - [WizIOT Anti-Theft & Cargo Security Platform](/platform)
 
 [Request a Free Fleet Assessment & Demo](/contact)

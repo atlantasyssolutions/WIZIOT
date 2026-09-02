@@ -78,7 +78,7 @@ Unprotected freight corridors throughout Global Trade Corridors expose fleets to
 
 Eliminate operational shrinkage, protect driver safety, and guarantee regulatory compliance with WizIOT enterprise telematics solutions.
 
-[Schedule Your Technical Strategy Call](https://www.wiziot.com/contact) | [Explore Platform Architecture](https://www.wiziot.com/platform)
+[Schedule Your Technical Strategy Call](/contact) | [Explore Platform Architecture](/platform)
 
 ---
 
@@ -111,7 +111,7 @@ A: Confirmed jamming triggers progressive torque limitation within seconds while
 
 ## Explore WizIOT Solutions
 
-- [WizIOT EV & BMS Fleet Analytics](/solutions#ev-fleets)
+- [WizIOT EV & BMS Fleet Analytics](/solutions/ev-fleets)
 - [WizIOT Enterprise ROI & Compliance Dashboard](/platform)
 
 [Request a Free Fleet Assessment & Demo](/contact)

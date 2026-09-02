@@ -1,0 +1,9 @@
+Reason,Source,Validation,Pages
+Crawled - currently not indexed,Google systems,Failed,19
+Alternative page with proper canonical tag,Website,Not Started,68
+Not found (404),Website,Not Started,33
+Duplicate without user-selected canonical,Website,Not Started,7
+Excluded by ‘noindex’ tag,Website,Not Started,6
+Page with redirect,Website,Not Started,3
+"Duplicate, Google chose different canonical than user",Google systems,Not Started,10
+Discovered – currently not indexed,Google systems,Started,2902

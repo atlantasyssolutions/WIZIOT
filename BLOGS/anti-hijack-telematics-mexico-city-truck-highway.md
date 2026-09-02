@@ -90,7 +90,7 @@ Before renewing telematics contracts for fleets operating in Latin America, ask 
 
 Do not wait for your next vehicle hijacking to upgrade your security architecture. WizIOT provides certified anti-jamming hardware, covert secondary trackers, and on-site engineering support across Mexico City, Guadalajara, Monterrey, and Puebla.
 
-[Schedule Your LATAM Security Consultation](https://www.wiziot.com/contact) | [Explore Security Solutions](https://www.wiziot.com/solutions)
+[Schedule Your LATAM Security Consultation](/contact) | [Explore Security Solutions](/solutions)
 
 ---
 

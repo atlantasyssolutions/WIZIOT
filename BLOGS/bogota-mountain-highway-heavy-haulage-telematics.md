@@ -90,7 +90,7 @@ WizIOT hardware is housed in heavy-duty IP67/IP68 sealed enclosures built to wit
 
 Cut fuel waste, protect engine health, and ensure continuous fleet visibility over mountain transit routes with WizIOT telematics.
 
-[Schedule Your Colombian Fleet Strategy Call](https://www.wiziot.com/contact) | [Explore Heavy Machinery Telematics](https://www.wiziot.com/solutions)
+[Schedule Your Colombian Fleet Strategy Call](/contact) | [Explore Heavy Machinery Telematics](/solutions)
 
 ---
 
@@ -126,6 +126,6 @@ Yes. WizIOT certified field technicians provide depot installation, CAN-bus inte
 
 ## Explore WizIOT Solutions
 
-- [WizIOT Heavy Equipment & Mining Telematics](/solutions#industrial-iot)
+- [WizIOT Heavy Equipment & Mining Telematics](/solutions/industrial-iot)
 
 [Request a Free Fleet Assessment & Demo](/contact)

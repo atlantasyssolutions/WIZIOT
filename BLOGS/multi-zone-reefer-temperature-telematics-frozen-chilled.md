@@ -115,6 +115,6 @@ Yes. WizIOT multi-zone PDF audit reports satisfy WHO GDP, NAFDAC, and US-FDA 21 
 
 ## Explore WizIOT Solutions
 
-- [WizIOT Cold Chain & Pharma Logistics](/solutions#cold-chain)
+- [WizIOT Cold Chain & Pharma Logistics](/solutions/cold-chain)
 
 [Request a Free Fleet Assessment & Demo](/contact)

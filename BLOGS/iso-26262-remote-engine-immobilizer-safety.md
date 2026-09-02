@@ -90,7 +90,7 @@ In the event of an electrical failure or false alarm in a secure zone, WizIOT ha
 
 Protect high-value cargo without compromising driver or road safety. Schedule a consultation with WizIOT automotive functional safety engineers.
 
-[Book Your Functional Safety Review](https://www.wiziot.com/contact) | [Explore Security Telematics](https://www.wiziot.com/solutions)
+[Book Your Functional Safety Review](/contact) | [Explore Security Telematics](/solutions)
 
 ---
 

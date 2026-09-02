@@ -90,7 +90,7 @@ WizIOT cloud storage enforces automated data purge policies aligned with nationa
 
 Protect your fleet, safeguard driver privacy, and pass every European data protection audit with WizIOT telematics.
 
-[Request Your GDPR Telematics Compliance Pack](https://www.wiziot.com/contact) | [Explore Platform Architecture](https://www.wiziot.com/platform)
+[Request Your GDPR Telematics Compliance Pack](/contact) | [Explore Platform Architecture](/platform)
 
 ---
 
@@ -126,7 +126,7 @@ Operators should complete a Data Protection Impact Assessment (DPIA), update emp
 
 ## Explore WizIOT Solutions
 
-- [WizIOT Cold Chain & Pharma Logistics](/solutions#cold-chain)
-- [WizIOT ADAS & Driver Safety Monitoring](/solutions#healthcare)
+- [WizIOT Cold Chain & Pharma Logistics](/solutions/cold-chain)
+- [WizIOT ADAS & Driver Safety Monitoring](/solutions/healthcare)
 
 [Request a Free Fleet Assessment & Demo](/contact)

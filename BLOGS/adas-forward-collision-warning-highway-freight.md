@@ -89,7 +89,7 @@ WizIOT ADAS hardware is engineered to satisfy mandatory European Union General S
 
 Give your commercial drivers advanced warning against highway collision hazards. Schedule a live demonstration of WizIOT ADAS video telematics today.
 
-[Book Your ADAS Safety Demo](https://www.wiziot.com/contact) | [Explore Safety Telematics](https://www.wiziot.com/solutions)
+[Book Your ADAS Safety Demo](/contact) | [Explore Safety Telematics](/solutions)
 
 ---
 
@@ -125,6 +125,6 @@ Using WizIOT pre-calibrated mounting brackets and CAN-bus pass-through harnesses
 
 ## Explore WizIOT Solutions
 
-- [WizIOT ADAS & Driver Safety Monitoring](/solutions#healthcare)
+- [WizIOT ADAS & Driver Safety Monitoring](/solutions/healthcare)
 
 [Request a Free Fleet Assessment & Demo](/contact)

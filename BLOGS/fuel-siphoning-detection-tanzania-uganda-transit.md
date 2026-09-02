@@ -114,6 +114,6 @@ Yes. WizIOT fleet management software allows multi-currency expense tracking, au
 
 ## Explore WizIOT Solutions
 
-- [WizIOT Fuel Monitoring & Anti-Theft Sensors](/solutions#telematics)
+- [WizIOT Fuel Monitoring & Anti-Theft Sensors](/solutions/telematics)
 
 [Request a Free Fleet Assessment & Demo](/contact)

@@ -88,7 +88,7 @@ To eliminate cellular dead zones in mountain passes (Serra do Mar), WizIOT dual-
 
 Protect high-value freight, guarantee cold chain integrity, and streamline port delivery schedules with WizIOT LATAM telematics.
 
-[Book Your LATAM Fleet Security Review](https://www.wiziot.com/contact) | [Explore Security Solutions](https://www.wiziot.com/solutions)
+[Book Your LATAM Fleet Security Review](/contact) | [Explore Security Solutions](/solutions)
 
 ---
 
@@ -124,7 +124,7 @@ Yes. WizIOT dual-SIM hardware automatically switches between Vivo, Claro, and TI
 
 ## Explore WizIOT Solutions
 
-- [WizIOT Cold Chain & Pharma Logistics](/solutions#cold-chain)
+- [WizIOT Cold Chain & Pharma Logistics](/solutions/cold-chain)
 - [WizIOT Anti-Theft & Cargo Security Platform](/platform)
 
 [Request a Free Fleet Assessment & Demo](/contact)

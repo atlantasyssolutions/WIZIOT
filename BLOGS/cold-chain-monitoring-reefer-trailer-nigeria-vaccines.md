@@ -117,7 +117,7 @@ Yes. WizIOT BLE sensors are rated for continuous operation down to -40°C, deliv
 
 ## Explore WizIOT Solutions
 
-- [WizIOT Cold Chain & Pharma Logistics](/solutions#cold-chain)
+- [WizIOT Cold Chain & Pharma Logistics](/solutions/cold-chain)
 - [WizIOT Enterprise ROI & Compliance Dashboard](/platform)
 
 [Request a Free Fleet Assessment & Demo](/contact)

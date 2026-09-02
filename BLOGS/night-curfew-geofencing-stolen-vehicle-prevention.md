@@ -114,6 +114,6 @@ Yes. WizIOT API webhooks can route out-of-hours yard breach alerts directly to s
 
 ## Explore WizIOT Solutions
 
-- [WizIOT EV & BMS Fleet Analytics](/solutions#ev-fleets)
+- [WizIOT EV & BMS Fleet Analytics](/solutions/ev-fleets)
 
 [Request a Free Fleet Assessment & Demo](/contact)

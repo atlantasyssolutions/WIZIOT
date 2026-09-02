@@ -87,7 +87,7 @@ WizIOT heavy-duty capacitive fuel probes for mining dump trucks feature thick-wa
 
 Eliminate hardware failures, monitor heavy machine health, and optimize diesel efficiency in extreme mining environments.
 
-[Schedule Your Mining Telematics Review](https://www.wiziot.com/contact) | [Explore Heavy Asset IoT](https://www.wiziot.com/solutions)
+[Schedule Your Mining Telematics Review](/contact) | [Explore Heavy Asset IoT](/solutions)
 
 ---
 
@@ -123,6 +123,6 @@ Yes. WizIOT telematics engineers write custom CAN-bus J1939/CANopen protocol dec
 
 ## Explore WizIOT Solutions
 
-- [WizIOT Heavy Equipment & Mining Telematics](/solutions#industrial-iot)
+- [WizIOT Heavy Equipment & Mining Telematics](/solutions/industrial-iot)
 
 [Request a Free Fleet Assessment & Demo](/contact)

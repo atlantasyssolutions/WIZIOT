@@ -90,7 +90,7 @@ Fatigue and distraction data are synthesized into daily and weekly Driver Safety
 
 Protect your drivers, prevent catastrophic highway accidents, and lower fleet operating costs with WizIOT Dual-AI Video Telematics.
 
-[Schedule Your Fleet Safety Consultation](https://www.wiziot.com/contact) | [Explore Safety Solutions](https://www.wiziot.com/solutions)
+[Schedule Your Fleet Safety Consultation](/contact) | [Explore Safety Solutions](/solutions)
 
 ---
 
@@ -126,6 +126,6 @@ Yes. WizIOT provides open REST and Webhook APIs, allowing fatigue risk scores an
 
 ## Explore WizIOT Solutions
 
-- [WizIOT ADAS & Driver Safety Monitoring](/solutions#healthcare)
+- [WizIOT ADAS & Driver Safety Monitoring](/solutions/healthcare)
 
 [Request a Free Fleet Assessment & Demo](/contact)

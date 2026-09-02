@@ -81,7 +81,7 @@ Before selecting a telematics vendor, fleet directors must ask these critical en
 
 Eliminate operational waste, guarantee regulatory compliance, and lower fleet operating costs with WizIOT enterprise telematics.
 
-[Schedule Your Technical Strategy Call](https://www.wiziot.com/contact) | [Explore Platform Features](https://www.wiziot.com/platform)
+[Schedule Your Technical Strategy Call](/contact) | [Explore Platform Features](/platform)
 
 ---
 
@@ -117,6 +117,6 @@ WizIOT mining gateways carry a 3-year heavy-duty replacement warranty for open-p
 
 ## Explore WizIOT Solutions
 
-- [WizIOT Heavy Equipment & Mining Telematics](/solutions#industrial-iot)
+- [WizIOT Heavy Equipment & Mining Telematics](/solutions/industrial-iot)
 
 [Request a Free Fleet Assessment & Demo](/contact)

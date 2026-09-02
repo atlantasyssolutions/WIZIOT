@@ -90,7 +90,7 @@ Housed in UV-stabilized, impact-resistant polycarbonate enclosures, WizIOT asset
 
 Eliminate lost equipment, maximize asset turnaround, and automate customer detention billing with WizIOT solar asset telematics.
 
-[Request Your Global Trade Corridors Asset Demo](https://www.wiziot.com/contact) | [Explore Asset IoT](https://www.wiziot.com/solutions)
+[Request Your Global Trade Corridors Asset Demo](/contact) | [Explore Asset IoT](/solutions)
 
 ---
 

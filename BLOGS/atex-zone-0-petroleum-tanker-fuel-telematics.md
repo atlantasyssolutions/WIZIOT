@@ -86,7 +86,7 @@ Engineered specifically for extreme GCC summer temperatures exceeding +60°C (+1
 
 Eliminate explosion risks, prevent fuel theft, and pass every oil company audit with WizIOT ATEX Zone 0/1 certified telematics hardware.
 
-[Request Your ATEX Technical Compliance Dossier](https://www.wiziot.com/contact) | [Explore Energy Telematics](https://www.wiziot.com/solutions)
+[Request Your ATEX Technical Compliance Dossier](/contact) | [Explore Energy Telematics](/solutions)
 
 ---
 
@@ -122,6 +122,6 @@ Yes. WizIOT certified field engineering teams perform on-site hazardous area ret
 
 ## Explore WizIOT Solutions
 
-- [WizIOT Fuel Monitoring & Anti-Theft Sensors](/solutions#telematics)
+- [WizIOT Fuel Monitoring & Anti-Theft Sensors](/solutions/telematics)
 
 [Request a Free Fleet Assessment & Demo](/contact)

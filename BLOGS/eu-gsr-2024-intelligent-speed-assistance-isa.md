@@ -91,7 +91,7 @@ WizIOT seamlessly connects to VDO and Stoneridge digital tachographs, synchroniz
 
 Stay ahead of European transport regulations. Request a consultation with WizIOT European compliance specialists and review our certified ISA telematics stack.
 
-[Book Your EU Compliance Strategy Call](https://www.wiziot.com/contact) | [Explore Platform Features](https://www.wiziot.com/platform)
+[Book Your EU Compliance Strategy Call](/contact) | [Explore Platform Features](/platform)
 
 ---
 
