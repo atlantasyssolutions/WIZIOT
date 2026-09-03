@@ -1,11 +1,13 @@
 import { getAllBlogs } from '@/lib/blog';
 import { getLocationBySlug, getAllLocations } from '@/lib/locations';
+import { VERTICALS_DATA } from '@/data/verticals';
 
 export async function generateStaticParams() {
   const locations = getAllLocations();
   const params = locations.map((loc) => ({
     city: `${loc.slug}.xml`,
   }));
+  params.push({ city: 'core.xml' });
   params.push({ city: 'blogs.xml' });
   return params;
 }
@@ -15,6 +17,49 @@ export async function GET(request, { params }) {
   const citySlug = resolvedParams.city.replace('.xml', '');
   const baseUrl = 'https://www.wiziot.com';
   const blogs = getAllBlogs().filter(b => b.indexable !== false);
+
+  // Dedicated sitemap for all core pages & dedicated solution verticals (https://www.wiziot.com/sitemap/core.xml)
+  if (citySlug === 'core') {
+    const coreRoutes = [
+      { url: '', priority: '1.0', changefreq: 'weekly' },
+      { url: '/pricing', priority: '0.8', changefreq: 'weekly' },
+      { url: '/contact', priority: '0.8', changefreq: 'weekly' },
+      { url: '/platform', priority: '0.8', changefreq: 'weekly' },
+      { url: '/solutions', priority: '0.8', changefreq: 'weekly' },
+      { url: '/about', priority: '0.8', changefreq: 'weekly' },
+      { url: '/partners', priority: '0.7', changefreq: 'monthly' },
+      { url: '/locations', priority: '0.8', changefreq: 'weekly' },
+      { url: '/blog', priority: '0.8', changefreq: 'weekly' },
+      { url: '/privacy-policy', priority: '0.5', changefreq: 'monthly' },
+      { url: '/terms-of-service', priority: '0.5', changefreq: 'monthly' },
+    ];
+
+    const solutionRoutes = VERTICALS_DATA.map((v) => ({
+      url: `/solutions/${v.id}`,
+      priority: '0.9',
+      changefreq: 'weekly'
+    }));
+
+    const allCore = [...coreRoutes, ...solutionRoutes];
+
+    const xml = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  ${allCore.map(item => `
+  <url>
+    <loc>${baseUrl}${item.url}</loc>
+    <lastmod>${new Date().toISOString()}</lastmod>
+    <changefreq>${item.changefreq}</changefreq>
+    <priority>${item.priority}</priority>
+  </url>`).join('')}
+</urlset>`;
+
+    return new Response(xml, {
+      headers: {
+        'Content-Type': 'application/xml',
+        'Cache-Control': 'public, max-age=86400, s-maxage=86400, stale-while-revalidate'
+      },
+    });
+  }
 
   // Dedicated sitemap for all global blog posts (https://www.wiziot.com/sitemap/blogs.xml)
   if (citySlug === 'blogs') {
