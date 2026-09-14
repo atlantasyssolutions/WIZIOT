@@ -16,23 +16,23 @@ export default function Header({ onOpenDemo }) {
     { href: '/', label: 'Why WizIOT' },
     { href: '/solutions', label: 'Verticals' },
     { href: '/platform', label: 'Platform' },
-    { href: '/pricing', label: 'Pricing' },
     { href: '/about', label: 'About Us' },
     { href: '/blog', label: 'Blog' },
-    { href: '/partners', label: 'Partners' },
+    { href: '/partners', label: 'Partner Only' },
     { href: '/contact', label: 'Contact' },
   ];
 
   const featuredCities = [
+    { slug: 'singapore', name: 'Singapore' },
+    { slug: 'kuala-lumpur', name: 'Kuala Lumpur, Malaysia' },
+    { slug: 'jakarta', name: 'Jakarta, Indonesia' },
+    { slug: 'bangkok', name: 'Bangkok, Thailand' },
+    { slug: 'dubai', name: 'Dubai, UAE' },
     { slug: 'nairobi', name: 'Nairobi, Kenya' },
-    { slug: 'mombasa', name: 'Mombasa, Kenya' },
     { slug: 'lagos', name: 'Lagos, Nigeria' },
     { slug: 'johannesburg', name: 'Johannesburg, SA' },
     { slug: 'warsaw', name: 'Warsaw, Poland' },
     { slug: 'bucharest', name: 'Bucharest, Romania' },
-    { slug: 'dubai', name: 'Dubai, UAE' },
-    { slug: 'barcelona', name: 'Barcelona, Spain' },
-    { slug: 'singapore', name: 'Singapore' },
   ];
 
   return (

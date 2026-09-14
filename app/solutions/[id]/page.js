@@ -159,8 +159,8 @@ export default async function SolutionDetailPage({ params }) {
             <Link href="/contact" className="btn btn-primary">
               Schedule a Technical Demo <ChevronRight size={16} />
             </Link>
-            <Link href="/pricing" className="btn btn-secondary">
-              View Pricing Plans
+            <Link href="/contact" className="btn btn-secondary">
+              Inquire for Custom Pricing
             </Link>
           </div>
         </div>

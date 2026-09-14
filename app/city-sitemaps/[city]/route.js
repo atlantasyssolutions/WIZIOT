@@ -22,7 +22,6 @@ export async function GET(request, { params }) {
   if (citySlug === 'core') {
     const coreRoutes = [
       { url: '', priority: '1.0', changefreq: 'weekly' },
-      { url: '/pricing', priority: '0.8', changefreq: 'weekly' },
       { url: '/contact', priority: '0.8', changefreq: 'weekly' },
       { url: '/platform', priority: '0.8', changefreq: 'weekly' },
       { url: '/solutions', priority: '0.8', changefreq: 'weekly' },
@@ -107,11 +106,6 @@ export async function GET(request, { params }) {
   </url>
   <url>
     <loc>${baseUrl}/${location.slug}/platform</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>${baseUrl}/${location.slug}/pricing</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

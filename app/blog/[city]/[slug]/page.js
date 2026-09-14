@@ -429,8 +429,8 @@ export default async function BlogPostPage({ params }) {
             <Link href="/platform" style={{ color: 'var(--primary-blue)', fontWeight: '600', textDecoration: 'none' }}>
               → WizIOT SaaS Platform
             </Link>
-            <Link href="/pricing" style={{ color: 'var(--primary-blue)', fontWeight: '600', textDecoration: 'none' }}>
-              → Hardware & Sensor Pricing
+            <Link href="/contact" style={{ color: 'var(--primary-blue)', fontWeight: '600', textDecoration: 'none' }}>
+              → Custom Hardware & Sensor Pricing
             </Link>
             <Link href="/mombasa" style={{ color: 'var(--primary-blue)', fontWeight: '600', textDecoration: 'none' }}>
               → Hardware Installers in Mombasa
@@ -460,8 +460,8 @@ export default async function BlogPostPage({ params }) {
             <Link href="/contact" className="btn" style={{ background: '#FFFFFF', color: '#0F2D4E', fontWeight: '800', padding: '12px 24px' }}>
               Schedule Technical Demo
             </Link>
-            <Link href="/pricing" className="btn" style={{ border: '1px solid #FFFFFF', color: '#FFFFFF', padding: '12px 24px' }}>
-              View Hardware Pricing
+            <Link href="/contact" className="btn" style={{ border: '1px solid #FFFFFF', color: '#FFFFFF', padding: '12px 24px' }}>
+              Inquire for Custom Pricing
             </Link>
           </div>
         </div>

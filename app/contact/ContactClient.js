@@ -36,10 +36,10 @@ export default function ContactPage() {
     <div className="section-padding" style={{ paddingTop: '140px' }}>
       <div className="container">
         <div style={{ textAlign: 'center', maxWidth: '720px', margin: '0 auto 60px' }}>
-          <div className="badge-pill">Contact Sales & Support</div>
+          <div className="badge-pill">Contact Sales & Custom Pricing</div>
           <h1 style={{ fontSize: '3rem', marginBottom: '16px' }}>Let’s Talk Telematics</h1>
           <p style={{ color: 'var(--text-muted)', fontSize: '1.15rem' }}>
-            Have questions about custom hardware integration, enterprise SLAs, or regional deployments? Our engineers are ready to assist.
+            Request a custom fleet pricing quote, hardware integration specifications, enterprise SLAs, or regional deployment support.
           </p>
         </div>
 
@@ -141,6 +141,10 @@ export default function ContactPage() {
                     <option value="India">India</option>
                     <option value="Singapore">Singapore</option>
                     <option value="Malaysia">Malaysia</option>
+                    <option value="Indonesia">Indonesia</option>
+                    <option value="Thailand">Thailand</option>
+                    <option value="Vietnam">Vietnam</option>
+                    <option value="Philippines">Philippines</option>
                     <option value="Australia">Australia</option>
                     <option value="Other">Other</option>
                   </select>

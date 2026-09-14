@@ -61,9 +61,8 @@ export default function Footer() {
             <ul className={styles.linkList}>
               <li><Link href="/platform" className={styles.linkItem}>AI Engine & ADAS</Link></li>
               <li><Link href="/about" className={styles.linkItem}>About WizIOT</Link></li>
-              <li><Link href="/pricing" className={styles.linkItem}>SaaS Pricing Tiers</Link></li>
               <li><Link href="/blog" className={styles.linkItem}>Knowledge Hub & Blog</Link></li>
-              <li><Link href="/partners" className={styles.linkItem}>Partner Network</Link></li>
+              <li><Link href="/partners" className={styles.linkItem}>Partner Only</Link></li>
               <li><a href="https://fleet.wiziot.com/" target="_blank" rel="noreferrer" className={styles.linkItem}>Fleet Login Portal</a></li>
             </ul>
           </div>
@@ -82,7 +81,7 @@ export default function Footer() {
               </div>
               <div className={styles.contactRow}>
                 <MapPin size={16} style={{ color: '#38BDF8' }} />
-                <span>UAE | India | Malaysia | Singapore</span>
+                <span>UAE | India | Singapore | Malaysia | Indonesia</span>
               </div>
             </div>
           </div>

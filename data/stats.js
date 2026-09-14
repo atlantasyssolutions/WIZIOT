@@ -6,8 +6,8 @@ export const STATS_DATA = [
 ];
 
 export const REGIONS_DATA = [
-  { code: 'AFR', name: 'Africa (East, West & Southern Africa)', count: 'Active Telematics Hub', status: 'High-Growth Region' },
-  { code: 'EUR', name: 'Eastern Europe & EU Corridors', count: 'Cross-Border Fleet Hub', status: 'Transit Corridor' },
+  { code: 'SEA', name: 'Southeast Asia (Singapore, Malaysia, Indonesia, Thailand)', count: 'Cross-Border ASEAN Hub', status: 'High-Growth Region' },
   { code: 'GCC', name: 'UAE & Middle East Logistics', count: 'Enterprise SaaS Hub', status: 'Regional Headquarters' },
-  { code: 'GLO', name: 'Global Cross-Border Roaming', count: 'Multi-Carrier SIM Telemetry', status: 'Global Coverage' }
+  { code: 'EUR', name: 'Eastern Europe & EU Corridors', count: 'Cross-Border Fleet Hub', status: 'Transit Corridor' },
+  { code: 'AFR', name: 'Africa (East, West & Southern Africa)', count: 'Active Telematics Hub', status: 'Active Deployments' }
 ];

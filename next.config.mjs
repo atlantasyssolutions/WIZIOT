@@ -8,6 +8,20 @@ const nextConfig = {
     cpus: 2,
   },
   staticPageGenerationTimeout: 1000,
+  async redirects() {
+    return [
+      {
+        source: '/pricing',
+        destination: '/contact',
+        permanent: true,
+      },
+      {
+        source: '/:city/pricing',
+        destination: '/:city/contact',
+        permanent: true,
+      },
+    ];
+  },
   async rewrites() {
     return [
       {

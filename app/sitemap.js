@@ -8,7 +8,6 @@ export default function sitemap() {
   // Core Pages
   const routes = [
     '',
-    '/pricing',
     '/contact',
     '/platform',
     '/solutions',
