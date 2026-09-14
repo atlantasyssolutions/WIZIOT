@@ -7,6 +7,9 @@ export default function robots() {
         disallow: ['/api/', '/thank-you'],
       },
     ],
-    sitemap: 'https://www.wiziot.com/sitemap.xml',
+    sitemap: [
+      'https://www.wiziot.com/sitemap.xml',
+      'https://www.wiziot.com/sitemap-southeast-asia.xml',
+    ],
   };
 }
