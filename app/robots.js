@@ -4,7 +4,7 @@ export default function robots() {
       {
         userAgent: '*',
         allow: '/',
-        disallow: ['/api/'],
+        disallow: ['/api/', '/thank-you'],
       },
     ],
     sitemap: 'https://www.wiziot.com/sitemap.xml',

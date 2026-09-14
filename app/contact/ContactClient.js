@@ -1,9 +1,11 @@
 'use client';
 
 import { useState } from 'react';
+import { useRouter } from 'next/navigation';
 import { Mail, Phone, MapPin, Send, CheckCircle2 } from 'lucide-react';
 
 export default function ContactPage() {
+  const router = useRouter();
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
   const [formData, setFormData] = useState({
@@ -24,7 +26,13 @@ export default function ContactPage() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ ...formData, access_key: 'c827b8eb-46d4-4e0a-b2a1-bf756a5c0685' })
       });
-      if (res.ok) setSubmitted(true);
+      if (res.ok) {
+        if (typeof window !== 'undefined') {
+          sessionStorage.setItem('formSubmitted', 'true');
+        }
+        router.push('/thank-you');
+        return;
+      }
     } catch (err) {
       console.error(err);
     } finally {
