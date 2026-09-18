@@ -120,24 +120,6 @@ export default function Hero({ onOpenDemo }) {
               <div className={styles.metricVal}>20%-30%</div>
               <span className="text-emerald" style={{ fontSize: '0.78rem', fontWeight: '600' }}>Reduction in Harsh Driving</span>
             </div>
-
-            <div className={styles.metricCard}>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
-                <Activity size={18} style={{ color: '#0EA5E9' }} />
-                <span className={styles.metricLbl}>Platform Uptime</span>
-              </div>
-              <div className={styles.metricVal}>99.99%</div>
-              <span className="text-emerald" style={{ fontSize: '0.78rem', fontWeight: '600' }}>Enterprise SLA Guarantee</span>
-            </div>
-
-            <div className={styles.metricCard}>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
-                <Navigation size={18} style={{ color: '#8B5CF6' }} />
-                <span className={styles.metricLbl}>GPS Accuracy</span>
-              </div>
-              <div className={styles.metricVal}>±2.5m</div>
-              <span style={{ fontSize: '0.78rem', color: 'var(--text-muted)' }}>Sub-Second Positioning</span>
-            </div>
           </div>
         </div>
       </div>
