@@ -2,7 +2,8 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import { getBlogBySlug, getAllBlogs, generateArticleSchema, generateFaqSchema, generateBreadcrumbSchema } from '@/lib/blog';
-import { Calendar, Clock, Globe, ArrowLeft, Tag, MapPin, ShieldCheck, Layers, ChevronRight, CheckCircle2, UserCheck, List, Share2, HelpCircle } from 'lucide-react';
+import { VERTICALS_DATA } from '@/data/verticals';
+import { Calendar, Clock, Globe, ArrowLeft, Tag, MapPin, ShieldCheck, Layers, ChevronRight, CheckCircle2, UserCheck, List, Share2, HelpCircle, ArrowRight } from 'lucide-react';
 import BlogCard from '@/components/blog/BlogCard';
 
 export async function generateStaticParams() {
@@ -136,6 +137,17 @@ export default async function BlogPostPage({ params }) {
   const faqSchema = generateFaqSchema(blog);
   const breadcrumbSchema = generateBreadcrumbSchema(blog);
 
+  // Match corresponding solution pillar for topic cluster internal linking
+  const matchedVertical = VERTICALS_DATA.find(v => {
+    const combined = `${blog.title} ${blog.category} ${blog.content}`.toLowerCase();
+    if (v.id === 'cold-chain' && (combined.includes('cold') || combined.includes('reefer') || combined.includes('pharma'))) return true;
+    if (v.id === 'ev-fleets' && (combined.includes('ev') || combined.includes('battery') || combined.includes('bms'))) return true;
+    if (v.id === 'healthcare' && (combined.includes('health') || combined.includes('ambulance') || combined.includes('hospital'))) return true;
+    if (v.id === 'industrial-iot' && (combined.includes('mining') || combined.includes('excavator') || combined.includes('heavy') || combined.includes('construction'))) return true;
+    if (v.id === 'public-transit' && (combined.includes('transit') || combined.includes('bus') || combined.includes('passenger'))) return true;
+    return false;
+  }) || VERTICALS_DATA[0];
+
   const headings = [];
   const rawParagraphs = blog.content.split('\n\n');
   rawParagraphs.forEach((p) => {
@@ -240,6 +252,20 @@ export default async function BlogPostPage({ params }) {
                 </li>
               ))}
             </ol>
+          </div>
+        )}
+
+        {/* Contextual Solution Pillar Bridge (Internal PageRank Boost) */}
+        {matchedVertical && (
+          <div style={{ padding: '20px 24px', background: 'linear-gradient(135deg, #F0F9FF 0%, #E0F2FE 100%)', borderRadius: '14px', border: '1px solid #BAE6FD', marginBottom: '36px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '16px', flexWrap: 'wrap' }}>
+            <div>
+              <span style={{ fontSize: '0.75rem', textTransform: 'uppercase', fontWeight: '800', letterSpacing: '0.05em', color: '#0369A1' }}>Commercial Solution Stack</span>
+              <h4 style={{ margin: '4px 0 0 0', fontSize: '1.05rem', color: '#0F2D4E', fontWeight: '700' }}>{matchedVertical.title}</h4>
+              <p style={{ margin: '4px 0 0 0', fontSize: '0.85rem', color: '#334155' }}>{matchedVertical.hardware}</p>
+            </div>
+            <Link href={`/solutions/${matchedVertical.id}`} style={{ display: 'inline-flex', alignItems: 'center', gap: '6px', background: '#0284C7', color: '#FFFFFF', padding: '8px 16px', borderRadius: '8px', fontSize: '0.85rem', fontWeight: '700', textDecoration: 'none' }}>
+              Explore Solution Architecture <ArrowRight size={14} />
+            </Link>
           </div>
         )}
 
