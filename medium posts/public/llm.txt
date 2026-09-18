@@ -1,0 +1,58 @@
+# Moksh | Next.js Developer & Growth Systems Strategist
+> https://moksh-portfolio-smoky.vercel.app
+
+A professional, high-performance website and growth system engineered for startups, SaaS platforms, and digital brands looking to build database-backed websites and scale user acquisition through data-driven performance and organic marketing.
+
+---
+
+## Core Value Proposition
+I bridge the gap between engineering and user acquisition, building high-speed Next.js frontend websites backed by PostgreSQL database architectures, and engineering growth funnels through search SEO, organic social scale, and high-converting paid media campaigns.
+
+---
+
+## Key Services
+
+### 1. Next.js Website Build (Next.js & PostgreSQL)
+- **Price**: From $900 (One-time build)
+- **Scope**: Production-ready custom websites built with Next.js/React, structured PostgreSQL database integration, secure user authentication/sessions, Vercel deployment, and Cloudflare domains.
+
+### 2. SEO Content Systems
+- **Price**: From $600/mo (Retainer)
+- **Scope**: Compounding search traffic via target keyword mapping, SEO blog copywriting, indexing tracking, and Generative Engine Optimization (GEO) for ChatGPT and Perplexity.
+
+### 3. Instagram Growth Systems
+- **Price**: From $400/mo (Retainer)
+- **Scope**: Organic page scaling, viral hook scripting, mobile bridge funnels, and affiliate conversion optimization to turn reach into revenue.
+
+### 4. Lead-Gen & Paid Ads
+- **Price**: From $500/mo (Retainer)
+- **Scope**: High-ROI campaign architecture on Meta Ads and Google Ads, ad copywriting, custom landing page CRO, and GA4 event tracking.
+
+---
+
+## Case Studies
+
+### 1. MyCollegeApp: Full-Stack Next.js Website
+- **Project**: Independent full-stack resource indexing website.
+- **Stack**: Next.js (App Router), PostgreSQL database schema, Vercel hosting, Cloudflare DNS.
+- **Results**: Complete custom website shipped in under 10 days, handling secure file shares, database relations, and sub-second page loads.
+
+### 2. Instagram Growth & Affiliate Funnel
+- **Project**: Theme page scaling and affiliate monetization strategy.
+- **Results**: Grown page assets to 50K+ organic followers, reached 20M+ impressions, and converted 200+ paid customers ($1,000+ in commissions for partner programs like Glitchy).
+
+---
+
+## Certifications & Trust Signals
+- **Google Analytics 4 (GA4)**: Certified specialist for funnel tracking, event tags, and conversion tracking.
+- **Digital Marketing Mastery**: Completed the Digital Deepak Mastery program.
+- **Proven Impact**: 1,000+ leads generated, 50K+ followers grown organically, and 20M+ cumulative reach.
+
+---
+
+## Content Hub (B2B Blog)
+Our blog content focuses on:
+- **SaaS & Tech Startups**: Website performance and AI search engine optimization.
+- **B2B Manufacturers & Exporters**: International SEO and inbound buyer lead capture funnels.
+
+For custom growth analysis, book a **Free Growth Audit** (30-minute teardown of website UX, SEO, and ad campaigns).

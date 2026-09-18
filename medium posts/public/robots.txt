@@ -1,0 +1,68 @@
+# ─────────────────────────────────────────
+# Search Engine Crawlers
+# ─────────────────────────────────────────
+User-agent: Googlebot
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /dashboard/
+Disallow: /onboarding/
+Disallow: /settings/
+Disallow: /report/
+
+User-agent: Bingbot
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /dashboard/
+Disallow: /onboarding/
+Disallow: /settings/
+Disallow: /report/
+
+# ─────────────────────────────────────────
+# AI / LLM Crawlers (retrieval & citation)
+# ─────────────────────────────────────────
+User-agent: GPTBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Gemini
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: OmgiliBot
+Allow: /
+
+# ─────────────────────────────────────────
+# All other bots (wildcard - must be last)
+# ─────────────────────────────────────────
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /dashboard/
+Disallow: /onboarding/
+Disallow: /settings/
+Disallow: /report/
+
+# ─────────────────────────────────────────
+# Sitemaps & LLM Context Files
+# ─────────────────────────────────────────
+Sitemap: https://rankursite.com/sitemap.xml
+
+# LLM guidance files for AI engines
+# Community standard: https://rankursite.com/llms.txt
+# Primary LLM context: https://rankursite.com/llm.txt
