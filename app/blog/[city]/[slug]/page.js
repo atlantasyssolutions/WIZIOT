@@ -6,18 +6,11 @@ import { getLocationBySlug, getAllLocations } from '@/lib/locations';
 import { Calendar, Clock, Globe, ArrowLeft, Tag, MapPin, ShieldCheck, Layers, ChevronRight, CheckCircle2, UserCheck, List, Share2, HelpCircle } from 'lucide-react';
 import BlogCard from '@/components/blog/BlogCard';
 
+export const dynamicParams = true;
+
 export async function generateStaticParams() {
-  const allBlogs = getAllBlogs();
-  const allLocations = getAllLocations();
-  const params = [];
-  
-  for (const loc of allLocations) {
-    for (const b of allBlogs) {
-      params.push({ city: loc.slug, slug: b.slug });
-    }
-  }
-  
-  return params;
+  // Prevent 40+ minute Vercel build timeouts by rendering localized noindex variants on demand (ISR)
+  return [];
 }
 
 export async function generateMetadata({ params }) {
