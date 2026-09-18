@@ -18,7 +18,7 @@ export default function Header({ onOpenDemo }) {
     { href: '/platform', label: 'Platform' },
     { href: '/about', label: 'About Us' },
     { href: '/blog', label: 'Blog' },
-    { href: '/partners', label: 'Partner Only' },
+    { href: '/partners', label: 'Partners' },
     { href: '/contact', label: 'Contact' },
   ];
 

@@ -41,15 +41,15 @@
 
 .metricsGrid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
-  margin-top: 20px;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 16px;
+  margin-top: 24px;
 }
 
 .metricCard {
   background: #FFFFFF;
   border: 1px solid var(--border-color);
-  padding: 24px;
+  padding: 20px 16px;
   border-radius: var(--radius-md);
   text-align: left;
   box-shadow: var(--shadow-sm);
@@ -64,16 +64,22 @@
 
 .metricVal {
   font-family: var(--font-heading);
-  font-size: 2rem;
+  font-size: 1.85rem;
   font-weight: 800;
   color: var(--primary-blue);
   margin-bottom: 4px;
 }
 
 .metricLbl {
-  font-size: 0.85rem;
+  font-size: 0.82rem;
   font-weight: 700;
   color: var(--text-main);
+}
+
+@media (max-width: 1200px) {
+  .metricsGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 @media (max-width: 900px) {

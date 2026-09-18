@@ -38,7 +38,7 @@ export default function LocationsDirectoryPage() {
             Global Operations Directory
           </h1>
           <p style={{ fontSize: '1.2rem', color: 'var(--text-muted)', maxWidth: '700px', margin: '0 auto', lineHeight: '1.6' }}>
-            WizIOT provides enterprise-grade fleet telematics, fuel theft prevention, and IoT asset tracking in over 600 major logistics hubs worldwide.
+            WizIOT provides enterprise-grade fleet telematics, fuel theft prevention, and IoT asset tracking across regional logistics hubs in the {locations.length} cities mentioned below.
           </p>
         </div>
 

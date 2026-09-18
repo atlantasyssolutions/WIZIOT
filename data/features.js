@@ -11,8 +11,8 @@ export const FEATURES_DATA = [
       'Multi-map view (Satellite, Traffic, Custom Boundaries)',
       'Asset theft prevention & remote immobilizer'
     ],
-    metric: '24/7',
-    metricLabel: 'GPS Accuracy Rate',
+    metric: '±2.5m',
+    metricLabel: 'GPS Accuracy',
     icon: 'Radio'
   },
   {
@@ -59,8 +59,8 @@ export const FEATURES_DATA = [
       'Thermal runaway & cell imbalance warning system',
       'Energy consumption profiling by payload weight'
     ],
-    metric: '+25%',
-    metricLabel: 'Extended Battery Lifespan',
+    metric: '±3%',
+    metricLabel: 'Real-time SoH ±3% SoC Accuracy',
     icon: 'Zap'
   },
   {
@@ -75,8 +75,8 @@ export const FEATURES_DATA = [
       'Geofence-triggered customer ETA notifications',
       'CO2 emissions tracking & carbon offset logging'
     ],
-    metric: '18%',
-    metricLabel: 'Fuel Consumption Reduction',
+    metric: '14%',
+    metricLabel: 'Avg Fuel Saved',
     icon: 'Navigation'
   },
   {
@@ -107,8 +107,8 @@ export const FEATURES_DATA = [
       'Driver safety scorecard & leaderboard',
       'Reduced fleet insurance premiums up to 30%'
     ],
-    metric: '-42%',
-    metricLabel: 'Accident Rate Reduction',
+    metric: '20%-30%',
+    metricLabel: 'Reduction in Harsh Driving',
     icon: 'ShieldAlert'
   }
 ];

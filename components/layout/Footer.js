@@ -62,7 +62,7 @@ export default function Footer() {
               <li><Link href="/platform" className={styles.linkItem}>AI Engine & ADAS</Link></li>
               <li><Link href="/about" className={styles.linkItem}>About WizIOT</Link></li>
               <li><Link href="/blog" className={styles.linkItem}>Knowledge Hub & Blog</Link></li>
-              <li><Link href="/partners" className={styles.linkItem}>Partner Only</Link></li>
+              <li><Link href="/partners" className={styles.linkItem}>Partners</Link></li>
               <li><a href="https://fleet.wiziot.com/" target="_blank" rel="noreferrer" className={styles.linkItem}>Fleet Login Portal</a></li>
             </ul>
           </div>

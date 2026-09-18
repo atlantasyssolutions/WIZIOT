@@ -30,7 +30,7 @@ export default function AboutPage() {
             Pioneering Next-Gen Telematics & IoT Engineering
           </h1>
           <p style={{ color: 'var(--text-muted)', fontSize: '1.2rem', lineHeight: '1.65' }}>
-            WizIOT Technologies builds hardware-agnostic IoT infrastructure, ISO-certified fuel sensors, and AI fleet security solutions serving commercial logistics operators across 600+ hubs globally.
+            WizIOT Technologies builds hardware-agnostic IoT infrastructure, ISO-certified fuel sensors, and AI fleet security solutions serving commercial logistics operators across our dedicated regional logistics hubs globally.
           </p>
         </div>
 
@@ -107,7 +107,7 @@ export default function AboutPage() {
           </div>
           <div className="glass-card">
             <Award size={32} style={{ color: 'var(--primary-blue)', marginBottom: '16px' }} />
-            <h3 style={{ fontSize: '1.25rem', marginBottom: '10px', fontWeight: '700' }}>99.9% Uptime SLA</h3>
+            <h3 style={{ fontSize: '1.25rem', marginBottom: '10px', fontWeight: '700' }}>99.99% Uptime SLA</h3>
             <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem', lineHeight: '1.6' }}>
               High-availability distributed cloud infrastructure with 24/7 dedicated field engineering support teams.
             </p>

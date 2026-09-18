@@ -20,6 +20,26 @@ const nextConfig = {
         destination: '/:city/contact',
         permanent: true,
       },
+      {
+        source: '/sensors',
+        destination: '/contact',
+        permanent: true,
+      },
+      {
+        source: '/:city/sensors',
+        destination: '/:city/contact',
+        permanent: true,
+      },
+      {
+        source: '/partner-only',
+        destination: '/partners',
+        permanent: true,
+      },
+      {
+        source: '/:city/partner-only',
+        destination: '/:city/partners',
+        permanent: true,
+      },
     ];
   },
   async rewrites() {

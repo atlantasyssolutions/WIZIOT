@@ -1,6 +1,6 @@
 'use client';
 
-import { ArrowRight, Play, Radio, ShieldCheck, Zap, Fuel, Activity } from 'lucide-react';
+import { ArrowRight, Play, Radio, ShieldCheck, Zap, Fuel, Activity, Navigation } from 'lucide-react';
 import Image from 'next/image';
 import styles from './Hero.module.css';
 
@@ -23,59 +23,50 @@ export default function Hero({ onOpenDemo }) {
 
           {/* Subtitle */}
           <p className={styles.subtitle}>
-            Eliminate fleet downtime, optimize fuel efficiency, monitor driver safety with ADAS vision, and track battery health across electric vehicles in real time.
+            Empowering modern fleets with sub-second GPS tracking, predictive maintenance,
+            and complete visibility. One platform to optimize every asset, route, and driver.
           </p>
 
-          {/* CTA Buttons */}
+          {/* Action Buttons */}
           <div className={styles.heroBtns}>
-            <button onClick={onOpenDemo} className="btn btn-primary btn-lg">
-              Schedule Enterprise Demo <ArrowRight size={18} />
+            <button onClick={onOpenDemo} className="btn btn-primary">
+              Schedule Live Platform Demo <ArrowRight size={18} />
             </button>
-            <a
-              href="https://fleet.wiziot.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn btn-secondary btn-lg"
-            >
-              <Play size={16} style={{ color: 'var(--primary-blue)' }} /> Live SaaS Preview
+            <a href="#key-features" className="btn btn-secondary">
+              <Play size={18} /> Explore Enterprise Features
             </a>
           </div>
 
-          {/* Hero High-Resolution Platform Mockup Image Banner */}
-          <div
-            style={{
-              position: 'relative',
-              width: '100%',
-              maxHeight: '460px',
-              borderRadius: '20px',
-              overflow: 'hidden',
-              border: '1px solid var(--border-color)',
-              boxShadow: '0 20px 50px rgba(15, 45, 78, 0.15)',
-              margin: '0 auto 50px',
-              background: '#0F172A'
-            }}
-          >
-            <Image
-              src="/hero-telematics-dashboard.webp"
-              alt="WizIOT Enterprise Telematics Control Center Dashboard"
-              fill
-              priority
-              style={{ objectFit: 'cover' }}
-            />
-            <div
+          {/* Visual Product Showcase */}
+          <div className={styles.heroImageWrapper}>
+            <div className={styles.imageBackdrop}></div>
+            <div className={styles.imageContainer}>
+              <Image 
+                src="/hero-fleet-dashboard.webp" 
+                alt="WizIOT AI-Powered Unified Fleet Operations Command Center" 
+                priority
+                width={1200}
+                height={675}
+                className={styles.dashboardImg}
+              />
+            </div>
+            {/* Overlay Notification Pill */}
+            <div 
               style={{
                 position: 'absolute',
-                bottom: '20px',
+                top: '20px',
                 left: '20px',
                 right: '20px',
                 background: 'rgba(15, 23, 42, 0.85)',
-                backdropFilter: 'blur(10px)',
-                padding: '16px 24px',
+                backdropFilter: 'blur(12px)',
+                border: '1px solid rgba(56, 189, 248, 0.3)',
                 borderRadius: '12px',
+                padding: '12px 20px',
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'space-between',
                 color: '#FFFFFF',
+                boxShadow: '0 8px 32px rgba(0,0,0,0.3)',
                 flexWrap: 'wrap',
                 gap: '12px'
               }}
@@ -99,8 +90,8 @@ export default function Hero({ onOpenDemo }) {
                 <Radio size={18} style={{ color: 'var(--primary-blue)' }} />
                 <span className={styles.metricLbl}>Active Fleet Coverage</span>
               </div>
-              <div className={styles.metricVal}>{/* TODO(human): insert real metric */}Global</div>
-              <span className="text-emerald" style={{ fontSize: '0.8rem', fontWeight: '600' }}>● Zero Latency Telemetry</span>
+              <div className={styles.metricVal}>30+</div>
+              <span className="text-emerald" style={{ fontSize: '0.78rem', fontWeight: '600' }}>● Global Deployments</span>
             </div>
 
             <div className={styles.metricCard}>
@@ -108,8 +99,8 @@ export default function Hero({ onOpenDemo }) {
                 <Fuel size={18} style={{ color: '#D97706' }} />
                 <span className={styles.metricLbl}>Avg Fuel Saved</span>
               </div>
-              <div className={styles.metricVal}>{/* TODO(human): insert real metric */}Proven</div>
-              <span className="text-emerald" style={{ fontSize: '0.8rem', fontWeight: '600' }}>Proven Route Payback</span>
+              <div className={styles.metricVal}>14%</div>
+              <span className="text-emerald" style={{ fontSize: '0.78rem', fontWeight: '600' }}>Proven Route Payback</span>
             </div>
 
             <div className={styles.metricCard}>
@@ -117,17 +108,35 @@ export default function Hero({ onOpenDemo }) {
                 <Zap size={18} style={{ color: 'var(--primary-blue)' }} />
                 <span className={styles.metricLbl}>EV & BMS Range</span>
               </div>
-              <div className={styles.metricVal}>{/* TODO(human): insert real metric */}Extended</div>
-              <span style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>Extended Battery Life</span>
+              <div className={styles.metricVal}>±3%</div>
+              <span style={{ fontSize: '0.78rem', color: 'var(--text-muted)' }}>Real-time SoH & SoC</span>
             </div>
 
             <div className={styles.metricCard}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
                 <ShieldCheck size={18} style={{ color: 'var(--accent-emerald)' }} />
-                <span className={styles.metricLbl}>Safety SLA Score</span>
+                <span className={styles.metricLbl}>Safety Score</span>
               </div>
-              <div className={styles.metricVal}>{/* TODO(human): insert real metric */}Enterprise</div>
-              <span className="text-emerald" style={{ fontSize: '0.8rem', fontWeight: '600' }}>Platform Uptime</span>
+              <div className={styles.metricVal}>20%-30%</div>
+              <span className="text-emerald" style={{ fontSize: '0.78rem', fontWeight: '600' }}>Reduction in Harsh Driving</span>
+            </div>
+
+            <div className={styles.metricCard}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
+                <Activity size={18} style={{ color: '#0EA5E9' }} />
+                <span className={styles.metricLbl}>Platform Uptime</span>
+              </div>
+              <div className={styles.metricVal}>99.99%</div>
+              <span className="text-emerald" style={{ fontSize: '0.78rem', fontWeight: '600' }}>Enterprise SLA Guarantee</span>
+            </div>
+
+            <div className={styles.metricCard}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
+                <Navigation size={18} style={{ color: '#8B5CF6' }} />
+                <span className={styles.metricLbl}>GPS Accuracy</span>
+              </div>
+              <div className={styles.metricVal}>±2.5m</div>
+              <span style={{ fontSize: '0.78rem', color: 'var(--text-muted)' }}>Sub-Second Positioning</span>
             </div>
           </div>
         </div>

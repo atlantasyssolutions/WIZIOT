@@ -354,7 +354,7 @@ export default async function BlogPostPage({ params }) {
               → Logistics Tracking in Dubai
             </Link>
             <Link href="/locations" style={{ color: 'var(--primary-blue)', fontWeight: '600', textDecoration: 'none' }}>
-              → All 20 City Telematics Hubs
+              → All City Telematics Hubs
             </Link>
           </div>
         </div>
