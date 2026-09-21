@@ -433,69 +433,7 @@ export const VERTICALS_DATA = [
       { title: 'Student Safety Audits', desc: 'Ensure zero left-behind students with automated end-of-route seat check verification alarms.' },
       { title: 'Driver Behavior Coaching', desc: 'Monitor driver speed in school zones and eliminate aggressive driving habits around children.' }
     ]
-  },
-  {
-    id: 'fuel-management',
-    title: 'Fuel Management Software & IoT Fuel Monitoring Systems',
-    category: 'Fuel Security & Telemetry',
-    seoTitle: 'Fuel Management Software & Fuel Monitoring System | Fuel Theft Detection | WizIOT',
-    seoDescription: 'Enterprise fuel management software and precision IoT fuel monitoring systems. Real-time ±0.2% capacitive fuel probes, ultrasonic sensors, automated fuel theft & siphoning alarms, and fuel card reconciliation.',
-    description: 'High-precision capacitive fuel level monitoring, instant fuel theft and siphoning detection, automated fuel card reconciliation, and generator fuel auditing.',
-    image: '/vert-fuel.webp',
-    heroImage: '/sol-fuel-hero.webp',
-    detailImage: '/sol-fuel-detail.webp',
-    badge: 'Precision Fuel Security',
-    icon: 'Fuel',
-    architectureTitle: 'Fuel Telemetry Pipeline & Capacitive Sensor Architecture',
-    points: ['±0.2% Capacitive Level Measurement', 'Instant Siphoning & Theft Detection', 'Automated Fuel Card Audit & Burn Reconciliation'],
-    details: 'Mission-critical IoT fuel management software and hardware stack engineered for commercial haulage fleets, construction equipment, mining operations, and remote stationary power generators. Combines high-resolution immersion capacitive probes, ultrasonic tank sensors, and CAN-bus ECU telemetry to eliminate diesel siphoning, detect fuel theft within seconds, and reconcile corporate fuel card expenditures with actual tank refills.',
-    features: [
-      'High-Precision Immersion Capacitive Probes (±0.2% Full-Scale Accuracy, 1mm Resolution)',
-      'Sub-60-Second Fuel Siphoning & Unauthorized Drain Alarms with Ignition OFF',
-      'CAN-bus J1939 ECU Fuel Consumption vs. Odometer Distance Mileage Analytics',
-      'Multi-Tank Differential Equalization Algorithm for Dual-Saddle Fuel Tanks',
-      'Stationary Diesel Generator & Bulk Fuel Storage Tank Continuous Telemetry',
-      'Automated Fuel Card Transaction Matching & Volume Discrepancy Audits',
-      'Thermal Compensation Algorithms Mitigating Fuel Temperature Volume Expansion',
-      'Secure Store-and-Forward Offline Logging for Remote Mining & Highway Dead Zones'
-    ],
-    compliance: ['ISO 9001:2015 Quality', 'IP67 / IP69K Waterproof', 'ATEX / IECEx Intrinsically Safe', 'CE / FCC Certified', 'UN ECE R116'],
-    hardware: 'WizIOT G400 Heavy Gateway + ±0.2% Capacitive Fuel Level Probe + Ultrasonic Tank Sensor',
-    specs: [
-      { label: 'Measurement Accuracy', value: '±0.2% Full Scale (1mm resolution with digital filtering)' },
-      { label: 'Sampling Frequency', value: '50Hz continuous fluid sampling with dynamic anti-slosh buffering' },
-      { label: 'Ingress Protection', value: 'IP67 probe head | IP69K submersible immersion tube' },
-      { label: 'Thermal Range & Compensation', value: '-40°C to +85°C with integrated digital thermal correction' },
-      { label: 'CAN-bus Protocols', value: 'J1939, J1708, OBD-II (K-Line / CAN 2.0B) fuel burn rate' },
-      { label: 'Tamper & Anti-Siphoning', value: 'Active battery-backed alarm triggers on cable cut or level drop' }
-    ],
-    faqs: [
-      {
-        question: 'How quickly does the system detect diesel siphoning or fuel theft?',
-        answer: 'The capacitive fuel probe samples fluid levels at 50Hz. When the vehicle ignition is OFF and fuel volume drops unexpectedly by more than 3 liters within 60 seconds, an instant high-priority alert is dispatched via SMS, email, and webhooks to fleet supervisors and on-site security.'
-      },
-      {
-        question: 'How does the software prevent false alerts caused by fuel sloshing during transit?',
-        answer: 'Our proprietary digital signal processing (DSP) firmware applies dynamic Kalman filtering and anti-slosh damping algorithms, cross-referencing vehicle acceleration and GPS velocity to calculate steady, true fluid levels even on rough unpaved roads.'
-      },
-      {
-        question: 'Can the system monitor dual saddle fuel tanks on heavy long-haul trucks?',
-        answer: 'Yes. The system utilizes multi-tank differential equalization algorithms that model fuel transfer between twin tanks via connecting balance lines, ensuring accurate total fleet fuel volume without false theft alerts.'
-      },
-      {
-        question: 'Can fuel consumption data be reconciled with corporate fuel card invoices?',
-        answer: 'Yes. WizIOT automatically imports fuel card swipe records (date, time, station location, volume purchased) and matches them against the exact fuel volume detected entering the tank by the probe at that precise timestamp, flagging skimming or card misuse immediately.'
-      },
-      {
-        question: 'Can this fuel monitoring system be installed on stationary power generators and bulk storage tanks?',
-        answer: 'Yes. WizIOT provides dedicated industrial Modbus RS-485 interfaces and wireless cellular transmitters configured specifically for stationary diesel generators, agricultural storage tanks, and construction site fuel bowsers.'
-      }
-    ],
-    useCases: [
-      { title: 'Commercial Long-Haul Fleets', desc: 'Eliminate nocturnal fuel siphoning along highway stops and verify every liter pumped against supplier fuel cards.' },
-      { title: 'Remote Mining & Construction Sites', desc: 'Monitor bulk fuel storage tanks and heavy yellow machinery to prevent untracked diesel shrinkage.' },
-      { title: 'Stationary Backup Generators', desc: 'Audit diesel burn rates per kilowatt-hour across hospital, telecom tower, and data center backup generators.' }
-    ]
   }
 ];
+
 

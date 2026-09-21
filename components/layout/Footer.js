@@ -46,7 +46,6 @@ export default function Footer() {
             <h4 className={styles.colTitle}>Solutions</h4>
             <ul className={styles.linkList}>
               <li><Link href="/solutions/telematics" className={styles.linkItem}>Fleet Telematics</Link></li>
-              <li><Link href="/solutions/fuel-management" className={styles.linkItem}>Fuel Management & Anti-Theft</Link></li>
               <li><Link href="/solutions/ev-fleets" className={styles.linkItem}>EV & BMS Analytics</Link></li>
               <li><Link href="/solutions/cold-chain" className={styles.linkItem}>Cold Chain Logistics</Link></li>
               <li><Link href="/solutions/healthcare" className={styles.linkItem}>Healthcare Logistics</Link></li>

@@ -50,4 +50,4 @@ Using digital damping algorithms and accelerometer telemetry, the system filters
 
 ## Next Steps
 
-Transform your fuel oversight into an automated operational asset by exploring [WizIOT's fuel level monitoring solutions](https://www.wiziot.com/solutions/fuel-management), or review our [enterprise IoT platform](https://www.wiziot.com/platform) to see live tank telemetry in action.
+Transform your fuel oversight into an automated operational asset by exploring [WizIOT's fuel telematics solutions](https://www.wiziot.com/solutions/telematics), or review our [enterprise IoT platform](https://www.wiziot.com/platform) to see live tank telemetry in action.

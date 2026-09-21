@@ -50,4 +50,4 @@ Modern systems configure a rapid-drain threshold of 8 to 12 liters occurring wit
 
 ## Next Steps
 
-Protect your commercial fleet from night-time fuel shrinkage with [WizIOT's fuel theft detection solutions](https://www.wiziot.com/solutions/fuel-management). For technical hardware specifications and tamper alarm integrations, explore the [WizIOT IoT platform](https://www.wiziot.com/platform).
+Protect your commercial fleet from night-time fuel shrinkage with [WizIOT's fuel theft detection telematics](https://www.wiziot.com/solutions/telematics). For technical hardware specifications and tamper alarm integrations, explore the [WizIOT IoT platform](https://www.wiziot.com/platform).

@@ -50,4 +50,4 @@ WizIOT industrial gateways support hybrid cellular and satellite connectivity, e
 
 ## Next Steps
 
-Protect remote generators and heavy machinery with [WizIOT's fuel monitoring systems](https://www.wiziot.com/solutions/fuel-management), or speak directly with our [engineering team](https://www.wiziot.com/contact) to design your depot monitoring layout.
+Protect remote generators and heavy machinery with [WizIOT's industrial equipment monitoring](https://www.wiziot.com/solutions/industrial-iot), or speak directly with our [engineering team](https://www.wiziot.com/contact) to design your depot monitoring layout.

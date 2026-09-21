@@ -50,4 +50,4 @@ Yes. By performing multi-point wet calibration during installation, the software
 
 ## Next Steps
 
-Equip your fleet with high-precision sensors through [WizIOT's fuel monitoring systems](https://www.wiziot.com/solutions/fuel-management), or discover our ruggedized hardware lineup on the [WizIOT platform](https://www.wiziot.com/platform).
+Equip your fleet with high-precision sensors through [WizIOT's fleet fuel monitoring systems](https://www.wiziot.com/solutions/telematics), or discover our ruggedized hardware lineup on the [WizIOT platform](https://www.wiziot.com/platform).
