@@ -50,4 +50,4 @@ Yes. Modern platforms provide open REST APIs and webhook pipelines that automati
 
 ## Next Steps
 
-When deploying these capabilities across commercial operations, teams using [WizIOT's fleet telematics solutions](https://www.wiziot.com/solutions/telematics) combine CAN bus diagnostics with real-time fuel monitoring. To see how these tools fit your operational workflows, explore our [transparent fleet pricing](https://www.wiziot.com/pricing) to get started.
+When deploying these capabilities across commercial operations, teams using [WizIOT commercial fleet telematics](https://www.wiziot.com/solutions/telematics) achieve immediate operating savings. Learn how to calculate potential diesel cuts with our [fleet fuel-saving and idle-reduction guide](https://www.wiziot.com/blog/engine-idle-reduction-telematics-fuel-saving-calculator).

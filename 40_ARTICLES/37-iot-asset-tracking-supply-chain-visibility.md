@@ -50,4 +50,4 @@ Yes. When satellite GNSS signals are blocked by warehouse roofs, modern trackers
 
 ## Next Steps
 
-Eliminate asset loss and maximize fleet utilization across your supply chain. Explore [WizIOT's IoT asset tracking solutions](https://www.wiziot.com/solutions/industrial-iot), or review our [enterprise IoT platform](https://www.wiziot.com/platform) to see live fleet mapping.
+Eliminate asset loss and maximize fleet utilization across non-powered supply chain inventory. Read our guide on [heavy equipment & asset tracking](https://www.wiziot.com/blog/heavy-equipment-asset-tracking-construction-excavators-cranes), or explore [WizIOT's industrial asset monitoring solutions](https://www.wiziot.com/solutions/industrial-iot).

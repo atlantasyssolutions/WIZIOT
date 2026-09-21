@@ -50,4 +50,4 @@ By detecting abnormal rates of temperature rise (dT/dt) alongside cell voltage d
 
 ## Next Steps
 
-Safeguard high-value battery packs and maximize pack longevity. Discover how [WizIOT's battery monitoring solutions](https://www.wiziot.com/solutions/ev-fleets) provide deep cell analytics, or [contact our technical engineering team](https://www.wiziot.com/contact) to discuss battery telemetry integration.
+Selecting the right battery telemetry architecture protects assets and ensures site safety. Learn more about [WizIOT's EV & BMS battery analytics](https://www.wiziot.com/solutions/ev-fleets), or [contact our battery engineering team](https://www.wiziot.com/contact) to configure custom cell voltage alarm thresholds.

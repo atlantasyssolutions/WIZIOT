@@ -50,4 +50,4 @@ Edge gateways use multi-axis algorithms that analyze peak G-force magnitude, imp
 
 ## Next Steps
 
-Protect your high-liability and mission-critical operations with sub-second visibility. Discover how [WizIOT's real-time IoT monitoring platform](https://www.wiziot.com/platform) powers emergency response, or explore our [commercial telematics solutions](https://www.wiziot.com/solutions/telematics).
+Protect your high-liability and mission-critical operations with sub-second visibility. Explore the [WizIOT real-time cloud platform](https://www.wiziot.com/platform) for instant incident response, or read our guide on [anti-hijack panic buttons and emergency telematics](https://www.wiziot.com/blog/anti-hijack-panic-buttons-high-risk-transit-routes).

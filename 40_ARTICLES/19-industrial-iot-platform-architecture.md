@@ -50,4 +50,4 @@ Yes. Platforms supporting bidirectional communication can transmit authenticated
 
 ## Next Steps
 
-Discover how the [WizIOT industrial IoT platform](https://www.wiziot.com/platform) delivers elastic scalability and automated event processing, or check our [transparent subscription pricing](https://www.wiziot.com/pricing) to evaluate total cost of ownership.
+Discover how an elastic cloud architecture handles high-frequency industrial streaming. Explore the [WizIOT enterprise IoT platform](https://www.wiziot.com/platform) to evaluate time-series ingestion, or check our [transparent subscription pricing](https://www.wiziot.com/pricing) to calculate total cost of ownership.

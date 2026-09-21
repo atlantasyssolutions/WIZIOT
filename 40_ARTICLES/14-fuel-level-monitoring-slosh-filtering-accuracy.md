@@ -50,4 +50,4 @@ Kalman filters combine previous state estimates with live accelerometer telemetr
 
 ## Next Steps
 
-Achieving laboratory-grade fuel precision in the field requires engineered telemetry. Discover how [WizIOT's commercial telematics](https://www.wiziot.com/solutions/telematics) implements motion-compensated fuel analytics, or [contact our systems engineering team](https://www.wiziot.com/contact) to discuss sensor calibration.
+Achieving laboratory-grade fuel precision in the field requires engineered motion and temperature compensation. Explore our [capacitive fuel probe calibration guide](https://www.wiziot.com/blog/capacitive-fuel-probe-calibration-guide-heavy-trucks), or [contact our systems engineering team](https://www.wiziot.com/contact) to discuss sensor calibration curves.

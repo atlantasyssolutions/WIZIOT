@@ -50,4 +50,4 @@ Yes. By comparing real-time engine consumption calculated from CAN bus injector 
 
 ## Next Steps
 
-Stop administrative leakage and station collusion with [WizIOT's advanced fleet auditing solutions](https://www.wiziot.com/solutions/telematics). To see how automated inflow reconciliation works, [connect with our engineering team](https://www.wiziot.com/contact) for an architecture overview.
+Stop off-book administrative leakage and station collusion with forensic telemetry. Discover strategies in our guide on [how to stop fuel theft and station collusion](https://www.wiziot.com/blog/how-to-stop-fuel-theft-trucks-nigeria-fleet-owner), or [connect with our systems architects](https://www.wiziot.com/contact) for an inflow reconciliation overview.

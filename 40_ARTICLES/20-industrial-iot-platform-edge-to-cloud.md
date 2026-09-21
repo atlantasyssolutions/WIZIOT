@@ -50,4 +50,4 @@ Zero-touch provisioning allows an installer to simply connect power and antennas
 
 ## Next Steps
 
-Move your industrial projects out of the pilot phase with confidence. Learn how the [WizIOT industrial IoT platform](https://www.wiziot.com/platform) streamlines enterprise device deployment, or [contact our technical architects](https://www.wiziot.com/contact) to plan your rollout.
+Scaling an industrial IoT deployment demands automated provisioning and resilient connectivity. Learn more about the [WizIOT cloud platform capabilities](https://www.wiziot.com/platform), or [contact our technical architects](https://www.wiziot.com/contact) to design your enterprise rollout.

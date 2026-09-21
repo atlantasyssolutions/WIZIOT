@@ -50,4 +50,4 @@ Instead of paying for a cellular modem and monthly SIM subscription for every si
 
 ## Next Steps
 
-Design the optimal tracking hardware architecture for your operational assets. Explore [WizIOT's industrial asset tracking solutions](https://www.wiziot.com/solutions/industrial-iot), or [connect with our hardware engineering specialists](https://www.wiziot.com/contact).
+Design the optimal tracking hardware architecture for your operational assets. Explore [WizIOT's industrial asset tracking hardware](https://www.wiziot.com/solutions/industrial-iot), or [connect with our hardware team](https://www.wiziot.com/contact) to select between cellular and BLE beacon tags.

@@ -50,4 +50,4 @@ The software automates the Energy Baseline (EnB) and Energy Performance Indicato
 
 ## Next Steps
 
-Turn raw electrical metrics into actionable financial savings. Discover how [WizIOT's industrial IoT platform](https://www.wiziot.com/platform) delivers enterprise energy management, or review our [solutions overview](https://www.wiziot.com/solutions/industrial-iot) to learn more.
+Turn raw electrical metrics into verified bottom-line cost reductions. Explore how the [WizIOT enterprise platform](https://www.wiziot.com/platform) powers facility energy dashboards, or review our [industrial IoT solutions overview](https://www.wiziot.com/solutions/industrial-iot) to evaluate sub-metering hardware.

@@ -50,4 +50,4 @@ While a full embedded Linux or RTOS binary might be 15MB to 30MB, a delta update
 
 ## Next Steps
 
-Eliminate expensive field service truck rolls by deploying [WizIOT's device management capabilities](https://www.wiziot.com/platform). To discuss fleet-wide firmware deployment strategies, [reach out to our platform engineering team](https://www.wiziot.com/contact).
+Secure device management is the backbone of any large-scale IoT deployment. Explore how the [WizIOT device management platform](https://www.wiziot.com/platform) orchestrates remote firmware over-the-air updates, or [talk to our IoT engineering team](https://www.wiziot.com/contact) about custom device profiles.

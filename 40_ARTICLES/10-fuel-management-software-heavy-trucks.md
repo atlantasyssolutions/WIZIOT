@@ -50,4 +50,4 @@ Yes. Enterprise fuel management software integrates stationary depot tank sensor
 
 ## Next Steps
 
-Manage cross-border fuel budgets and dual-tank heavy haulers with [WizIOT's commercial telematics](https://www.wiziot.com/solutions/telematics), or [contact our technical specialists](https://www.wiziot.com/contact) to configure multi-tank calibration.
+Managing cross-border fuel budgets and dual-tank heavy haulers requires precision calibration. Review our comprehensive [capacitive fuel probe calibration guide for heavy trucks](https://www.wiziot.com/blog/capacitive-fuel-probe-calibration-guide-heavy-trucks), or [talk to our fuel engineering specialists](https://www.wiziot.com/contact) to configure multi-tank equalization.

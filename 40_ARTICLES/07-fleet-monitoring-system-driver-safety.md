@@ -50,4 +50,4 @@ Yes. Timestamped GPS telemetry, forward collision warning logs, and encrypted da
 
 ## Next Steps
 
-Protect your drivers and reduce insurance liabilities with [WizIOT's fleet safety solutions](https://www.wiziot.com/solutions/telematics). For platform specifications and hardware integration options, visit the [WizIOT cloud platform](https://www.wiziot.com/platform).
+Combining video safety with sensor telemetry creates an indisputable culture of road safety. Learn how to eliminate risky driving habits with our guide on [driver harsh braking and engine wear prevention](https://www.wiziot.com/blog/driver-harsh-braking-overrevving-engine-wear-prevention), or explore the [WizIOT IoT platform AI analytics](https://www.wiziot.com/platform).

@@ -50,4 +50,4 @@ Most small businesses recover the software subscription cost within the first tw
 
 ## Next Steps
 
-Getting started with professional fleet tracking is straightforward. Check out [WizIOT's commercial tracking solutions](https://www.wiziot.com/solutions/telematics) or [reach out to our onboarding specialists](https://www.wiziot.com/contact) to equip your fleet this week.
+Transforming small fleet operations does not require enterprise-level budgets. Review our [transparent subscription tiers](https://www.wiziot.com/pricing) to find an accessible package, or [consult with our onboarding team](https://www.wiziot.com/contact) to begin your 14-day evaluation.

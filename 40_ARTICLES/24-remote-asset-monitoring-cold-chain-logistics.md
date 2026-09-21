@@ -50,4 +50,4 @@ Yes. With two-way reefer telematics integration, dispatchers can adjust setpoint
 
 ## Next Steps
 
-Maintain cold chain integrity and streamline temperature compliance with [WizIOT's cold chain solutions](https://www.wiziot.com/solutions/cold-chain). For enterprise fleet deployment options, visit the [WizIOT platform](https://www.wiziot.com/platform).
+Safeguard high-value pharmaceuticals and perishables with continuous cold chain logging. Explore [WizIOT's cold chain & pharma logistics telematics](https://www.wiziot.com/solutions/cold-chain), or read our technical report on [door open sensors and thermal leak prevention](https://www.wiziot.com/blog/door-open-sensor-cold-chain-thermal-leak-prevention).

@@ -50,4 +50,4 @@ Inverter-level monitoring only shows gross plant power. If one string out of twe
 
 ## Next Steps
 
-Maximize generation yield across your commercial solar assets. Discover how [WizIOT's industrial IoT solutions](https://www.wiziot.com/solutions/industrial-iot) empower commercial solar monitoring, or explore the [WizIOT platform](https://www.wiziot.com/platform).
+Maximize generation yield across commercial solar arrays with real-time string telemetry. Learn how [WizIOT's industrial renewable energy solutions](https://www.wiziot.com/solutions/industrial-iot) monitor inverters and sensors, or explore our [cloud monitoring platform](https://www.wiziot.com/platform) for automated degradation alerts.

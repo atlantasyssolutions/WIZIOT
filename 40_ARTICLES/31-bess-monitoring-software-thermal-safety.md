@@ -50,4 +50,4 @@ NFPA 855 (Standard for the Installation of Stationary Energy Storage Systems) an
 
 ## Next Steps
 
-Protect high-density energy storage investments with mission-critical monitoring. Explore [WizIOT's BESS monitoring solutions](https://www.wiziot.com/solutions/ev-fleets) or learn how our [enterprise IoT platform](https://www.wiziot.com/platform) delivers sub-second safety telemetry.
+Orchestrate commercial and utility-scale energy storage with sub-second precision. Discover [WizIOT's BESS monitoring and battery analytics](https://www.wiziot.com/solutions/ev-fleets), or explore our [enterprise platform time-series engine](https://www.wiziot.com/platform) for high-frequency telemetry storage.

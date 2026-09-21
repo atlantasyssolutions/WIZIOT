@@ -50,4 +50,4 @@ By monitoring engine load percentage and hydraulic pump pressure via CAN bus, th
 
 ## Next Steps
 
-Protect your high-value yellow iron assets and streamline job site productivity. Discover [WizIOT's industrial equipment monitoring solutions](https://www.wiziot.com/solutions/industrial-iot), or review our [fleet telematics integration](https://www.wiziot.com/solutions/telematics) for mixed-fleet deployments.
+Achieve complete visibility across distributed yellow metal and remote assets. Read our guide on [heavy equipment asset tracking for excavators and cranes](https://www.wiziot.com/blog/heavy-equipment-asset-tracking-construction-excavators-cranes), or explore [WizIOT's industrial asset monitoring solutions](https://www.wiziot.com/solutions/industrial-iot).

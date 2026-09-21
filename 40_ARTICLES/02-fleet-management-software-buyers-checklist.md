@@ -50,4 +50,4 @@ Hardware installation takes 30 to 45 minutes per vehicle. Cloud software onboard
 
 ## Next Steps
 
-Before committing to long-term contracts, evaluate how [WizIOT's commercial telematics](https://www.wiziot.com/solutions/telematics) supports hardware-agnostic tracking and multi-network roaming. You can [schedule a live demonstration](https://www.wiziot.com/contact) with our engineering team to review system capabilities.
+Evaluating enterprise software requires clear technical benchmarks. To explore how our ingestion engine and API pipelines perform under real fleet loads, review the [WizIOT enterprise platform architecture](https://www.wiziot.com/platform) or examine our [transparent commercial fleet pricing](https://www.wiziot.com/pricing).

@@ -50,4 +50,4 @@ By tracking sub-metered power on air compressors during non-production shifts. I
 
 ## Next Steps
 
-Uncover hidden operational waste across your facilities. Explore how [WizIOT's industrial IoT solutions](https://www.wiziot.com/solutions/industrial-iot) power granular sub-metering, or [consult with our energy engineering team](https://www.wiziot.com/contact) to design your metering hierarchy.
+Standardizing your energy metering hardware ensures clean telemetry across multi-site plants. Review [WizIOT's industrial IoT hardware architecture](https://www.wiziot.com/solutions/industrial-iot) for RS-485 Modbus ingestion, or [consult with our energy engineering team](https://www.wiziot.com/contact) to audit your panel boards.

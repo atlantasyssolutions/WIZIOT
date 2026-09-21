@@ -50,4 +50,4 @@ BESS warranties limit total annual energy throughput, maximum charging temperatu
 
 ## Next Steps
 
-Maximize the commercial returns of your energy storage portfolio. Discover how [WizIOT's BESS software solutions](https://www.wiziot.com/solutions/ev-fleets) balance revenue generation with cell health, or [consult with our storage engineering team](https://www.wiziot.com/contact).
+Deploy multi-layered early warning systems to protect BESS installations from catastrophic thermal runaway. Explore [WizIOT's BESS safety telematics solutions](https://www.wiziot.com/solutions/ev-fleets), or [consult with our energy storage specialists](https://www.wiziot.com/contact) on sensor integrations.

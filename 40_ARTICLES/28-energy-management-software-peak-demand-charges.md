@@ -50,4 +50,4 @@ By sampling power every few seconds and calculating the trajectory of consumptio
 
 ## Next Steps
 
-Eliminate costly utility demand penalties with automated peak shaving. Explore [WizIOT's energy management software](https://www.wiziot.com/solutions/industrial-iot), or [connect with our energy engineering specialists](https://www.wiziot.com/contact) to design your load-shedding strategy.
+Build a compelling business case for energy software with verified payback metrics. Learn how [WizIOT's industrial energy management solutions](https://www.wiziot.com/solutions/industrial-iot) lower electrical costs, or [connect with our engineering team](https://www.wiziot.com/contact) for an energy audit blueprint.

@@ -50,4 +50,4 @@ WizIOT industrial gateways support hybrid cellular and satellite connectivity, e
 
 ## Next Steps
 
-Protect remote generators and heavy machinery with [WizIOT's industrial equipment monitoring](https://www.wiziot.com/solutions/industrial-iot), or speak directly with our [engineering team](https://www.wiziot.com/contact) to design your depot monitoring layout.
+Protect remote generators, mobile bowsers, and heavy earthmoving machinery from fuel shrinkage. Read our field guide on [preventing diesel theft on construction machinery](https://www.wiziot.com/blog/prevent-diesel-theft-construction-machinery-uae-egypt), or explore [WizIOT's industrial equipment monitoring](https://www.wiziot.com/solutions/industrial-iot).

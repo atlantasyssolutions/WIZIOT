@@ -50,4 +50,4 @@ By maximizing solar and battery utilization while ensuring diesel generators onl
 
 ## Next Steps
 
-Optimize complex hybrid microgrids for maximum fuel savings and rock-solid reliability. Learn how [WizIOT's industrial IoT solutions](https://www.wiziot.com/solutions/industrial-iot) orchestrate hybrid power, or [contact our systems engineering team](https://www.wiziot.com/contact).
+Optimize complex hybrid microgrids for maximum fuel savings and rock-solid reliability. Learn how [WizIOT's industrial IoT solutions](https://www.wiziot.com/solutions/industrial-iot) orchestrate hybrid power, or [reach out to our engineering specialists](https://www.wiziot.com/contact) for technical layout guidance.

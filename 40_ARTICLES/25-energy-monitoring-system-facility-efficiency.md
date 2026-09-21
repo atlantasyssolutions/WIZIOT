@@ -50,4 +50,4 @@ Yes. By daisy-chaining digital power meters over an RS-485 Modbus RTU network, a
 
 ## Next Steps
 
-Take control of rising facility power costs with [WizIOT's energy monitoring solutions](https://www.wiziot.com/solutions/industrial-iot). To explore hardware specifications and energy analytics dashboards, visit the [WizIOT platform](https://www.wiziot.com/platform).
+Eliminate facility power waste and avoid utility peak demand penalties. Discover how [WizIOT's industrial IoT energy monitoring](https://www.wiziot.com/solutions/industrial-iot) tracks load profiles, or explore the [WizIOT platform energy telemetry](https://www.wiziot.com/platform) to set up automated sub-metering alarms.

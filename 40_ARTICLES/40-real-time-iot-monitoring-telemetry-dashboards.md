@@ -50,4 +50,4 @@ Yes. Responsive web architectures and native mobile applications provide operati
 
 ## Next Steps
 
-Transform complex telematics data streams into intuitive operational command dashboards. Explore the [WizIOT enterprise platform](https://www.wiziot.com/platform), or [schedule a live demonstration](https://www.wiziot.com/contact) with our solutions engineering team.
+Design operational command centers that empower dispatchers without alert fatigue. Explore the [WizIOT enterprise IoT platform](https://www.wiziot.com/platform) for customized role-based dashboards, or [schedule a live platform demonstration](https://www.wiziot.com/contact) to see live fleet mapping.

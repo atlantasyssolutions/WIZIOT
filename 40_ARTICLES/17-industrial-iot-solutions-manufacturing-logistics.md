@@ -50,4 +50,4 @@ MQTT with Sparkplug B specification is the industrial gold standard due to its l
 
 ## Next Steps
 
-Unlock real-time operational efficiency across your manufacturing and logistics assets with [WizIOT's industrial IoT solutions](https://www.wiziot.com/solutions/industrial-iot). To explore hardware connectivity options, review the [WizIOT enterprise platform](https://www.wiziot.com/platform).
+Unlock real-time operational efficiency across manufacturing and processing machinery. Explore [WizIOT's industrial IoT solutions](https://www.wiziot.com/solutions/industrial-iot) for machine telemetry, or review our [enterprise platform device management](https://www.wiziot.com/platform) capabilities.

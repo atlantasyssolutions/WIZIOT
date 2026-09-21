@@ -50,4 +50,4 @@ Yes. By performing multi-point wet calibration during installation, the software
 
 ## Next Steps
 
-Equip your fleet with high-precision sensors through [WizIOT's fleet fuel monitoring systems](https://www.wiziot.com/solutions/telematics), or discover our ruggedized hardware lineup on the [WizIOT platform](https://www.wiziot.com/platform).
+A fuel monitoring system is only as reliable as its physical sensor stack. Read our technical breakdown on [fuel monitoring systems with immersion sensors](https://www.wiziot.com/blog/fuel-monitoring-system-with-sensor-kenya-trucks-price), and learn [how drivers try to bypass fuel sensors and how to stop them](https://www.wiziot.com/blog/how-drivers-try-to-bypass-fuel-sensors-and-how-to-stop-them).

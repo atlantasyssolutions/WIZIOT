@@ -50,4 +50,4 @@ Yes. By tracking transmission oil temperature relative to torque output and gear
 
 ## Next Steps
 
-Stop reacting to unexpected roadside breakdowns. Explore how [WizIOT's predictive telematics solutions](https://www.wiziot.com/solutions/telematics) automate vehicle health tracking, or [talk to our technical team](https://www.wiziot.com/contact) to set up diagnostic alerting for your fleet.
+Transitioning to condition-based maintenance stops preventable roadside breakdowns. Read our deep dive on [predictive engine maintenance and DTC error codes](https://www.wiziot.com/blog/predictive-engine-maintenance-telematics-dtc-error-codes), or discover how to streamline maintenance through [fleet maintenance API integrations](https://www.wiziot.com/blog/fleet-maintenance-software-api-integration-work-orders).

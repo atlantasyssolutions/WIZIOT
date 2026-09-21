@@ -50,4 +50,4 @@ Frequent high-power DC fast charging generates internal heat and accelerates lit
 
 ## Next Steps
 
-Maximize the operational lifespan and range of your electric commercial fleet. Explore [WizIOT's electric fleet management solutions](https://www.wiziot.com/solutions/ev-fleets), or review our [enterprise IoT platform](https://www.wiziot.com/platform) to see live battery telemetry.
+Maximize commercial battery uptime and prevent unexpected vehicle shutdowns. Explore [WizIOT's EV fleet telematics & BMS monitoring](https://www.wiziot.com/solutions/ev-fleets), or read our technical guide on [battery voltage and alternator telemetry](https://www.wiziot.com/blog/battery-voltage-monitoring-fleet-alternator-failure).

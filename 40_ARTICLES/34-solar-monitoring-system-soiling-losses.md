@@ -50,4 +50,4 @@ The software compares the daily financial value of lost electricity due to soili
 
 ## Next Steps
 
-Optimize solar generation efficiency and eliminate unnecessary maintenance costs. Explore [WizIOT's industrial renewable energy solutions](https://www.wiziot.com/solutions/industrial-iot) or [contact our technical engineering team](https://www.wiziot.com/contact) to discuss sensor integration.
+Detect inverter clipping and string degradation before they impact monthly power purchase agreements. Explore [WizIOT's industrial equipment telemetry](https://www.wiziot.com/solutions/industrial-iot), or [contact our renewable engineering team](https://www.wiziot.com/contact) to configure plant performance ratio tracking.

@@ -50,4 +50,4 @@ When the gateway detects a loss of cloud connectivity, it writes all timestamped
 
 ## Next Steps
 
-Engineer your deployment for long-term industrial reliability. Explore [WizIOT's industrial IoT solutions](https://www.wiziot.com/solutions/industrial-iot) or [schedule a technical architecture consultation](https://www.wiziot.com/contact) with our engineering specialists.
+Engineer your field deployment for long-term industrial reliability. Learn how edge gateways protect data during network drops in our guide on [offline flash memory buffering in dead zones](https://www.wiziot.com/blog/offline-flash-memory-buffering-telematics-dead-zones), or [schedule a technical architecture consultation](https://www.wiziot.com/contact).

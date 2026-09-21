@@ -50,4 +50,4 @@ By using outbound-only persistent MQTT or WebSocket connections, the gateway nev
 
 ## Next Steps
 
-Safeguard your mission-critical operations with enterprise security engineering. Discover how [WizIOT's industrial IoT platform](https://www.wiziot.com/platform) enforces zero-trust device management, or review our [enterprise solutions overview](https://www.wiziot.com/solutions/industrial-iot).
+Prevent device connectivity failures before they disrupt operations. Review our operational guide on [battery voltage and alternator failure telemetry](https://www.wiziot.com/blog/battery-voltage-monitoring-fleet-alternator-failure), or explore [WizIOT's industrial equipment solutions](https://www.wiziot.com/solutions/industrial-iot) for edge diagnostics.

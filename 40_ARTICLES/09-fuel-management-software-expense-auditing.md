@@ -50,4 +50,4 @@ Fleets deploying dedicated fuel management software with tank sensor integration
 
 ## Next Steps
 
-Close the loop on diesel expenses by deploying [WizIOT's fleet fuel management analytics](https://www.wiziot.com/solutions/telematics), or integrate heavy machinery fuel logging through our [industrial IoT solutions](https://www.wiziot.com/solutions/industrial-iot).
+Close the loop on diesel expenses by eliminating card fraud and unrecorded siphoning. Discover our field guide on [fuel card fraud vs. IoT sensor reconciliation](https://www.wiziot.com/blog/fuel-card-fraud-vs-iot-sensor-reconciliation), or explore [WizIOT's commercial fleet telematics](https://www.wiziot.com/solutions/telematics) for end-to-end fuel auditing.

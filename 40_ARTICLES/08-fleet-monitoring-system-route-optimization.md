@@ -50,4 +50,4 @@ A typical long-haul truck idling 3 hours per day burns approximately 3,800 liter
 
 ## Next Steps
 
-Cutting unmonitored idle time delivers immediate bottom-line savings. See how [WizIOT's operational telematics](https://www.wiziot.com/solutions/telematics) automates idle reporting, or review our [subscription pricing plans](https://www.wiziot.com/pricing) to calculate your potential savings.
+Cutting unmonitored idle time delivers immediate bottom-line savings. Calculate your fleet's potential return with our [engine idle reduction fuel-saving calculator](https://www.wiziot.com/blog/engine-idle-reduction-telematics-fuel-saving-calculator), or review [WizIOT's fleet telematics solutions](https://www.wiziot.com/solutions/telematics) to automate idle threshold alerts.
