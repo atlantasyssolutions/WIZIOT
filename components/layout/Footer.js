@@ -46,10 +46,11 @@ export default function Footer() {
             <h4 className={styles.colTitle}>Solutions</h4>
             <ul className={styles.linkList}>
               <li><Link href="/solutions/telematics" className={styles.linkItem}>Fleet Telematics</Link></li>
+              <li><Link href="/solutions/fuel-management" className={styles.linkItem}>Fuel Management & Anti-Theft</Link></li>
               <li><Link href="/solutions/ev-fleets" className={styles.linkItem}>EV & BMS Analytics</Link></li>
               <li><Link href="/solutions/cold-chain" className={styles.linkItem}>Cold Chain Logistics</Link></li>
               <li><Link href="/solutions/healthcare" className={styles.linkItem}>Healthcare Logistics</Link></li>
-              <li><Link href="/solutions/industrial-iot" className={styles.linkItem}>Heavy Equipment IoT</Link></li>
+              <li><Link href="/solutions/industrial-iot" className={styles.linkItem}>Industrial IoT & Equipment</Link></li>
               <li><Link href="/solutions/public-transit" className={styles.linkItem}>Public Transit Fleet</Link></li>
               <li><Link href="/solutions/school-transport" className={styles.linkItem}>School Bus Safety</Link></li>
             </ul>
@@ -111,7 +112,7 @@ export default function Footer() {
           <p>
             © {new Date().getFullYear()} WizIOT. All Rights Reserved. 
             <span style={{ margin: '0 8px', color: '#475569' }}>|</span> 
-            SEO by <a href="https://rankursite.com/" target="_blank" rel="noopener noreferrer" style={{ color: '#94A3B8', textDecoration: 'none' }}>RankurSite</a>
+            This site was designed and built by <a href="https://rankursite.com" target="_blank" rel="noopener noreferrer" style={{ color: '#94A3B8', textDecoration: 'underline' }}>Rankur</a>
           </p>
           <div className={styles.legalLinks}>
             <Link href="/privacy-policy" className={styles.linkItem}>Privacy Policy</Link>

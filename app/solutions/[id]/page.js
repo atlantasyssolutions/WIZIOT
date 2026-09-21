@@ -32,7 +32,7 @@ export async function generateMetadata({ params }) {
   if (!vertical) return { title: 'Solution Not Found | WizIOT' };
 
   const canonicalUrl = `https://www.wiziot.com/solutions/${vertical.id}`;
-  const title = vertical.seoTitle || `${vertical.title} | WizIOT Telematics Solutions`;
+  const title = vertical.seoTitle || `${vertical.title} | WizIOT`;
   const description = vertical.seoDescription || vertical.description;
 
   return {
@@ -54,7 +54,7 @@ export async function generateMetadata({ params }) {
       description,
       url: canonicalUrl,
       type: 'website',
-      siteName: 'WizIOT Telematics',
+      siteName: 'WizIOT Enterprise IoT',
       images: [
         {
           url: vertical.heroImage || vertical.image,
@@ -87,7 +87,7 @@ export default async function SolutionDetailPage({ params }) {
     if (vertical.id === 'healthcare' && (combined.includes('health') || combined.includes('ambulance') || combined.includes('hospital') || combined.includes('cold'))) return true;
     if (vertical.id === 'ev-fleets' && (combined.includes('ev') || combined.includes('battery') || combined.includes('bms'))) return true;
     if (vertical.id === 'cold-chain' && (combined.includes('cold') || combined.includes('reefer') || combined.includes('pharma') || combined.includes('temperature'))) return true;
-    if (vertical.id === 'industrial-iot' && (combined.includes('mining') || combined.includes('excavator') || combined.includes('heavy') || combined.includes('construction'))) return true;
+    if (vertical.id === 'industrial-iot' && (combined.includes('mining') || combined.includes('excavator') || combined.includes('heavy') || combined.includes('construction') || combined.includes('industrial') || combined.includes('factory') || combined.includes('plc') || combined.includes('modbus') || combined.includes('energy') || combined.includes('solar') || combined.includes('asset') || combined.includes('sensor'))) return true;
     if (vertical.id === 'telematics' && (combined.includes('fuel') || combined.includes('theft') || combined.includes('truck') || combined.includes('jammer'))) return true;
     if (vertical.id === 'public-transit' && (combined.includes('transit') || combined.includes('bus') || combined.includes('passenger'))) return true;
     if (vertical.id === 'school-transport' && (combined.includes('school') || combined.includes('rfid') || combined.includes('student'))) return true;
@@ -240,7 +240,7 @@ export default async function SolutionDetailPage({ params }) {
               <Cpu size={14} style={{ marginRight: '6px' }} /> Enterprise Architecture
             </div>
             <h2 style={{ fontSize: '2.2rem', fontWeight: '800', marginBottom: '20px', color: 'var(--text-main)', lineHeight: '1.3' }}>
-              Commercial Telematics Architecture & Data Stream
+              {vertical.architectureTitle || `${vertical.title} Architecture & Data Stream`}
             </h2>
             <p style={{ fontSize: '1.1rem', lineHeight: '1.8', color: 'var(--text-muted)', marginBottom: '24px' }}>
               {vertical.details}

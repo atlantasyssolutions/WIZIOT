@@ -50,4 +50,4 @@ Yes. By comparing real-time engine consumption calculated from CAN bus injector 
 
 ## Next Steps
 
-Stop administrative leakage and station collusion with [WizIOT's advanced fuel auditing solutions](https://www.wiziot.com/solutions/telematics). To see how automated inflow reconciliation works, [connect with our engineering team](https://www.wiziot.com/contact) for an architecture overview.
+Stop administrative leakage and station collusion with [WizIOT's advanced fuel theft detection software](https://www.wiziot.com/solutions/fuel-management). To see how automated inflow reconciliation works, [connect with our engineering team](https://www.wiziot.com/contact) for an architecture overview.

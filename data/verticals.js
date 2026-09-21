@@ -249,64 +249,65 @@ export const VERTICALS_DATA = [
   },
   {
     id: 'industrial-iot',
-    title: 'Heavy Equipment & Construction Telematics',
-    category: 'Off-Road Heavy Machinery',
-    seoTitle: 'Heavy Equipment Tracking & Mining Telematics | Excavator Hours & Diesel Security | WizIOT',
-    seoDescription: 'Ruggedized IP69K heavy equipment tracking and mining telematics. Automated excavator operating hours, hydraulic line pressure, diesel siphoning protection, and off-road site curfew geofencing.',
-    description: 'Track excavator operating hours, diesel consumption, hydraulic pressure, and prevent heavy machinery theft at construction and mining sites.',
+    title: 'Industrial IoT Solutions & Enterprise Asset Monitoring',
+    category: 'Industry 4.0 & Smart IoT',
+    seoTitle: 'Industrial IoT Solutions & Smart Asset Monitoring | Modbus, PLC & Edge Gateways | WizIOT',
+    seoDescription: 'Enterprise Industrial IoT solutions for manufacturing facilities, remote plant equipment, and heavy assets. Sub-second Modbus/PLC telemetry, edge predictive maintenance, vibration sensors, and cloud OEE dashboards.',
+    description: 'Connect factory floor machinery, remote backup generators, solar microgrids, and heavy equipment into unified cloud dashboards with edge computing, vibration telemetry, and predictive maintenance.',
     image: '/vert-heavy.webp',
     heroImage: '/sol-heavy-hero.webp',
     detailImage: '/sol-heavy-detail.webp',
-    badge: 'Heavy Industrial',
+    badge: 'Industry 4.0 & Smart IoT',
     icon: 'Cpu',
-    points: ['Automated Usage Tracking', 'Heavy Machinery Health Monitoring', 'Job Site Equipment Protection'],
-    details: 'Ultra-ruggedized IP69K telematics gateways built for yellow metal excavators, bulldozers, mining dump trucks, and stationary power generators operating in heavy vibration and high dust environments. Integrated with versatile IoT Sensors and robust Assets & Personal Telematics for comprehensive site coverage.',
+    architectureTitle: 'Industrial IoT Edge Architecture & Machine Telemetry Pipeline',
+    points: ['Edge PLC & Modbus Protocol Normalization', 'Predictive Machine Health & Vibration Telemetry', 'Remote Generator, Fuel & Facility Energy Oversight'],
+    details: 'Comprehensive B2B Industrial IoT architecture bridging shop floor automation, legacy PLCs, remote power generators, solar microgrids, and heavy industrial machinery with real-time cloud intelligence. Ingests Modbus RTU/TCP, CAN-bus, Profinet, and OPC UA protocols through rugged edge gateways, converting raw field telemetry into actionable OEE scores, predictive maintenance alarms, and facility energy optimizations.',
     features: [
-      'Automated Engine Operating Hours & Maintenance Service Counter',
-      'Hydraulic Line Pressure & Engine Load Percentage Telemetry',
-      'IP69K Steam Washdown & Mud Resistance (100-Bar Pressure Proof)',
-      'Off-Road Virtual Geofence Site Curfew & Night Unauthorized Movement Alarms',
-      'Heavy Diesel Tank Siphoning Protection for Construction Machines',
-      'ISO 16750 Heavy Vibration Hardened Chassis Telemetry',
-      'Operator RFID Immobility & Certified Driver Authorization',
-      'Satellite Telemetry Fallback for Remote Desert & Open-Pit Mining Sites'
+      'Multi-Protocol Industrial Edge Normalization (Modbus RTU/TCP, CAN J1939, OPC UA, MQTT Sparkplug B)',
+      'High-Frequency Triaxial Vibration & Thermal Anomaly Detection (Predictive Machine Health)',
+      'Automated Machine Run-Time Hours, Duty Cycles & OEE Productivity Scoring',
+      'Remote Stationary Diesel Generator & Bulk Fuel Tank Monitoring (±0.2% Accuracy)',
+      'Facility Energy Sub-Metering, Power Quality & Peak Demand Surcharge Elimination',
+      '2.5kV Galvanically Isolated I/O Interfaces with Store-and-Forward Edge Buffering',
+      'IP67 / IP69K Harsh Environment, Mud, Vibration, and Steam Washdown Enclosures',
+      'Hybrid 4G LTE-M / NB-IoT with Satellite Failover for Zero-Coverage Dead Zones'
     ],
-    compliance: ['IP69K High-Pressure Waterproof', 'ISO 16750-3 Vibration Rated', 'ISO 9001:2015 Quality', 'CE / FCC Certified'],
-    hardware: 'WizIOT Mining Hardened IP69K Gateway + Hydraulic Pressure Transducer + Diesel Probe',
+    compliance: ['ISO 9001:2015 Quality', 'IP67 / IP69K Waterproof & Dustproof', 'CE / FCC Certified', 'IEC 61000 EMC Industrial Immunity', 'ISO 16750-3 Vibration Rated'],
+    hardware: 'WizIOT DIN-Rail Industrial Edge Gateway + Modbus RS-485 / Isolated I/O + Triaxial Vibration Probe + Capacitive Fuel Probe',
     specs: [
-      { label: 'Ingress Protection', value: 'IP69K ( withstands 100-bar high-pressure hot water steam jets)' },
-      { label: 'Vibration & Shock Tolerance', value: 'ISO 16750-3 compliant up to 20G vibration' },
-      { label: 'Hour Meter Accuracy', value: 'True engine alternator run-time sensing (±1 minute per month)' },
-      { label: 'Operating Voltage Range', value: '9V to 90V DC with 600V surge load dump suppression' },
-      { label: 'Satellite Communication', value: 'Optional Iridium SBD satellite module for zero-cell dead zones' },
-      { label: 'Anti-Theft Immobilization', value: 'Hydraulic pilot valve lock / starter motor lockout relay' }
+      { label: 'Industrial Protocols', value: 'Modbus RTU/TCP, CAN-bus J1939/CANopen, OPC UA, MQTT Sparkplug B' },
+      { label: 'Edge Telemetry Processing', value: 'Local OEE metrics calculation, FFT vibration analysis, automated alarm trips' },
+      { label: 'Electrical Isolation', value: '2.5kV optical galvanic isolation on RS-485, digital inputs, and ADC channels' },
+      { label: 'Offline Data Buffer', value: 'Up to 500,000 telemetry frames stored in non-volatile flash memory' },
+      { label: 'Environmental Ingress', value: 'IP67 / IP69K rated (withstands 100-bar high-pressure hot water steam jets)' },
+      { label: 'Operating Temperature & Power', value: '-40°C to +85°C industrial range | 9V to 36V DC with surge suppression' }
     ],
     faqs: [
       {
-        question: 'Can the telematics gateway withstand pressure washing on construction equipment?',
-        answer: 'Yes. The hardware is certified to IP69K, the highest ingress protection standard available, guaranteeing complete sealing against mud, fine silica dust, and high-pressure 100-bar steam cleaning.'
+        question: 'How do WizIOT industrial IoT solutions interface with legacy factory equipment?',
+        answer: 'We deploy non-invasive external sensors including split-core CT current clamps, optical rotation counters, and magnetic vibration probes, alongside RS-485 Modbus converters that extract operational telemetry without modifying existing machine wiring or PLC logic.'
       },
       {
-        question: 'How do you prevent diesel theft on excavators parked overnight at remote job sites?',
-        answer: 'Our immersion capacitive probe remains energized by internal backup battery when the machine is switched off. Any drop in diesel volume triggers an instant loud external siren, flashes work lights, and sends SMS alarms to site security.'
+        question: 'Can the platform monitor remote power generators and bulk fuel tanks?',
+        answer: 'Yes. The gateway interfaces with generator controllers (Deep Sea, ComAp) and high-precision ±0.2% capacitive fuel probes to stream real-time fuel volume, fuel burn rates per kWh, and instant theft siphoning alerts.'
       },
       {
-        question: 'How does true engine hour metering differ from simple ignition tracking?',
-        answer: 'Ignition-only trackers log hours even when an operator leaves the key in the ON position without running the engine. WizIOT monitors actual alternator ripple and CAN-bus engine RPM to count true working hours, ensuring accurate maintenance schedules and rental billing.'
+        question: 'What protocols are supported for cloud telemetry transmission?',
+        answer: 'WizIOT gateways support MQTT with Sparkplug B payloads, lightweight JSON over WebSockets, and secure REST webhooks with end-to-end TLS 1.3 encryption.'
       },
       {
-        question: 'Can we stop unauthorized personnel from operating dangerous heavy machinery?',
-        answer: 'Yes. The gateway integrates with operator RFID badges or iButton keys. If an unauthorized operator attempts to start the equipment, the hydraulic pilot valve remains disabled.'
+        question: 'How does vibration monitoring enable predictive maintenance?',
+        answer: 'High-frequency triaxial MEMS accelerometers sample bearing and gearbox vibration at up to 10kHz. Edge algorithms perform Fast Fourier Transform (FFT) spectral analysis to detect unbalance, misalignment, and bearing wear weeks before mechanical seizure.'
       },
       {
-        question: 'Does the system work in deep open-pit mines where cellular coverage does not exist?',
-        answer: 'Yes. The unit stores up to 60 days of telemetry in offline memory and automatically uploads via dual-mode satellite (Iridium) or when the machine passes within range of Wi-Fi / private LTE dump station hubs.'
+        question: 'Does the hardware survive remote mining sites and unconditioned plant environments?',
+        answer: 'Yes. All gateways are certified to IP67/IP69K, withstand 20G continuous vibration (ISO 16750-3), and support dual-mode cellular (LTE-M/NB-IoT) with Iridium satellite fallback for off-grid operations.'
       }
     ],
     useCases: [
-      { title: 'Mining Operations', desc: 'Track 200-ton haul trucks across open-pit mines with dust-proof IP69K gateways and fuel reconciliation.' },
-      { title: 'Construction Sites', desc: 'Prevent overnight equipment theft with geofence curfews and engine immobilization on excavators.' },
-      { title: 'Power Generators', desc: 'Monitor stationary diesel generator fuel levels and run-time hours for remote site billing.' }
+      { title: 'Manufacturing & Smart Factory', desc: 'Connect legacy PLCs and CNC machines via Modbus to track real-time OEE, motor vibration, and scrap rates.' },
+      { title: 'Heavy Plant & Backup Generators', desc: 'Monitor stationary diesel generators and yellow iron for fuel consumption, true alternator runtime, and anti-theft.' },
+      { title: 'Facility Energy & Renewable Microgrids', desc: 'Ingest power meters and solar inverter telemetry to eliminate utility peak demand penalties and optimize microgrid fuel savings.' }
     ]
   },
   {
@@ -432,5 +433,69 @@ export const VERTICALS_DATA = [
       { title: 'Student Safety Audits', desc: 'Ensure zero left-behind students with automated end-of-route seat check verification alarms.' },
       { title: 'Driver Behavior Coaching', desc: 'Monitor driver speed in school zones and eliminate aggressive driving habits around children.' }
     ]
+  },
+  {
+    id: 'fuel-management',
+    title: 'Fuel Management Software & IoT Fuel Monitoring Systems',
+    category: 'Fuel Security & Telemetry',
+    seoTitle: 'Fuel Management Software & Fuel Monitoring System | Fuel Theft Detection | WizIOT',
+    seoDescription: 'Enterprise fuel management software and precision IoT fuel monitoring systems. Real-time ±0.2% capacitive fuel probes, ultrasonic sensors, automated fuel theft & siphoning alarms, and fuel card reconciliation.',
+    description: 'High-precision capacitive fuel level monitoring, instant fuel theft and siphoning detection, automated fuel card reconciliation, and generator fuel auditing.',
+    image: '/vert-fuel.webp',
+    heroImage: '/sol-fuel-hero.webp',
+    detailImage: '/sol-fuel-detail.webp',
+    badge: 'Precision Fuel Security',
+    icon: 'Fuel',
+    architectureTitle: 'Fuel Telemetry Pipeline & Capacitive Sensor Architecture',
+    points: ['±0.2% Capacitive Level Measurement', 'Instant Siphoning & Theft Detection', 'Automated Fuel Card Audit & Burn Reconciliation'],
+    details: 'Mission-critical IoT fuel management software and hardware stack engineered for commercial haulage fleets, construction equipment, mining operations, and remote stationary power generators. Combines high-resolution immersion capacitive probes, ultrasonic tank sensors, and CAN-bus ECU telemetry to eliminate diesel siphoning, detect fuel theft within seconds, and reconcile corporate fuel card expenditures with actual tank refills.',
+    features: [
+      'High-Precision Immersion Capacitive Probes (±0.2% Full-Scale Accuracy, 1mm Resolution)',
+      'Sub-60-Second Fuel Siphoning & Unauthorized Drain Alarms with Ignition OFF',
+      'CAN-bus J1939 ECU Fuel Consumption vs. Odometer Distance Mileage Analytics',
+      'Multi-Tank Differential Equalization Algorithm for Dual-Saddle Fuel Tanks',
+      'Stationary Diesel Generator & Bulk Fuel Storage Tank Continuous Telemetry',
+      'Automated Fuel Card Transaction Matching & Volume Discrepancy Audits',
+      'Thermal Compensation Algorithms Mitigating Fuel Temperature Volume Expansion',
+      'Secure Store-and-Forward Offline Logging for Remote Mining & Highway Dead Zones'
+    ],
+    compliance: ['ISO 9001:2015 Quality', 'IP67 / IP69K Waterproof', 'ATEX / IECEx Intrinsically Safe', 'CE / FCC Certified', 'UN ECE R116'],
+    hardware: 'WizIOT G400 Heavy Gateway + ±0.2% Capacitive Fuel Level Probe + Ultrasonic Tank Sensor',
+    specs: [
+      { label: 'Measurement Accuracy', value: '±0.2% Full Scale (1mm resolution with digital filtering)' },
+      { label: 'Sampling Frequency', value: '50Hz continuous fluid sampling with dynamic anti-slosh buffering' },
+      { label: 'Ingress Protection', value: 'IP67 probe head | IP69K submersible immersion tube' },
+      { label: 'Thermal Range & Compensation', value: '-40°C to +85°C with integrated digital thermal correction' },
+      { label: 'CAN-bus Protocols', value: 'J1939, J1708, OBD-II (K-Line / CAN 2.0B) fuel burn rate' },
+      { label: 'Tamper & Anti-Siphoning', value: 'Active battery-backed alarm triggers on cable cut or level drop' }
+    ],
+    faqs: [
+      {
+        question: 'How quickly does the system detect diesel siphoning or fuel theft?',
+        answer: 'The capacitive fuel probe samples fluid levels at 50Hz. When the vehicle ignition is OFF and fuel volume drops unexpectedly by more than 3 liters within 60 seconds, an instant high-priority alert is dispatched via SMS, email, and webhooks to fleet supervisors and on-site security.'
+      },
+      {
+        question: 'How does the software prevent false alerts caused by fuel sloshing during transit?',
+        answer: 'Our proprietary digital signal processing (DSP) firmware applies dynamic Kalman filtering and anti-slosh damping algorithms, cross-referencing vehicle acceleration and GPS velocity to calculate steady, true fluid levels even on rough unpaved roads.'
+      },
+      {
+        question: 'Can the system monitor dual saddle fuel tanks on heavy long-haul trucks?',
+        answer: 'Yes. The system utilizes multi-tank differential equalization algorithms that model fuel transfer between twin tanks via connecting balance lines, ensuring accurate total fleet fuel volume without false theft alerts.'
+      },
+      {
+        question: 'Can fuel consumption data be reconciled with corporate fuel card invoices?',
+        answer: 'Yes. WizIOT automatically imports fuel card swipe records (date, time, station location, volume purchased) and matches them against the exact fuel volume detected entering the tank by the probe at that precise timestamp, flagging skimming or card misuse immediately.'
+      },
+      {
+        question: 'Can this fuel monitoring system be installed on stationary power generators and bulk storage tanks?',
+        answer: 'Yes. WizIOT provides dedicated industrial Modbus RS-485 interfaces and wireless cellular transmitters configured specifically for stationary diesel generators, agricultural storage tanks, and construction site fuel bowsers.'
+      }
+    ],
+    useCases: [
+      { title: 'Commercial Long-Haul Fleets', desc: 'Eliminate nocturnal fuel siphoning along highway stops and verify every liter pumped against supplier fuel cards.' },
+      { title: 'Remote Mining & Construction Sites', desc: 'Monitor bulk fuel storage tanks and heavy yellow machinery to prevent untracked diesel shrinkage.' },
+      { title: 'Stationary Backup Generators', desc: 'Audit diesel burn rates per kilowatt-hour across hospital, telecom tower, and data center backup generators.' }
+    ]
   }
 ];
+
