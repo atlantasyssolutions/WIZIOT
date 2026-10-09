@@ -15,6 +15,7 @@ export default function sitemap() {
     '/locations',
     '/blog',
     '/about',
+    '/login',
     '/privacy-policy',
     '/terms-of-service'
   ].map((route) => ({

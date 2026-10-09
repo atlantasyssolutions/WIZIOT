@@ -145,15 +145,13 @@ export default function Header({ onOpenDemo }) {
 
         {/* Desktop Actions */}
         <div className={styles.navActions}>
-          <a
-            href="https://fleet.wiziot.com/"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            href="/login"
             className="btn btn-secondary btn-sm"
             style={{ display: 'inline-flex', alignItems: 'center', gap: '6px' }}
           >
-            Login <ExternalLink size={14} />
-          </a>
+            Login <ArrowRight size={14} />
+          </Link>
 
           <button
             onClick={onOpenDemo}
@@ -195,14 +193,13 @@ export default function Header({ onOpenDemo }) {
             📍 Explore 20 City Hubs
           </Link>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '12px', marginTop: '16px' }}>
-            <a
-              href="https://fleet.wiziot.com/"
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              href="/login"
               className="btn btn-secondary w-100"
+              onClick={() => setMobileOpen(false)}
             >
-              Login to Fleet Platform
-            </a>
+              Login Portals (Fleet & SchoolBuddy)
+            </Link>
             <button
               onClick={() => {
                 setMobileOpen(false);
