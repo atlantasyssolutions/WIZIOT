@@ -40,6 +40,16 @@ const nextConfig = {
         destination: '/:city/partners',
         permanent: true,
       },
+      {
+        source: '/:city/blog/:slug',
+        destination: '/blog/:slug',
+        permanent: true,
+      },
+      {
+        source: '/blog/:city/:slug',
+        destination: '/blog/:slug',
+        permanent: true,
+      },
     ];
   },
   async rewrites() {
